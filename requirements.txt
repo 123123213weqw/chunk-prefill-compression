@@ -1,0 +1,5 @@
+# Historical GPU run: Python 3.11, PyTorch 2.11.0+cu130, Transformers 5.8.0.
+# Install an appropriate PyTorch CUDA build separately for your GPU/driver.
+torch>=2.5
+transformers==5.8.0
+accelerate>=1.0,<2

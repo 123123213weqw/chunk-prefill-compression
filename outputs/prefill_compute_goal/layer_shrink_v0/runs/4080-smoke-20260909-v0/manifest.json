@@ -1,0 +1,31 @@
+{
+  "status": "failed",
+  "args": {
+    "model": "<MODEL_ROOT>/Qwen3-4B-Instruct-2507",
+    "dataset": "<PROJECT_ROOT>/outputs/validation_v3/dataset/smoke4.jsonl",
+    "out": "runs/4080-smoke-20260909-v0",
+    "block": 1024,
+    "max_tokens": 96,
+    "warmups": 1,
+    "repeats": 5
+  },
+  "scope": "hidden-state layer shrinking, untrained development pilot",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.8.0",
+  "gpu": "NVIDIA GeForce RTX 4080",
+  "dtype": "float16",
+  "dataset_sha256": "b5a29f56aab0e0637af8fd74ecfc0442de112a68f200bec8fa6cf69a40fd6a45",
+  "test_used": false,
+  "shape_hooks_excluded_from_timing": true,
+  "native_performance_baseline": "unmodified HF model.model, no layerwise position tracking",
+  "source_sha256": {
+    "test_engine.py": "76fd9847976b9f5325f968cc8f170a5ba2e9573882160bc5a3d4ffdcf488ecfc",
+    "smoke4.jsonl": "b5a29f56aab0e0637af8fd74ecfc0442de112a68f200bec8fa6cf69a40fd6a45",
+    "engine.py": "a46f9869c02f5f1e0af66a482c3e645f375db3bea52e486bec5b00ecf36bed81",
+    "run_experiment.py": "858636ab5149e10f97af4a88e5bccb7db39d33f0772fa6fe46a6ff6942a1925b",
+    "methods.py": "c45142718fd90ae87569a1bcc33f0a15d7c5ba619ca65ae4fb69defa4c709cb5"
+  },
+  "model_config_sha256": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba",
+  "error": "AssertionError(('identity cache mismatch', '78cc3045a93a26989c778e50', 0.007411427795886993))",
+  "traceback": "Traceback (most recent call last):\n  File \"<PROJECT_ROOT>/outputs/prefill_compute_goal/layer_shrink_v0/run_experiment.py\", line 217, in main\n    correctness(model,tok,samples,args,out,event)\n  File \"<PYTHON_ENV>/lib/python3.12/site-packages/torch/utils/_contextlib.py\", line 124, in decorate_context\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"<PROJECT_ROOT>/outputs/prefill_compute_goal/layer_shrink_v0/run_experiment.py\", line 81, in correctness\n    assert err<.005,('identity cache mismatch',sid,err)\nAssertionError: ('identity cache mismatch', '78cc3045a93a26989c778e50', 0.007411427795886993)\n"
+}

@@ -1,0 +1,665 @@
+{
+  "status": "PASS",
+  "scope": "synthetic FP64 single-head attention, no Qwen integration or measured speedup",
+  "n": 64,
+  "m": 16,
+  "head_dim": 32,
+  "external_raw_KV": 32,
+  "seeds": 3,
+  "queries": {
+    "train": 256,
+    "validation": 128,
+    "test_iid": 512,
+    "test_shift": 512
+  },
+  "counterexample_two_KV_to_one": {
+    "original_outputs": [
+      -0.9640275800758169,
+      0.9640275800758169
+    ],
+    "one_KV_output": "constant for all q; cannot match both"
+  },
+  "records": [
+    {
+      "case": "identical_within_groups",
+      "seed_index": 0,
+      "queries": "iid",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 0.5762207742845104,
+      "chunk_logZ_rmse": 1.3862943611198906
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 0,
+      "queries": "iid",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 4.501270290363923e-16,
+      "chunk_logZ_rmse": 3.850929832103114e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 0,
+      "queries": "iid",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 4.490904951165946e-16,
+      "chunk_logZ_rmse": 3.744431865468923e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 0,
+      "queries": "iid",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 4.490904951165946e-16,
+      "chunk_logZ_rmse": 3.744431865468923e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 0,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 0.320147989434123,
+      "chunk_logZ_rmse": 1.3862943611198906
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 0,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 3.9520369273442616e-16,
+      "chunk_logZ_rmse": 5.848462687947774e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 0,
+      "queries": "large_norm_shift",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 3.8487867550827895e-16,
+      "chunk_logZ_rmse": 6.106226635438361e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 0,
+      "queries": "large_norm_shift",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 3.8487867550827895e-16,
+      "chunk_logZ_rmse": 6.106226635438361e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 1,
+      "queries": "iid",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 0.5564916461686636,
+      "chunk_logZ_rmse": 1.3862943611198906
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 1,
+      "queries": "iid",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 4.255780393243902e-16,
+      "chunk_logZ_rmse": 3.640109616122045e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 1,
+      "queries": "iid",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 4.3492145480227656e-16,
+      "chunk_logZ_rmse": 3.7238012298709097e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 1,
+      "queries": "iid",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 4.3492145480227656e-16,
+      "chunk_logZ_rmse": 3.7238012298709097e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 1,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 0.2882834238590556,
+      "chunk_logZ_rmse": 1.3862943611198906
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 1,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 3.9820243092097627e-16,
+      "chunk_logZ_rmse": 6.63526627413642e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 1,
+      "queries": "large_norm_shift",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 4.195311466584105e-16,
+      "chunk_logZ_rmse": 6.526987848146008e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 1,
+      "queries": "large_norm_shift",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 4.195311466584105e-16,
+      "chunk_logZ_rmse": 6.526987848146008e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 2,
+      "queries": "iid",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 0.6050927434009707,
+      "chunk_logZ_rmse": 1.3862943611198906
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 2,
+      "queries": "iid",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 4.216894656925074e-16,
+      "chunk_logZ_rmse": 3.6978510793634424e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 2,
+      "queries": "iid",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 4.2495109751837403e-16,
+      "chunk_logZ_rmse": 3.66646846595234e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 2,
+      "queries": "iid",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 4.2495109751837403e-16,
+      "chunk_logZ_rmse": 3.66646846595234e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 2,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 0.30318026863938563,
+      "chunk_logZ_rmse": 1.3862943611198906
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 2,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 3.4576628887843693e-16,
+      "chunk_logZ_rmse": 5.324442579404919e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 2,
+      "queries": "large_norm_shift",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 3.6978676197218967e-16,
+      "chunk_logZ_rmse": 5.53721994457912e-16
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 2,
+      "queries": "large_norm_shift",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 3.6978676197218967e-16,
+      "chunk_logZ_rmse": 5.53721994457912e-16
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 0,
+      "queries": "iid",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 0.5784612057961636,
+      "chunk_logZ_rmse": 1.3950756518518554
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 0,
+      "queries": "iid",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 0.026261787224696714,
+      "chunk_logZ_rmse": 0.009427384297824398
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 0,
+      "queries": "iid",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 0.026261787224696718,
+      "chunk_logZ_rmse": 0.009427384297824411
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 0,
+      "queries": "iid",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 0.024728973597057176,
+      "chunk_logZ_rmse": 0.0047965299721274435
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 0,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 0.3556910616007026,
+      "chunk_logZ_rmse": 1.5207238815645363
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 0,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 0.08235808411940584,
+      "chunk_logZ_rmse": 0.15790967559025917
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 0,
+      "queries": "large_norm_shift",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 0.08235808411940584,
+      "chunk_logZ_rmse": 0.15790967559025917
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 0,
+      "queries": "large_norm_shift",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 0.0809083709611144,
+      "chunk_logZ_rmse": 0.14978085166163524
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 1,
+      "queries": "iid",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 0.5603693055562098,
+      "chunk_logZ_rmse": 1.3948830646864385
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 1,
+      "queries": "iid",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 0.02931413900370762,
+      "chunk_logZ_rmse": 0.009305022855245038
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 1,
+      "queries": "iid",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 0.029314139003707624,
+      "chunk_logZ_rmse": 0.009305022855245048
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 1,
+      "queries": "iid",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 0.02788159348515471,
+      "chunk_logZ_rmse": 0.005698534913088071
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 1,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 0.3218199725723811,
+      "chunk_logZ_rmse": 1.5281783690880646
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 1,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 0.09078148681201889,
+      "chunk_logZ_rmse": 0.1721761901957449
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 1,
+      "queries": "large_norm_shift",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 0.09078148681201889,
+      "chunk_logZ_rmse": 0.17217619019574493
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 1,
+      "queries": "large_norm_shift",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 0.08884164075521733,
+      "chunk_logZ_rmse": 0.16201638668034704
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 2,
+      "queries": "iid",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 0.6084974282287394,
+      "chunk_logZ_rmse": 1.394903462190204
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 2,
+      "queries": "iid",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 0.02734680404535349,
+      "chunk_logZ_rmse": 0.0092086288969826
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 2,
+      "queries": "iid",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 0.02734680404535349,
+      "chunk_logZ_rmse": 0.009208628896982594
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 2,
+      "queries": "iid",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 0.025633889258072636,
+      "chunk_logZ_rmse": 0.005349947056539538
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 2,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 0.3416837258866149,
+      "chunk_logZ_rmse": 1.5270284917605617
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 2,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 0.08336051078549345,
+      "chunk_logZ_rmse": 0.16437817176089897
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 2,
+      "queries": "large_norm_shift",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 0.08336051078549345,
+      "chunk_logZ_rmse": 0.16437817176089897
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 2,
+      "queries": "large_norm_shift",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 0.08157793379784432,
+      "chunk_logZ_rmse": 0.15775009415543467
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 0,
+      "queries": "iid",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 1.0122618326984594,
+      "chunk_logZ_rmse": 1.7293137055125978
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 0,
+      "queries": "iid",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 0.6128914527212959,
+      "chunk_logZ_rmse": 0.35920907691885773
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 0,
+      "queries": "iid",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 0.5384897158579576,
+      "chunk_logZ_rmse": 0.2712938247388196
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 0,
+      "queries": "iid",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 0.4400697168532862,
+      "chunk_logZ_rmse": 0.10766289507946326
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 0,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 1.0115276508923061,
+      "chunk_logZ_rmse": 5.559669352151821
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 0,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 0.9603590240298143,
+      "chunk_logZ_rmse": 4.244075609820813
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 0,
+      "queries": "large_norm_shift",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 0.8206805727790516,
+      "chunk_logZ_rmse": 2.9575722726465297
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 0,
+      "queries": "large_norm_shift",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 0.8141076159636874,
+      "chunk_logZ_rmse": 2.849499125525392
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 1,
+      "queries": "iid",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 0.9976098375772622,
+      "chunk_logZ_rmse": 1.7624984675742477
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 1,
+      "queries": "iid",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 0.638436088258272,
+      "chunk_logZ_rmse": 0.3927012480375256
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 1,
+      "queries": "iid",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 0.5381821567856342,
+      "chunk_logZ_rmse": 0.2971241288508161
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 1,
+      "queries": "iid",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 0.44807795780218546,
+      "chunk_logZ_rmse": 0.11585058356642461
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 1,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 1.0697635963138172,
+      "chunk_logZ_rmse": 5.636865706159694
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 1,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 1.0204708491240375,
+      "chunk_logZ_rmse": 4.318078480008957
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 1,
+      "queries": "large_norm_shift",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 0.8634257230911367,
+      "chunk_logZ_rmse": 2.825236298356152
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 1,
+      "queries": "large_norm_shift",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 0.8727787284851118,
+      "chunk_logZ_rmse": 2.9678326777785475
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 2,
+      "queries": "iid",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 1.1303265782275977,
+      "chunk_logZ_rmse": 1.7913945435808671
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 2,
+      "queries": "iid",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 0.6626982399034603,
+      "chunk_logZ_rmse": 0.42419201767118364
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 2,
+      "queries": "iid",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 0.575009133039972,
+      "chunk_logZ_rmse": 0.3344110488542489
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 2,
+      "queries": "iid",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 0.47905282973041763,
+      "chunk_logZ_rmse": 0.13683458395256293
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 2,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_no_mass",
+      "output_relative_rms": 1.1405063924074845,
+      "chunk_logZ_rmse": 6.067984307805104
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 2,
+      "queries": "large_norm_shift",
+      "method": "mean_pool_with_mass",
+      "output_relative_rms": 1.0847985960327968,
+      "chunk_logZ_rmse": 4.757342828770028
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 2,
+      "queries": "large_norm_shift",
+      "method": "key_cluster_with_mass",
+      "output_relative_rms": 0.8562146565589392,
+      "chunk_logZ_rmse": 2.8646427535407386
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 2,
+      "queries": "large_norm_shift",
+      "method": "fitted_prototypes_with_mass",
+      "output_relative_rms": 0.9664035234325649,
+      "chunk_logZ_rmse": 3.478261153523757
+    }
+  ],
+  "fits": [
+    {
+      "case": "identical_within_groups",
+      "seed_index": 0,
+      "best_step": 0,
+      "validation_loss": 5.621929669394134e-31,
+      "fit_type": "per-cache prototype fitting on synthetic training queries; no shared encoder trained"
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 1,
+      "best_step": 0,
+      "validation_loss": 5.493714564723626e-31,
+      "fit_type": "per-cache prototype fitting on synthetic training queries; no shared encoder trained"
+    },
+    {
+      "case": "identical_within_groups",
+      "seed_index": 2,
+      "best_step": 0,
+      "validation_loss": 5.016011693327964e-31,
+      "fit_type": "per-cache prototype fitting on synthetic training queries; no shared encoder trained"
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 0,
+      "best_step": 110,
+      "validation_loss": 0.0013810532906323243,
+      "fit_type": "per-cache prototype fitting on synthetic training queries; no shared encoder trained"
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 1,
+      "best_step": 50,
+      "validation_loss": 0.001854821166942197,
+      "fit_type": "per-cache prototype fitting on synthetic training queries; no shared encoder trained"
+    },
+    {
+      "case": "nearby_keys",
+      "seed_index": 2,
+      "best_step": 50,
+      "validation_loss": 0.0013600495905092508,
+      "fit_type": "per-cache prototype fitting on synthetic training queries; no shared encoder trained"
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 0,
+      "best_step": 300,
+      "validation_loss": 0.5369863712026277,
+      "fit_type": "per-cache prototype fitting on synthetic training queries; no shared encoder trained"
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 1,
+      "best_step": 300,
+      "validation_loss": 0.5118686436061461,
+      "fit_type": "per-cache prototype fitting on synthetic training queries; no shared encoder trained"
+    },
+    {
+      "case": "independent_keys_values",
+      "seed_index": 2,
+      "best_step": 300,
+      "validation_loss": 0.5038037758990898,
+      "fit_type": "per-cache prototype fitting on synthetic training queries; no shared encoder trained"
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "sample_id": "78cc3045a93a26989c778e50",
+    "method": "native_b1024",
+    "measured": 5,
+    "oom": 0,
+    "prefix_seconds": {
+      "median": 0.6210493789985776,
+      "min": 0.6135274439875502,
+      "max": 0.6214431470143609
+    },
+    "query_ttft_seconds": {
+      "median": 0.034705811995081604,
+      "min": 0.03468093101400882,
+      "max": 0.03476335300365463
+    },
+    "total_ttft_seconds": {
+      "median": 0.6557551909936592,
+      "min": 0.6482372600003146,
+      "max": 0.6562065000180155
+    },
+    "kv_bytes_after_Q": {
+      "median": 623001600,
+      "min": 623001600,
+      "max": 623001600
+    },
+    "peak_allocated_bytes": {
+      "median": 8837990400,
+      "min": 8837990400,
+      "max": 8837990400
+    },
+    "peak_allocated_over_model_bytes": {
+      "median": 727760896,
+      "min": 727760896,
+      "max": 727760896
+    }
+  },
+  {
+    "sample_id": "78cc3045a93a26989c778e50",
+    "method": "native_b4096",
+    "measured": 5,
+    "oom": 0,
+    "prefix_seconds": {
+      "median": 0.6972668649978004,
+      "min": 0.6933914620021824,
+      "max": 0.7030595050018746
+    },
+    "query_ttft_seconds": {
+      "median": 0.034727964986814186,
+      "min": 0.03470398599165492,
+      "max": 0.034778339992044494
+    },
+    "total_ttft_seconds": {
+      "median": 0.7319708509894554,
+      "min": 0.7281698019942269,
+      "max": 0.7377728930150624
+    },
+    "kv_bytes_after_Q": {
+      "median": 623001600,
+      "min": 623001600,
+      "max": 623001600
+    },
+    "peak_allocated_bytes": {
+      "median": 9063688192,
+      "min": 9063688192,
+      "max": 9063688192
+    },
+    "peak_allocated_over_model_bytes": {
+      "median": 953458688,
+      "min": 953458688,
+      "max": 953458688
+    }
+  },
+  {
+    "sample_id": "78cc3045a93a26989c778e50",
+    "method": "layerwise_identity",
+    "measured": 5,
+    "oom": 0,
+    "prefix_seconds": {
+      "median": 0.6128500179911498,
+      "min": 0.6109790609916672,
+      "max": 0.6213650550052989
+    },
+    "query_ttft_seconds": {
+      "median": 0.034665835002670065,
+      "min": 0.03461087902542204,
+      "max": 0.034775228006765246
+    },
+    "total_ttft_seconds": {
+      "median": 0.6476073770027142,
+      "min": 0.6457542889984325,
+      "max": 0.6559826279990375
+    },
+    "kv_bytes_after_Q": {
+      "median": 623001600,
+      "min": 623001600,
+      "max": 623001600
+    },
+    "peak_allocated_bytes": {
+      "median": 8835453440,
+      "min": 8835453440,
+      "max": 8835453440
+    },
+    "peak_allocated_over_model_bytes": {
+      "median": 725223936,
+      "min": 725223936,
+      "max": 725223936
+    }
+  },
+  {
+    "sample_id": "78cc3045a93a26989c778e50",
+    "method": "pair_mean_d12",
+    "measured": 5,
+    "oom": 0,
+    "prefix_seconds": {
+      "median": 0.4170693710038904,
+      "min": 0.4161551329889335,
+      "max": 0.4180396730080247
+    },
+    "query_ttft_seconds": {
+      "median": 0.03038356499746442,
+      "min": 0.030377518996829167,
+      "max": 0.03053647797787562
+    },
+    "total_ttft_seconds": {
+      "median": 0.44745293600135483,
+      "min": 0.4466916109668091,
+      "max": 0.4484211659873836
+    },
+    "kv_bytes_after_Q": {
+      "median": 421675008,
+      "min": 421675008,
+      "max": 421675008
+    },
+    "peak_allocated_bytes": {
+      "median": 8601484288,
+      "min": 8601484288,
+      "max": 8601484288
+    },
+    "peak_allocated_over_model_bytes": {
+      "median": 491254784,
+      "min": 491254784,
+      "max": 491254784
+    }
+  },
+  {
+    "sample_id": "78cc3045a93a26989c778e50",
+    "method": "endpoint_d12",
+    "measured": 5,
+    "oom": 0,
+    "prefix_seconds": {
+      "median": 0.4102602970087901,
+      "min": 0.409434044995578,
+      "max": 0.41835526199429296
+    },
+    "query_ttft_seconds": {
+      "median": 0.030387053993763402,
+      "min": 0.03007660698494874,
+      "max": 0.03044631500961259
+    },
+    "total_ttft_seconds": {
+      "median": 0.44051538899657317,
+      "min": 0.43956737298867665,
+      "max": 0.44874231598805636
+    },
+    "kv_bytes_after_Q": {
+      "median": 421675008,
+      "min": 421675008,
+      "max": 421675008
+    },
+    "peak_allocated_bytes": {
+      "median": 8604761088,
+      "min": 8604761088,
+      "max": 8604761088
+    },
+    "peak_allocated_over_model_bytes": {
+      "median": 494531584,
+      "min": 494531584,
+      "max": 494531584
+    }
+  },
+  {
+    "sample_id": "909880cf39fce0db6c7b18a3",
+    "method": "native_b1024",
+    "measured": 5,
+    "oom": 0,
+    "prefix_seconds": {
+      "median": 0.6120740580081474,
+      "min": 0.6075030750071164,
+      "max": 0.6201267380092759
+    },
+    "query_ttft_seconds": {
+      "median": 0.034784463001415133,
+      "min": 0.034749057987937704,
+      "max": 0.03479325500666164
+    },
+    "total_ttft_seconds": {
+      "median": 0.6468481740157586,
+      "min": 0.6422963300137781,
+      "max": 0.6548757959972136
+    },
+    "kv_bytes_after_Q": {
+      "median": 623443968,
+      "min": 623443968,
+      "max": 623443968
+    },
+    "peak_allocated_bytes": {
+      "median": 8837990400,
+      "min": 8837990400,
+      "max": 8837990400
+    },
+    "peak_allocated_over_model_bytes": {
+      "median": 727760896,
+      "min": 727760896,
+      "max": 727760896
+    }
+  },
+  {
+    "sample_id": "909880cf39fce0db6c7b18a3",
+    "method": "native_b4096",
+    "measured": 5,
+    "oom": 0,
+    "prefix_seconds": {
+      "median": 0.699214257998392,
+      "min": 0.6945401139964815,
+      "max": 0.7033432930184063
+    },
+    "query_ttft_seconds": {
+      "median": 0.03481859000748955,
+      "min": 0.03480546400533058,
+      "max": 0.034838876978028566
+    },
+    "total_ttft_seconds": {
+      "median": 0.7340336100023706,
+      "min": 0.7293587040039711,
+      "max": 0.7381821699964348
+    },
+    "kv_bytes_after_Q": {
+      "median": 623443968,
+      "min": 623443968,
+      "max": 623443968
+    },
+    "peak_allocated_bytes": {
+      "median": 9063688192,
+      "min": 9063688192,
+      "max": 9063688192
+    },
+    "peak_allocated_over_model_bytes": {
+      "median": 953458688,
+      "min": 953458688,
+      "max": 953458688
+    }
+  },
+  {
+    "sample_id": "909880cf39fce0db6c7b18a3",
+    "method": "layerwise_identity",
+    "measured": 5,
+    "oom": 0,
+    "prefix_seconds": {
+      "median": 0.6166026139981113,
+      "min": 0.6069822870194912,
+      "max": 0.6200755829922855
+    },
+    "query_ttft_seconds": {
+      "median": 0.03469141200184822,
+      "min": 0.034684243000810966,
+      "max": 0.03471283402177505
+    },
+    "total_ttft_seconds": {
+      "median": 0.6512940259999596,
+      "min": 0.6416734190133866,
+      "max": 0.6547598259930965
+    },
+    "kv_bytes_after_Q": {
+      "median": 623443968,
+      "min": 623443968,
+      "max": 623443968
+    },
+    "peak_allocated_bytes": {
+      "median": 8835453440,
+      "min": 8835453440,
+      "max": 8835453440
+    },
+    "peak_allocated_over_model_bytes": {
+      "median": 725223936,
+      "min": 725223936,
+      "max": 725223936
+    }
+  },
+  {
+    "sample_id": "909880cf39fce0db6c7b18a3",
+    "method": "pair_mean_d12",
+    "measured": 5,
+    "oom": 0,
+    "prefix_seconds": {
+      "median": 0.41042838199064136,
+      "min": 0.4055600370047614,
+      "max": 0.4138644099875819
+    },
+    "query_ttft_seconds": {
+      "median": 0.03039098100271076,
+      "min": 0.03019064399995841,
+      "max": 0.030520235013682395
+    },
+    "total_ttft_seconds": {
+      "median": 0.4407352889829781,
+      "min": 0.43595101800747216,
+      "max": 0.4440550539875403
+    },
+    "kv_bytes_after_Q": {
+      "median": 422117376,
+      "min": 422117376,
+      "max": 422117376
+    },
+    "peak_allocated_bytes": {
+      "median": 8601751552,
+      "min": 8601751552,
+      "max": 8601751552
+    },
+    "peak_allocated_over_model_bytes": {
+      "median": 491522048,
+      "min": 491522048,
+      "max": 491522048
+    }
+  },
+  {
+    "sample_id": "909880cf39fce0db6c7b18a3",
+    "method": "endpoint_d12",
+    "measured": 5,
+    "oom": 0,
+    "prefix_seconds": {
+      "median": 0.41041938500711694,
+      "min": 0.4101430269947741,
+      "max": 0.4173958519822918
+    },
+    "query_ttft_seconds": {
+      "median": 0.03050461900420487,
+      "min": 0.03017242599162273,
+      "max": 0.030510821990901604
+    },
+    "total_ttft_seconds": {
+      "median": 0.4408383810077794,
+      "min": 0.4405918109987397,
+      "max": 0.44788419298129156
+    },
+    "kv_bytes_after_Q": {
+      "median": 422117376,
+      "min": 422117376,
+      "max": 422117376
+    },
+    "peak_allocated_bytes": {
+      "median": 8605016064,
+      "min": 8605016064,
+      "max": 8605016064
+    },
+    "peak_allocated_over_model_bytes": {
+      "median": 494786560,
+      "min": 494786560,
+      "max": 494786560
+    }
+  }
+]

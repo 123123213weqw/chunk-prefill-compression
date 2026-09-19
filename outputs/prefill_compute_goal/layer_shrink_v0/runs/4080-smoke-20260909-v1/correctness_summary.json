@@ -1,0 +1,58 @@
+{
+  "native_full": {
+    "readout": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 14,
+      "fields": 14
+    },
+    "control": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 4,
+      "fields": 4
+    }
+  },
+  "layerwise_identity": {
+    "readout": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 14,
+      "fields": 14
+    },
+    "control": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 4,
+      "fields": 4
+    }
+  },
+  "pair_mean_d12": {
+    "readout": {
+      "correct": 2,
+      "n": 4,
+      "field_correct": 10,
+      "fields": 14
+    },
+    "control": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 4,
+      "fields": 4
+    }
+  },
+  "endpoint_d12": {
+    "readout": {
+      "correct": 2,
+      "n": 4,
+      "field_correct": 6,
+      "fields": 14
+    },
+    "control": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 4,
+      "fields": 4
+    }
+  }
+}
