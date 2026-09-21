@@ -1,0 +1,13 @@
+{
+  "torch": "2.11.0+cu130",
+  "transformers": "5.8.0",
+  "python": "3.12.2",
+  "gpu": {
+    "foreign": [],
+    "processes": "1892004, 7966",
+    "telemetry": "NVIDIA GeForce RTX 4080, 42, 2745, 10801, 26.73, 78, 8208"
+  },
+  "model_config_sha256": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba",
+  "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "dtype": "float16"
+}

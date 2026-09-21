@@ -1,0 +1,60 @@
+{
+  "f0f42791b835a6a5c3229525": {
+    "count": 35,
+    "limit": 61
+  },
+  "317f82964f2cfc49d0935843": {
+    "count": 21,
+    "limit": 51
+  },
+  "b7ffbc72c78063807e73c819": {
+    "warehouse": "Cedar",
+    "boxes": 41
+  },
+  "d6ddda39ecc405ce353320cf": {
+    "count": 34,
+    "limit": 61
+  },
+  "284bc210b06d9aaeac3270a0": {
+    "count": 22,
+    "limit": 61
+  },
+  "48feaee3d9c656cf0016ff13": {
+    "warehouse": "Dune",
+    "boxes": 69
+  },
+  "5b02424d2e18903437de73f7": {
+    "warehouse": "Dune",
+    "boxes": 41
+  },
+  "af2347617ab53c54cbf2844c": {
+    "result": 60
+  },
+  "31f082ba32d5d59c379b868e": {
+    "result": 64
+  },
+  "81f0e9a81cc9c245b4de7a2d": {
+    "result": 18
+  },
+  "3ebd897e347434d60e1707e3": {
+    "count": 38,
+    "limit": 65
+  },
+  "d32cb580bdb8510eaa412f61": {
+    "warehouse": "Amber",
+    "boxes": 69
+  },
+  "3244d9b92f7b277d4679265a": {
+    "warehouse": "Dune",
+    "boxes": 52
+  },
+  "19b0f18234635694f1282e3d": {
+    "location": "South"
+  },
+  "4bf9f7fb828500c058820292": {
+    "location": "North"
+  },
+  "77ec3a468b9efa28d9e5ce44": {
+    "result": 20
+  }
+}

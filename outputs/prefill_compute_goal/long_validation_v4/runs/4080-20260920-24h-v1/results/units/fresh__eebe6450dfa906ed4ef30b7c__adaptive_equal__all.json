@@ -1,0 +1,123 @@
+{
+  "unit_key": "fresh__eebe6450dfa906ed4ef30b7c__adaptive_equal__all",
+  "status": "COMPLETED",
+  "job": {
+    "phase": "fresh",
+    "sample_id": "eebe6450dfa906ed4ef30b7c",
+    "method": "adaptive_equal",
+    "spec": {
+      "kind": "adaptive_equal"
+    }
+  },
+  "sample": {
+    "sample_id": "eebe6450dfa906ed4ef30b7c",
+    "pair_id": "9b7cbfe176186d916894",
+    "member": 1,
+    "task": "code",
+    "target_tokens": 4096,
+    "split": "fresh_validation"
+  },
+  "unit_seconds": 1.0488989353179932,
+  "shape": {
+    "status": "PASS",
+    "layer_lengths": [
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      3966,
+      3966,
+      3966,
+      3966,
+      3966,
+      3966,
+      3966,
+      3966,
+      3966,
+      2302,
+      2302,
+      2302,
+      2302,
+      2302,
+      2302,
+      2302,
+      2302,
+      2302
+    ],
+    "linear_flops": 26494139105280,
+    "kv_bytes": 537624576,
+    "projection_input_checks": 252,
+    "compressed_chunks": 64,
+    "total_chunks": 64,
+    "saved_T_layer_tokens": 18432
+  },
+  "instrumented_prefill_seconds": 0.5283183900173753,
+  "probes": {
+    "task": {
+      "answer": "{\"result\": 51}\n",
+      "gold": {
+        "result": 51
+      },
+      "ids": [
+        4913,
+        1382,
+        788,
+        220,
+        20,
+        16,
+        532,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "result": 51
+      },
+      "field_correct": 1,
+      "fields": 1
+    },
+    "control": {
+      "answer": "{\"label\": \"ready-blue\"}\n",
+      "gold": {
+        "label": "ready-blue"
+      },
+      "ids": [
+        4913,
+        1502,
+        788,
+        330,
+        2307,
+        31654,
+        16707,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "label": "ready-blue"
+      },
+      "field_correct": 1,
+      "fields": 1
+    }
+  },
+  "route_counts": {
+    "d27_k32": 52,
+    "d18_k48": 12
+  }
+}

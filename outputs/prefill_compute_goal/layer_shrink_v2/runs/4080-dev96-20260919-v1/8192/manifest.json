@@ -1,0 +1,137 @@
+{
+  "status": "completed",
+  "args": {
+    "model": "<MODEL_ROOT>/Qwen3-4B-Instruct-2507",
+    "dataset": "outputs/validation_v3/dataset/development.jsonl",
+    "out": "<PROJECT_ROOT>/outputs/prefill_compute_goal/layer_shrink_v2/runs/4080-dev96-20260919-v1/8192",
+    "block": 1024,
+    "max_tokens": 96,
+    "length": 8192,
+    "warmups": 1,
+    "repeats": 5
+  },
+  "scope": "frozen dev96 matrix; one 32-sample length stage",
+  "selected_sample_ids": [
+    "827a434d65f275376856f34c",
+    "42fb9d74c27562ad28e9da63",
+    "b8bd5bf866b251aaafde9d14",
+    "ecabf9d164732bae239590f1",
+    "b57800f043f5176fc420ade4",
+    "cc68335c96702677570ab145",
+    "dbe0e37915ce9d28bac5381b",
+    "bf5785ffffffb14349cf7d19",
+    "a458cd77eadbb55c704a0e9e",
+    "9c8a5741f9bdfa8f43cb601b",
+    "c3df6914f803b2cc938ee0fe",
+    "5e53592e6d0a47c091c34c9d",
+    "be8ec83dac4511231929891a",
+    "4e4fb35ce827cb28c1e16613",
+    "ec0ed6de212d84226865d28e",
+    "ceda17d462eb848bcd91b237",
+    "be1c94bbf34c2fe069a9dd81",
+    "ef8880bfac0b9a3531791079",
+    "acae48c2f6bb06091dc5600e",
+    "c68fc30316d6e149016311c4",
+    "57d574333191d6551beba94c",
+    "2a682c6256e586e55712c53a",
+    "3beb3f271d4080f14cef125f",
+    "e4e7eca74587d66e0e07bffc",
+    "8bec401e0bd0ad70349858b4",
+    "49a88b86ac950810a8c4b470",
+    "a5a8aeee0741294c2c17a2ed",
+    "e54f63444bcd8df4e626da59",
+    "370e8f6fca8c237fc91fba25",
+    "53b04e678420fd4092ebcff2",
+    "2681a1455c87e9eb5afff3ba",
+    "e3fd22ce95502b0e14c725d8"
+  ],
+  "sample_count": 32,
+  "pair_count": 16,
+  "identity_gate_expected": 128,
+  "timing_sample_ids": [
+    "827a434d65f275376856f34c",
+    "a458cd77eadbb55c704a0e9e",
+    "be1c94bbf34c2fe069a9dd81",
+    "8bec401e0bd0ad70349858b4"
+  ],
+  "method_specs": {
+    "native_full": {
+      "method": "identity",
+      "split_depth": 12,
+      "keep": 64,
+      "native": true
+    },
+    "identity_d12": {
+      "method": "identity",
+      "split_depth": 12,
+      "keep": 64,
+      "native": false
+    },
+    "identity_d24": {
+      "method": "identity",
+      "split_depth": 24,
+      "keep": 64,
+      "native": false
+    },
+    "mean_d12_k32": {
+      "method": "pair_mean",
+      "split_depth": 12,
+      "keep": 32,
+      "native": false
+    },
+    "mean_d24_k32": {
+      "method": "pair_mean",
+      "split_depth": 24,
+      "keep": 32,
+      "native": false
+    },
+    "mean_d12_k48": {
+      "method": "pair_mean_48",
+      "split_depth": 12,
+      "keep": 48,
+      "native": false
+    }
+  },
+  "timing_methods": [
+    "native_b1024",
+    "native_b4096",
+    "identity_d12",
+    "identity_d24",
+    "mean_d12_k32",
+    "mean_d24_k32",
+    "mean_d12_k48"
+  ],
+  "gpu_at_start": {
+    "status": "OK",
+    "foreign_compute_processes": [],
+    "gpu_csv": "GPU-REDACTED, NVIDIA GeForce RTX 4080, 0, 238, 49, 555, 5001, 35.87"
+  },
+  "torch": "2.11.0+cu130",
+  "transformers": "5.8.0",
+  "gpu": "NVIDIA GeForce RTX 4080",
+  "dtype": "float16",
+  "dataset_sha256": "c775d3fcaf2cc3a6f32b3c06d8b2ccec02e800d9146f4b8ad3c329c2f8e8c3c5",
+  "test_used": false,
+  "shape_hooks_excluded_from_timing": true,
+  "native_performance_baseline": "unmodified HF model.model, no layerwise position tracking",
+  "source_sha256": {
+    "paired_stats.py": "27dbf1f78df7e4b60311a590b8d27afa276fbb14999e58b7afdfd4441e6fe8f5",
+    "test_matrix.py": "9b8b5c7918fce09ca089e85f66ec52f30e604a782f23b2c82450d3b032c1a41c",
+    "dataset_checks.py": "539882b7515e4185e794770099f572ab5d957c9ffca43651bfd0582fc662fb0f",
+    "pipeline.py": "e827cb30f0cb78770c0742ca4dd2f4dc189cf335258f9060b1da0cee40c5ef17",
+    "test_engine.py": "d68c42cd69a14c996710b441157200f30f942a9bc181ad7ef5ed8e862cc6bca3",
+    "specs.py": "a976477e80abc140170e8cc4ac9001240bc0aac7cfbad81e208276ea4d07c1e5",
+    "development.jsonl": "c775d3fcaf2cc3a6f32b3c06d8b2ccec02e800d9146f4b8ad3c329c2f8e8c3c5",
+    "engine.py": "fe4e3b62c8378ef8b62e8a52559e0236e7612b0256afed02600c6f1c89b62bdc",
+    "report_experiment.py": "b8a86959a3319a1b07ec672aadc0fc34062392af6a407f4cb2e9998c76d6d10f",
+    "data_reference.py": "cb81446a9ae010f7cee9c4e9c642486a2baf95483479b79960c2b3ec222957b5",
+    "run_experiment.py": "6de229ee6ddd903992487f45d70f152b7d7003f8d4d43166d2c85f77d0a09689",
+    "methods.py": "c45142718fd90ae87569a1bcc33f0a15d7c5ba619ca65ae4fb69defa4c709cb5",
+    "aggregate_report.py": "e2b7f9958d247f7432abc44b0b9bf10b23dbba035463262c7d45d3a6446ae816",
+    "PROTOCOL.md": "181b1fd25fade8c03d637e16587d46554417b8de0afe1ae37876743376f717cf",
+    "test_report.py": "1393f181b03f6de62ed90913458c35d0ff01de1b9453ebb95adba1e59508933d"
+  },
+  "model_config_sha256": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba",
+  "accuracy_scope": "32 development samples at this length; not held-out",
+  "performance_scope": "prefill and query TTFT only; not full-answer latency"
+}

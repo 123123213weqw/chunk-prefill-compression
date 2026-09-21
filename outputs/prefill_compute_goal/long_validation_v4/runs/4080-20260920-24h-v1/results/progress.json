@@ -1,0 +1,21 @@
+{
+  "status": "RUNNING",
+  "completed_units": 13359,
+  "expected_units": 13360,
+  "current": {
+    "phase": "intervention",
+    "sample_id": "4bf9f7fb828500c058820292",
+    "method": "d27_k32_restore_chunk",
+    "base_method": "d27_k32",
+    "chunk": 255,
+    "spec": {
+      "kind": "fixed",
+      "depth": 27,
+      "keep": 32,
+      "restore_chunk": 255
+    }
+  },
+  "deadline_unix": 1790001252.7589295,
+  "elapsed_seconds": 51340.79974102974,
+  "resumed_units": 0
+}

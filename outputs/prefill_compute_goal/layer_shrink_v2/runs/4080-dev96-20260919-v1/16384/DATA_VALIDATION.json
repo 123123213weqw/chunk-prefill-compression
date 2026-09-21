@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "samples": 96,
+  "pairs": 48,
+  "tokenizer_revalidated": true,
+  "gold_reparsed": true,
+  "single_field_interventions_verified": true
+}

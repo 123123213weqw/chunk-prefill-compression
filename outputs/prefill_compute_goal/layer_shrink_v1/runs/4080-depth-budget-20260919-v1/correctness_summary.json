@@ -1,0 +1,86 @@
+{
+  "native_full": {
+    "readout": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 14,
+      "fields": 14
+    },
+    "control": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 4,
+      "fields": 4
+    }
+  },
+  "identity_d12": {
+    "readout": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 14,
+      "fields": 14
+    },
+    "control": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 4,
+      "fields": 4
+    }
+  },
+  "identity_d24": {
+    "readout": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 14,
+      "fields": 14
+    },
+    "control": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 4,
+      "fields": 4
+    }
+  },
+  "mean_d12_k32": {
+    "readout": {
+      "correct": 2,
+      "n": 4,
+      "field_correct": 10,
+      "fields": 14
+    },
+    "control": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 4,
+      "fields": 4
+    }
+  },
+  "mean_d24_k32": {
+    "readout": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 14,
+      "fields": 14
+    },
+    "control": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 4,
+      "fields": 4
+    }
+  },
+  "mean_d12_k48": {
+    "readout": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 14,
+      "fields": 14
+    },
+    "control": {
+      "correct": 4,
+      "n": 4,
+      "field_correct": 4,
+      "fields": 4
+    }
+  }
+}

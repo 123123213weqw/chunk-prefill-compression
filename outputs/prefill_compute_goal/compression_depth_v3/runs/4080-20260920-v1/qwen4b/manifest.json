@@ -1,0 +1,479 @@
+{
+  "model": "<MODEL_ROOT>/Qwen3-4B-Instruct-2507",
+  "layers": 36,
+  "model_metadata_sha256": {
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "generation_config.json": "835fffe355c9438e7a25be099b3fccaa98350b83451f9fd2d99512e74f1ade48",
+    "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+    "config.json": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3",
+    "model.safetensors.index.json": "d6c42883a895dfef5b0080ed2116a1bcd764f558406b98923d675978a1abf29c",
+    "configuration.json": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9"
+  },
+  "dataset_sha256": "a5d1e92dea1091e3d655860dc5d5cd8d7446b51c36f05a18cdc93890a322de15",
+  "source_sha256": {
+    "report.py": "18267c9d417d41f22c7385021659fa9b654766cda91f4667a9add62839bf6945",
+    "scoring.py": "c45142718fd90ae87569a1bcc33f0a15d7c5ba619ca65ae4fb69defa4c709cb5",
+    "data.py": "7617c3607a048cd5074d086744df91738397de2c269d39637a370b7bc2c0c98d",
+    "README.md": "01ecb77ed9e858c7cc7d2782576ef5d906d33b9aa76146aa01038ae6aeaad330",
+    "pipeline.py": "9e77b6d43593ed1cb5926335e1b7fa1a59e7bda6dbef79081221d2e97de44527",
+    "test_engine.py": "6ed150226cf984a3e69a823a58a31dc6b404b571299f3f7698af3ed207f27c8c",
+    "engine.py": "f53c358fce391512a1acfa50acfd54eafab03469c61b7fb18685c1d53ae13287",
+    "base_engine.py": "fe4e3b62c8378ef8b62e8a52559e0236e7612b0256afed02600c6f1c89b62bdc",
+    "PROTOCOL.md": "50ee7d6dc8f59f24f2f284a8248e3b21b22ae89f41f330eabe98da9369e796ce",
+    "run.py": "001b929ba4dfc1d7ba3ce4f85d2aa0cf2040c26659d9d0abfa6b293d4cc3adf7"
+  },
+  "torch": "2.11.0+cu130",
+  "transformers": "5.8.0",
+  "gpu": {
+    "foreign": [],
+    "telemetry": "NVIDIA GeForce RTX 4080, 73, 8209, 42, 2745, 45.91"
+  },
+  "data_validation": {
+    "status": "PASS",
+    "samples": 64,
+    "pairs": 32,
+    "calibration": 32,
+    "validation": 32,
+    "gold_reparsed": true,
+    "note": "Counterfactual facts verified; exact evidence-position equality is NOT enforced in this new corpus."
+  },
+  "fixed": {
+    "d12_k32": {
+      "kind": "fixed",
+      "depth": 12,
+      "keep": 32,
+      "phase": "ceil"
+    },
+    "d12_k48": {
+      "kind": "fixed",
+      "depth": 12,
+      "keep": 48,
+      "phase": "ceil"
+    },
+    "d18_k32": {
+      "kind": "fixed",
+      "depth": 18,
+      "keep": 32,
+      "phase": "ceil"
+    },
+    "d18_k48": {
+      "kind": "fixed",
+      "depth": 18,
+      "keep": 48,
+      "phase": "ceil"
+    },
+    "d24_k32": {
+      "kind": "fixed",
+      "depth": 24,
+      "keep": 32,
+      "phase": "ceil"
+    },
+    "d24_k48": {
+      "kind": "fixed",
+      "depth": 24,
+      "keep": 48,
+      "phase": "ceil"
+    },
+    "d27_k32": {
+      "kind": "fixed",
+      "depth": 27,
+      "keep": 32,
+      "phase": "ceil"
+    },
+    "d27_k48": {
+      "kind": "fixed",
+      "depth": 27,
+      "keep": 48,
+      "phase": "ceil"
+    },
+    "d30_k32": {
+      "kind": "fixed",
+      "depth": 30,
+      "keep": 32,
+      "phase": "ceil"
+    },
+    "d30_k48": {
+      "kind": "fixed",
+      "depth": 30,
+      "keep": 48,
+      "phase": "ceil"
+    },
+    "d18_k48_floor": {
+      "kind": "fixed",
+      "depth": 18,
+      "keep": 48,
+      "phase": "floor"
+    },
+    "d30_k16": {
+      "kind": "fixed",
+      "depth": 30,
+      "keep": 16,
+      "phase": "ceil"
+    },
+    "d24_k40": {
+      "kind": "fixed",
+      "depth": 24,
+      "keep": 40,
+      "phase": "ceil"
+    }
+  },
+  "validation_methods": [
+    "full",
+    "identity",
+    "d12_k32",
+    "d12_k48",
+    "d18_k32",
+    "d18_k48",
+    "d24_k32",
+    "d24_k48",
+    "d27_k32",
+    "d27_k48",
+    "d30_k32",
+    "d30_k48",
+    "d18_k48_floor",
+    "d30_k16",
+    "d24_k40",
+    "adaptive_equal",
+    "random_equal",
+    "adaptive_safe"
+  ],
+  "calibration_methods": [
+    "full",
+    "identity",
+    "d18_k48",
+    "d27_k32"
+  ],
+  "primary": [
+    "d18_k48",
+    "d27_k32"
+  ],
+  "seed": 20260920,
+  "dtype": "float16",
+  "attn": "sdpa",
+  "block": 1024,
+  "max_generated_tokens": 96,
+  "token_lengths": {
+    "e00ca4bbb1eb372f9fcfcbe8": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "e6cbb405803a9fac08d4243d": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "2e315220a6114f2cab02d3f6": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "dcfb8688dc845f69072705d6": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "6722d5d2fc3f7df69a5321e2": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "284bc210b06d9aaeac3270a0": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "3ebd897e347434d60e1707e3": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "5bf7122f560c3a700d5419f5": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "809b0ddafbeac5a77871c3b4": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "81c91b2f82623d8f90acb452": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "7d3b19b1c479f051295a5019": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "01ef7feefa3878def6a542fa": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "f0f42791b835a6a5c3229525": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "d6ddda39ecc405ce353320cf": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "0cbcd7d3f917dbcea1b6576e": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "317f82964f2cfc49d0935843": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "d8527bf94175b818f53a16a8": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "3ce903b48bc6b259e3751d64": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "2a665ce37d397a006f71cc7a": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "64443acfe1b9459215a00098": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "5b02424d2e18903437de73f7": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "b7ffbc72c78063807e73c819": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "d32cb580bdb8510eaa412f61": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "48feaee3d9c656cf0016ff13": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "b8ac769bc2eb84a58d4f2d7b": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "0963150a30454d003e5b1d05": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "129b292434ba3bc15f0b9ae1": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "07d47e65068c0042e9340e3c": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "3244d9b92f7b277d4679265a": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "9d65891bebe98cdc84e1f930": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "aa6038364f2666f7cc203248": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "7ce6b4b1a1ce5f31fe8f97a0": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "d0078a9b6daf354bec7f26d8": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "20e6ebee7f9984990036460a": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "d70f9763f68ef68de6274f50": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "a216b20a0437059fde5757cd": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "31f082ba32d5d59c379b868e": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "77ec3a468b9efa28d9e5ce44": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "d2af76bf5251c37345ec7b31": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "545f9e232fe6b7ec1bafc5e9": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "533fe547044865abe3894ab0": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "8051586f6c264216c5aa1aa0": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "42fa18e49d731fb132e75b91": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "46d515c9837c1b74faa5e1be": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "a02ce39a5e63551e3ad25eef": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "81f0e9a81cc9c245b4de7a2d": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "af2347617ab53c54cbf2844c": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "8f014fb882874935b5078355": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "53bc1cdd056d99d002ab507b": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "15b67574b44a46daf6c7a512": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "becd3f89ae358763f0d6d9e4": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "df27d62a7fd937574f9f69ad": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "7f913e2f2ec856976005e6f7": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "d7d682c87a8fc927484881c3": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "ace872c6237f579bb319074b": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "19b0f18234635694f1282e3d": {
+      "S": 47,
+      "T": 4096,
+      "R": 15
+    },
+    "681d763c8b219858c80bcf96": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "02244e51de12cb5e993230a4": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "45c831917e78f62308cb476a": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "56cae218efd9bb0df346ed7e": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "4bf9f7fb828500c058820292": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "e6fdecaa61c59a2c0baca56e": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "81f5c871d6cd1ad428d12d27": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    },
+    "eed35e1ca4872dc896bd3482": {
+      "S": 47,
+      "T": 16384,
+      "R": 15
+    }
+  }
+}

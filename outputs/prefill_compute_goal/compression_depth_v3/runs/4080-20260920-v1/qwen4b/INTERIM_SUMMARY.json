@@ -1,0 +1,126 @@
+{
+  "progress": {
+    "phase": "calibration_compression",
+    "document": 25,
+    "total": 32,
+    "method": "d18_k48"
+  },
+  "common_documents": 24,
+  "methods": {
+    "full": {
+      "correct": 15,
+      "n": 24,
+      "control_correct": 24,
+      "control_n": 24,
+      "lost": 0,
+      "gained": 0,
+      "cells": {
+        "code/4096": [
+          3,
+          4
+        ],
+        "code/16384": [
+          2,
+          4
+        ],
+        "fields/4096": [
+          4,
+          4
+        ],
+        "fields/16384": [
+          2,
+          4
+        ],
+        "narrative/4096": [
+          3,
+          4
+        ],
+        "narrative/16384": [
+          1,
+          4
+        ]
+      }
+    },
+    "d18_k48": {
+      "correct": 13,
+      "n": 24,
+      "control_correct": 24,
+      "control_n": 24,
+      "lost": 3,
+      "gained": 1,
+      "cells": {
+        "code/4096": [
+          2,
+          4
+        ],
+        "code/16384": [
+          2,
+          4
+        ],
+        "fields/4096": [
+          4,
+          4
+        ],
+        "fields/16384": [
+          2,
+          4
+        ],
+        "narrative/4096": [
+          3,
+          4
+        ],
+        "narrative/16384": [
+          0,
+          4
+        ]
+      }
+    },
+    "d27_k32": {
+      "correct": 15,
+      "n": 24,
+      "control_correct": 24,
+      "control_n": 24,
+      "lost": 0,
+      "gained": 0,
+      "cells": {
+        "code/4096": [
+          3,
+          4
+        ],
+        "code/16384": [
+          2,
+          4
+        ],
+        "fields/4096": [
+          4,
+          4
+        ],
+        "fields/16384": [
+          2,
+          4
+        ],
+        "narrative/4096": [
+          3,
+          4
+        ],
+        "narrative/16384": [
+          1,
+          4
+        ]
+      }
+    }
+  },
+  "gates": {
+    "probes": 64,
+    "documents": 32,
+    "kv_rms_max": 0.0,
+    "logit_rms_max": 0.0,
+    "ids_all_equal": true
+  },
+  "thresholds": {
+    "early_median": 0.2515622526407242,
+    "early_q25": 0.24179110303521156,
+    "late_q25": 0.3157510533928871
+  },
+  "has_timing": false
+}

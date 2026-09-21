@@ -1,0 +1,146 @@
+{
+  "unit_key": "diagnostic_baseline__3ebd897e347434d60e1707e3__d27_k32__all",
+  "status": "COMPLETED",
+  "job": {
+    "phase": "diagnostic_baseline",
+    "sample_id": "3ebd897e347434d60e1707e3",
+    "method": "d27_k32",
+    "spec": {
+      "kind": "fixed",
+      "depth": 27,
+      "keep": 32
+    }
+  },
+  "sample": {
+    "sample_id": "3ebd897e347434d60e1707e3",
+    "pair_id": "76de5a2c606c7edc18ed",
+    "member": 0,
+    "task": "fields",
+    "target_tokens": 4096,
+    "split": "exposed_v3_diagnostic"
+  },
+  "unit_seconds": 1.6265902519226074,
+  "shape": {
+    "status": "PASS",
+    "layer_lengths": [
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      2110,
+      2110,
+      2110,
+      2110,
+      2110,
+      2110,
+      2110,
+      2110,
+      2110
+    ],
+    "linear_flops": 26494139105280,
+    "kv_bytes": 537624576,
+    "projection_input_checks": 252,
+    "compressed_chunks": 64,
+    "total_chunks": 64,
+    "saved_T_layer_tokens": 18432
+  },
+  "instrumented_prefill_seconds": 0.5241409128066152,
+  "probes": {
+    "task": {
+      "answer": "{\"count\": 37, \"limit\": 65}\n",
+      "gold": {
+        "count": 37,
+        "limit": 65
+      },
+      "ids": [
+        4913,
+        1830,
+        788,
+        220,
+        18,
+        22,
+        11,
+        330,
+        9506,
+        788,
+        220,
+        21,
+        20,
+        532,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "count": 37,
+        "limit": 65
+      },
+      "field_correct": 2,
+      "fields": 2
+    },
+    "control": {
+      "answer": "{\"label\": \"ready-blue\"}\n",
+      "gold": {
+        "label": "ready-blue"
+      },
+      "ids": [
+        4913,
+        1502,
+        788,
+        330,
+        2307,
+        31654,
+        16707,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "label": "ready-blue"
+      },
+      "field_correct": 1,
+      "fields": 1
+    }
+  },
+  "route_counts": {
+    "d27_k32": 64
+  },
+  "likelihood": {
+    "correct": {
+      "sum_logp": -39.11366633168654,
+      "tokens": 12,
+      "mean_logp": -3.2594721943072114
+    },
+    "counterfactual": {
+      "sum_logp": -61.20760773233632,
+      "tokens": 12,
+      "mean_logp": -5.100633977694693
+    },
+    "log_likelihood_margin": 22.093941400649783
+  }
+}

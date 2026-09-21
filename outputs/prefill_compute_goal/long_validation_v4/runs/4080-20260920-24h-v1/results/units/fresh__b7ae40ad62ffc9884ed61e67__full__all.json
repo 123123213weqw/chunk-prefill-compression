@@ -1,0 +1,141 @@
+{
+  "unit_key": "fresh__b7ae40ad62ffc9884ed61e67__full__all",
+  "status": "COMPLETED",
+  "job": {
+    "phase": "fresh",
+    "sample_id": "b7ae40ad62ffc9884ed61e67",
+    "method": "full",
+    "gate": true
+  },
+  "sample": {
+    "sample_id": "b7ae40ad62ffc9884ed61e67",
+    "pair_id": "921bbd752f05e1b0a2f4",
+    "member": 0,
+    "task": "fields",
+    "target_tokens": 4096,
+    "split": "fresh_validation"
+  },
+  "unit_seconds": 2.3206653594970703,
+  "shape": {
+    "status": "PASS",
+    "layer_lengths": [
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158
+    ],
+    "linear_flops": 30214654525440,
+    "kv_bytes": 613122048,
+    "projection_input_checks": 252,
+    "compressed_chunks": 0,
+    "total_chunks": 64,
+    "saved_T_layer_tokens": 0
+  },
+  "probes": {
+    "task": {
+      "answer": "{\"count\": 25, \"limit\": 60}\n",
+      "gold": {
+        "count": 25,
+        "limit": 60
+      },
+      "ids": [
+        4913,
+        1830,
+        788,
+        220,
+        17,
+        20,
+        11,
+        330,
+        9506,
+        788,
+        220,
+        21,
+        15,
+        532,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "count": 25,
+        "limit": 60
+      },
+      "field_correct": 2,
+      "fields": 2
+    },
+    "control": {
+      "answer": "{\"label\": \"ready-blue\"}\n",
+      "gold": {
+        "label": "ready-blue"
+      },
+      "ids": [
+        4913,
+        1502,
+        788,
+        330,
+        2307,
+        31654,
+        16707,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "label": "ready-blue"
+      },
+      "field_correct": 1,
+      "fields": 1
+    }
+  },
+  "gates": [
+    {
+      "probe": "task",
+      "kv_rms": 0.0,
+      "logit_rms": 0.0,
+      "kl": 0.0,
+      "ids_equal": true
+    },
+    {
+      "probe": "control",
+      "kv_rms": 0.0,
+      "logit_rms": 0.0,
+      "kl": 0.0,
+      "ids_equal": true
+    }
+  ]
+}

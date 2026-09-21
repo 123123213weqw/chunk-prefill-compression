@@ -1,0 +1,159 @@
+{
+  "unit_key": "intervention__d32cb580bdb8510eaa412f61__d27_k32_restore_chunk__36",
+  "status": "COMPLETED",
+  "job": {
+    "phase": "intervention",
+    "sample_id": "d32cb580bdb8510eaa412f61",
+    "method": "d27_k32_restore_chunk",
+    "base_method": "d27_k32",
+    "chunk": 36,
+    "spec": {
+      "kind": "fixed",
+      "depth": 27,
+      "keep": 32,
+      "restore_chunk": 36
+    }
+  },
+  "sample": {
+    "sample_id": "d32cb580bdb8510eaa412f61",
+    "pair_id": "ce82cf36835c12a3b18e",
+    "member": 0,
+    "task": "narrative",
+    "target_tokens": 4096,
+    "split": "exposed_v3_diagnostic"
+  },
+  "unit_seconds": 1.7046494483947754,
+  "shape": {
+    "status": "PASS",
+    "layer_lengths": [
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      2142,
+      2142,
+      2142,
+      2142,
+      2142,
+      2142,
+      2142,
+      2142,
+      2142
+    ],
+    "linear_flops": 26552272158720,
+    "kv_bytes": 538804224,
+    "projection_input_checks": 252,
+    "compressed_chunks": 63,
+    "total_chunks": 64,
+    "saved_T_layer_tokens": 18144
+  },
+  "instrumented_prefill_seconds": 0.5271040690131485,
+  "probes": {
+    "task": {
+      "answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 67\n}\n",
+      "gold": {
+        "warehouse": "Dune",
+        "boxes": 69
+      },
+      "ids": [
+        515,
+        220,
+        330,
+        45546,
+        788,
+        330,
+        35,
+        2886,
+        756,
+        220,
+        330,
+        22204,
+        788,
+        220,
+        21,
+        22,
+        198,
+        532,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": false,
+      "format_ok": true,
+      "parsed": {
+        "warehouse": "Dune",
+        "boxes": 67
+      },
+      "field_correct": 1,
+      "fields": 2
+    },
+    "control": {
+      "answer": "{\"label\": \"ready-blue\"}\n",
+      "gold": {
+        "label": "ready-blue"
+      },
+      "ids": [
+        4913,
+        1502,
+        788,
+        330,
+        2307,
+        31654,
+        16707,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "label": "ready-blue"
+      },
+      "field_correct": 1,
+      "fields": 1
+    }
+  },
+  "route_counts": {
+    "d27_k32": 63,
+    "d36_k64": 1
+  },
+  "target_route": {
+    "chunk_start": 2351,
+    "merge_depth": 36,
+    "keep": 64
+  },
+  "likelihood": {
+    "correct": {
+      "sum_logp": -34.119340763747424,
+      "tokens": 12,
+      "mean_logp": -2.843278396978952
+    },
+    "counterfactual": {
+      "sum_logp": -57.63529165796261,
+      "tokens": 12,
+      "mean_logp": -4.802940971496884
+    },
+    "log_likelihood_margin": 23.515950894215187
+  }
+}

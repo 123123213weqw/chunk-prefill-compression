@@ -25,4 +25,3 @@ target/
 local-runs/
 **/dataset/test.jsonl
 **/dataset/all.jsonl
-**/dataset/development.jsonl

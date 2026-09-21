@@ -1,0 +1,7 @@
+{
+  "status": "SNAPSHOT_IN_PROGRESS",
+  "snapshot_unix": 1789975025.8228176,
+  "copied_completed_units": 507,
+  "expected_units": 3200,
+  "note": "Frozen publication snapshot; live experiment continues independently. Not final results."
+}

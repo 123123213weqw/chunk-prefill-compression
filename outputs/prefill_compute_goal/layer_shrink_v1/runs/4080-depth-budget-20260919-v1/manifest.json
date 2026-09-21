@@ -1,0 +1,92 @@
+{
+  "status": "completed",
+  "args": {
+    "model": "<MODEL_ROOT>/Qwen3-4B-Instruct-2507",
+    "dataset": "outputs/validation_v3/dataset/smoke4.jsonl",
+    "out": "outputs/prefill_compute_goal/layer_shrink_v1/runs/4080-depth-budget-20260919-v1",
+    "block": 1024,
+    "max_tokens": 96,
+    "warmups": 1,
+    "repeats": 5
+  },
+  "scope": "depth versus budget matched-compute development pilot",
+  "method_specs": {
+    "native_full": {
+      "method": "identity",
+      "split_depth": 12,
+      "keep": 64,
+      "native": true
+    },
+    "identity_d12": {
+      "method": "identity",
+      "split_depth": 12,
+      "keep": 64,
+      "native": false
+    },
+    "identity_d24": {
+      "method": "identity",
+      "split_depth": 24,
+      "keep": 64,
+      "native": false
+    },
+    "mean_d12_k32": {
+      "method": "pair_mean",
+      "split_depth": 12,
+      "keep": 32,
+      "native": false
+    },
+    "mean_d24_k32": {
+      "method": "pair_mean",
+      "split_depth": 24,
+      "keep": 32,
+      "native": false
+    },
+    "mean_d12_k48": {
+      "method": "pair_mean_48",
+      "split_depth": 12,
+      "keep": 48,
+      "native": false
+    }
+  },
+  "timing_methods": [
+    "native_b1024",
+    "native_b4096",
+    "identity_d12",
+    "identity_d24",
+    "mean_d12_k32",
+    "mean_d24_k32",
+    "mean_d12_k48"
+  ],
+  "gpu_at_start": {
+    "status": "OK",
+    "foreign_compute_processes": [
+      {
+        "pid": 1496152,
+        "memory_mib": "999"
+      }
+    ],
+    "gpu_csv": "GPU-REDACTED, NVIDIA GeForce RTX 4080, 27, 1266, 43, 2745, 10801, 50.65"
+  },
+  "torch": "2.11.0+cu130",
+  "transformers": "5.8.0",
+  "gpu": "NVIDIA GeForce RTX 4080",
+  "dtype": "float16",
+  "dataset_sha256": "b5a29f56aab0e0637af8fd74ecfc0442de112a68f200bec8fa6cf69a40fd6a45",
+  "test_used": false,
+  "shape_hooks_excluded_from_timing": true,
+  "native_performance_baseline": "unmodified HF model.model, no layerwise position tracking",
+  "source_sha256": {
+    "test_engine.py": "d68c42cd69a14c996710b441157200f30f942a9bc181ad7ef5ed8e862cc6bca3",
+    "specs.py": "b75701ca5f754794aa0f1205be52ad22e1221d8119d6333f9c8dccb95429fd18",
+    "smoke4.jsonl": "b5a29f56aab0e0637af8fd74ecfc0442de112a68f200bec8fa6cf69a40fd6a45",
+    "engine.py": "fe4e3b62c8378ef8b62e8a52559e0236e7612b0256afed02600c6f1c89b62bdc",
+    "report_experiment.py": "9d9cb102aa55b5047c7473181f68aae3c6ec73b727831064c1ee1cf23ef00dc1",
+    "run_experiment.py": "d187f2c2c8ccf10e3787bd175b98b4d0b20449bae032c427713790d11fc3e1e6",
+    "methods.py": "c45142718fd90ae87569a1bcc33f0a15d7c5ba619ca65ae4fb69defa4c709cb5",
+    "PROTOCOL.md": "64eb1d69b0e2c716661306478c5c310ea889fce00aa27ace45f3255c7b008b07",
+    "test_report.py": "d4b27de49a1dababc2db1e8662f792ee8bf963d6c266721fd01d6526d2aca107"
+  },
+  "model_config_sha256": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba",
+  "accuracy_scope": "development smoke only",
+  "performance_scope": "prefill and query TTFT only; not full-answer latency"
+}

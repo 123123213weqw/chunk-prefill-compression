@@ -1,0 +1,98 @@
+{
+  "native_full": {
+    "readout": {
+      "correct": 30,
+      "n": 32,
+      "unavailable": 0,
+      "field_correct": 110,
+      "fields": 112
+    },
+    "control": {
+      "correct": 32,
+      "n": 32,
+      "unavailable": 0,
+      "field_correct": 32,
+      "fields": 32
+    }
+  },
+  "identity_d12": {
+    "readout": {
+      "correct": 30,
+      "n": 32,
+      "unavailable": 0,
+      "field_correct": 110,
+      "fields": 112
+    },
+    "control": {
+      "correct": 32,
+      "n": 32,
+      "unavailable": 0,
+      "field_correct": 32,
+      "fields": 32
+    }
+  },
+  "identity_d24": {
+    "readout": {
+      "correct": 30,
+      "n": 32,
+      "unavailable": 0,
+      "field_correct": 110,
+      "fields": 112
+    },
+    "control": {
+      "correct": 32,
+      "n": 32,
+      "unavailable": 0,
+      "field_correct": 32,
+      "fields": 32
+    }
+  },
+  "mean_d12_k32": {
+    "readout": {
+      "correct": 10,
+      "n": 32,
+      "unavailable": 0,
+      "field_correct": 70,
+      "fields": 112
+    },
+    "control": {
+      "correct": 32,
+      "n": 32,
+      "unavailable": 0,
+      "field_correct": 32,
+      "fields": 32
+    }
+  },
+  "mean_d24_k32": {
+    "readout": {
+      "correct": 26,
+      "n": 32,
+      "unavailable": 0,
+      "field_correct": 106,
+      "fields": 112
+    },
+    "control": {
+      "correct": 32,
+      "n": 32,
+      "unavailable": 0,
+      "field_correct": 32,
+      "fields": 32
+    }
+  },
+  "mean_d12_k48": {
+    "readout": {
+      "correct": 16,
+      "n": 32,
+      "unavailable": 0,
+      "field_correct": 93,
+      "fields": 112
+    },
+    "control": {
+      "correct": 32,
+      "n": 32,
+      "unavailable": 0,
+      "field_correct": 32,
+      "fields": 32
+    }
+  }
+}

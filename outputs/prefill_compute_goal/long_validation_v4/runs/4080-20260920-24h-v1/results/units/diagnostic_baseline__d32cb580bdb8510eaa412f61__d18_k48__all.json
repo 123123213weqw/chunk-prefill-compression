@@ -1,0 +1,150 @@
+{
+  "unit_key": "diagnostic_baseline__d32cb580bdb8510eaa412f61__d18_k48__all",
+  "status": "COMPLETED",
+  "job": {
+    "phase": "diagnostic_baseline",
+    "sample_id": "d32cb580bdb8510eaa412f61",
+    "method": "d18_k48",
+    "spec": {
+      "kind": "fixed",
+      "depth": 18,
+      "keep": 48
+    }
+  },
+  "sample": {
+    "sample_id": "d32cb580bdb8510eaa412f61",
+    "pair_id": "ce82cf36835c12a3b18e",
+    "member": 0,
+    "task": "narrative",
+    "target_tokens": 4096,
+    "split": "exposed_v3_diagnostic"
+  },
+  "unit_seconds": 1.699561595916748,
+  "shape": {
+    "status": "PASS",
+    "layer_lengths": [
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      3134,
+      3134,
+      3134,
+      3134,
+      3134,
+      3134,
+      3134,
+      3134,
+      3134,
+      3134,
+      3134,
+      3134,
+      3134,
+      3134,
+      3134,
+      3134,
+      3134,
+      3134
+    ],
+    "linear_flops": 26494139105280,
+    "kv_bytes": 537624576,
+    "projection_input_checks": 252,
+    "compressed_chunks": 64,
+    "total_chunks": 64,
+    "saved_T_layer_tokens": 18432
+  },
+  "instrumented_prefill_seconds": 0.5237334861885756,
+  "probes": {
+    "task": {
+      "answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 69\n}\n",
+      "gold": {
+        "warehouse": "Dune",
+        "boxes": 69
+      },
+      "ids": [
+        515,
+        220,
+        330,
+        45546,
+        788,
+        330,
+        35,
+        2886,
+        756,
+        220,
+        330,
+        22204,
+        788,
+        220,
+        21,
+        24,
+        198,
+        532,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "warehouse": "Dune",
+        "boxes": 69
+      },
+      "field_correct": 2,
+      "fields": 2
+    },
+    "control": {
+      "answer": "{\"label\": \"ready-blue\"}\n",
+      "gold": {
+        "label": "ready-blue"
+      },
+      "ids": [
+        4913,
+        1502,
+        788,
+        330,
+        2307,
+        31654,
+        16707,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "label": "ready-blue"
+      },
+      "field_correct": 1,
+      "fields": 1
+    }
+  },
+  "route_counts": {
+    "d18_k48": 64
+  },
+  "likelihood": {
+    "correct": {
+      "sum_logp": -21.97993969501473,
+      "tokens": 12,
+      "mean_logp": -1.8316616412512274
+    },
+    "counterfactual": {
+      "sum_logp": -45.91765116870816,
+      "tokens": 12,
+      "mean_logp": -3.82647093072568
+    },
+    "log_likelihood_margin": 23.937711473693433
+  }
+}

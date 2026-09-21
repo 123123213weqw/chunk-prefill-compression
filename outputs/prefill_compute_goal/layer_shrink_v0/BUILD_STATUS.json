@@ -1,0 +1,31 @@
+{
+  "status": "real_model_pilot_completed_quality_loss",
+  "local_environment": {
+    "python": "3.11.15",
+    "torch": "2.13.0",
+    "transformers": "5.15.1"
+  },
+  "local_tests": 10,
+  "test_model": "random 4-layer Qwen FP32 CPU, split at 2; not Qwen3-4B evaluation",
+  "real_model_gate": "PASS: cache/logits identical and 8 probe token sequences identical",
+  "field_readout": "Full 4/4; pair_mean_d12 2/4; endpoint_d12 2/4; development smoke only",
+  "gpu_prefill_latency": "pair_mean_d12 approximately 1.49x speed / 32.8-32.9 percent shorter versus faster native baseline on 2 timing samples",
+  "files": {
+    "engine.py": "2cb0b8837b2c85ef12cd9cd1c9444e9806575b0627c8c9039eec416b91efc71b",
+    "test_engine.py": "1cdc4e0d957ad94654a05e0d7a622fef8f991af9bef432c67b4d3acf3ff023e1",
+    "run_experiment.py": "858636ab5149e10f97af4a88e5bccb7db39d33f0772fa6fe46a6ff6942a1925b",
+    "tests_local.log": "845bd59357cef3e90267d107c45e897861a110e47fbb07f22586276a8b1643bd",
+    "tests_4080_cpu.log": "aef47350c0aedeeb9b92937c06fc2e0238961dac05d94de55926f76cc7b71d22",
+    "report_experiment.py": "8421bdd312cbb52c89b164cca0d1e125bbcb72907f6e222dbdfccd3cef03cca2"
+  },
+  "v100_cpu_environment": {
+    "torch": "2.5.1+cu124",
+    "transformers": "5.12.1",
+    "execution": "tiny Qwen CPU only"
+  },
+  "v100_cpu_log_sha256": "d59c8ce3e126fcc86bd3e47f9cdc88c34f78a442f73eb884c9968c20ca533997",
+  "current_4080_cpu_tests": 10,
+  "historical_v100_cpu_test": "9 tests on pre-mask-fix sources; see BUILD_STATUS_20260908.json; not a test of current sources",
+  "latest_run": "runs/4080-smoke-20260909-v1",
+  "goal_resumed": false
+}

@@ -1,0 +1,257 @@
+{
+  "snapshot_progress": {
+    "phase": "validation_compression",
+    "document": 30,
+    "total": 32,
+    "method": "adaptive_equal"
+  },
+  "full_all_validation": [
+    26,
+    32
+  ],
+  "common_paired_documents": 28,
+  "methods": {
+    "full": {
+      "correct": 24,
+      "n": 28,
+      "lost": 0,
+      "gained": 0,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "identity": {
+      "correct": 24,
+      "n": 28,
+      "lost": 0,
+      "gained": 0,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "d12_k32": {
+      "correct": 9,
+      "n": 28,
+      "lost": 15,
+      "gained": 0,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "d12_k48": {
+      "correct": 19,
+      "n": 28,
+      "lost": 6,
+      "gained": 1,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "d18_k32": {
+      "correct": 12,
+      "n": 28,
+      "lost": 12,
+      "gained": 0,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "d18_k48": {
+      "correct": 16,
+      "n": 28,
+      "lost": 8,
+      "gained": 0,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "d24_k32": {
+      "correct": 22,
+      "n": 28,
+      "lost": 2,
+      "gained": 0,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "d24_k48": {
+      "correct": 23,
+      "n": 28,
+      "lost": 2,
+      "gained": 1,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "d27_k32": {
+      "correct": 23,
+      "n": 28,
+      "lost": 1,
+      "gained": 0,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "d27_k48": {
+      "correct": 23,
+      "n": 28,
+      "lost": 1,
+      "gained": 0,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "d30_k32": {
+      "correct": 23,
+      "n": 28,
+      "lost": 1,
+      "gained": 0,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "d30_k48": {
+      "correct": 23,
+      "n": 28,
+      "lost": 1,
+      "gained": 0,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "d18_k48_floor": {
+      "correct": 20,
+      "n": 28,
+      "lost": 4,
+      "gained": 0,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "d30_k16": {
+      "correct": 23,
+      "n": 28,
+      "lost": 1,
+      "gained": 0,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "d24_k40": {
+      "correct": 23,
+      "n": 28,
+      "lost": 1,
+      "gained": 0,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "adaptive_equal": {
+      "correct": 20,
+      "n": 28,
+      "lost": 4,
+      "gained": 0,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "random_equal": {
+      "correct": 22,
+      "n": 28,
+      "lost": 3,
+      "gained": 1,
+      "control": [
+        28,
+        28
+      ]
+    },
+    "adaptive_safe": {
+      "correct": 21,
+      "n": 28,
+      "lost": 3,
+      "gained": 0,
+      "control": [
+        28,
+        28
+      ]
+    }
+  },
+  "full_by_cell": {
+    "fields/4096": [
+      4,
+      4
+    ],
+    "fields/16384": [
+      3,
+      4
+    ],
+    "narrative/4096": [
+      4,
+      4
+    ],
+    "narrative/16384": [
+      3,
+      4
+    ],
+    "code/4096": [
+      3,
+      4
+    ],
+    "code/16384": [
+      3,
+      4
+    ],
+    "updates/4096": [
+      4,
+      4
+    ],
+    "updates/16384": [
+      2,
+      4
+    ]
+  },
+  "routes": {
+    "adaptive_equal": {
+      "chunks": 4096,
+      "route_counts": {
+        "d27_k32": 1914,
+        "d18_k48": 2182
+      },
+      "T_linear_work_saved": 0.125
+    },
+    "adaptive_safe": {
+      "chunks": 4096,
+      "route_counts": {
+        "d36_k64": 2173,
+        "d27_k32": 736,
+        "d18_k48": 1187
+      },
+      "T_linear_work_saved": 0.058685302734375
+    },
+    "random_equal": {
+      "chunks": 4096,
+      "route_counts": {
+        "d18_k48": 2048,
+        "d27_k32": 2048
+      },
+      "T_linear_work_saved": 0.125
+    }
+  },
+  "timings_records": 0
+}

@@ -1,0 +1,123 @@
+{
+  "unit_key": "fresh__48e4e43b71563ff8b59951a3__d18_k32__all",
+  "status": "COMPLETED",
+  "job": {
+    "phase": "fresh",
+    "sample_id": "48e4e43b71563ff8b59951a3",
+    "method": "d18_k32",
+    "spec": {
+      "kind": "fixed",
+      "depth": 18,
+      "keep": 32
+    }
+  },
+  "sample": {
+    "sample_id": "48e4e43b71563ff8b59951a3",
+    "pair_id": "5ec84e236cb0e857f83f",
+    "member": 1,
+    "task": "updates",
+    "target_tokens": 16384,
+    "split": "fresh_validation"
+  },
+  "unit_seconds": 3.382439374923706,
+  "shape": {
+    "status": "PASS",
+    "layer_lengths": [
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254
+    ],
+    "linear_flops": 89742901248000,
+    "kv_bytes": 1821081600,
+    "projection_input_checks": 252,
+    "compressed_chunks": 256,
+    "total_chunks": 256,
+    "saved_T_layer_tokens": 147456
+  },
+  "instrumented_prefill_seconds": 2.686017124913633,
+  "probes": {
+    "task": {
+      "answer": "{\"location\": \"South\"}\n",
+      "gold": {
+        "location": "North"
+      },
+      "ids": [
+        4913,
+        2527,
+        788,
+        330,
+        25018,
+        16707,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": false,
+      "format_ok": true,
+      "parsed": {
+        "location": "South"
+      },
+      "field_correct": 0,
+      "fields": 1
+    },
+    "control": {
+      "answer": "{\"label\": \"ready-blue\"}\n",
+      "gold": {
+        "label": "ready-blue"
+      },
+      "ids": [
+        4913,
+        1502,
+        788,
+        330,
+        2307,
+        31654,
+        16707,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "label": "ready-blue"
+      },
+      "field_correct": 1,
+      "fields": 1
+    }
+  },
+  "route_counts": {
+    "d18_k32": 256
+  }
+}

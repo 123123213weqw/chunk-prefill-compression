@@ -1,0 +1,160 @@
+{
+  "unit_key": "intervention__f0f42791b835a6a5c3229525__d18_k48_only_chunk__221",
+  "status": "COMPLETED",
+  "job": {
+    "phase": "intervention",
+    "sample_id": "f0f42791b835a6a5c3229525",
+    "method": "d18_k48_only_chunk",
+    "base_method": "d18_k48",
+    "chunk": 221,
+    "spec": {
+      "kind": "fixed",
+      "depth": 18,
+      "keep": 48,
+      "only_chunk": 221
+    }
+  },
+  "sample": {
+    "sample_id": "f0f42791b835a6a5c3229525",
+    "pair_id": "1212a81b70ff92f792e2",
+    "member": 0,
+    "task": "fields",
+    "target_tokens": 16384,
+    "split": "exposed_v3_diagnostic"
+  },
+  "unit_seconds": 5.697565317153931,
+  "shape": {
+    "status": "PASS",
+    "layer_lengths": [
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16430,
+      16430,
+      16430,
+      16430,
+      16430,
+      16430,
+      16430,
+      16430,
+      16430,
+      16430,
+      16430,
+      16430,
+      16430,
+      16430,
+      16430,
+      16430,
+      16430,
+      16430
+    ],
+    "linear_flops": 119448891555840,
+    "kv_bytes": 2423881728,
+    "projection_input_checks": 252,
+    "compressed_chunks": 1,
+    "total_chunks": 256,
+    "saved_T_layer_tokens": 288
+  },
+  "instrumented_prefill_seconds": 3.8607497580815107,
+  "probes": {
+    "task": {
+      "answer": "{\n  \"count\": 34,\n  \"limit\": 61\n}\n",
+      "gold": {
+        "count": 34,
+        "limit": 61
+      },
+      "ids": [
+        515,
+        220,
+        330,
+        1830,
+        788,
+        220,
+        18,
+        19,
+        345,
+        220,
+        330,
+        9506,
+        788,
+        220,
+        21,
+        16,
+        198,
+        532,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "count": 34,
+        "limit": 61
+      },
+      "field_correct": 2,
+      "fields": 2
+    },
+    "control": {
+      "answer": "{\"label\": \"ready-blue\"}\n",
+      "gold": {
+        "label": "ready-blue"
+      },
+      "ids": [
+        4913,
+        1502,
+        788,
+        330,
+        2307,
+        31654,
+        16707,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "label": "ready-blue"
+      },
+      "field_correct": 1,
+      "fields": 1
+    }
+  },
+  "route_counts": {
+    "d36_k64": 255,
+    "d18_k48": 1
+  },
+  "target_route": {
+    "chunk_start": 14191,
+    "merge_depth": 18,
+    "keep": 48,
+    "local_score": 0.22419102489948273
+  },
+  "likelihood": {
+    "correct": {
+      "sum_logp": -33.2274072154687,
+      "tokens": 12,
+      "mean_logp": -2.7689506012890583
+    },
+    "counterfactual": {
+      "sum_logp": -54.4553198982685,
+      "tokens": 12,
+      "mean_logp": -4.537943324855708
+    },
+    "log_likelihood_margin": 21.227912682799797
+  }
+}

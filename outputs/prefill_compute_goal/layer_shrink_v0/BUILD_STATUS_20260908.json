@@ -1,0 +1,26 @@
+{
+  "status": "unit_tests_passed_real_model_pending",
+  "local_environment": {
+    "python": "3.11.15",
+    "torch": "2.13.0",
+    "transformers": "5.15.1"
+  },
+  "local_tests": 9,
+  "test_model": "random 4-layer Qwen FP32 CPU, split at 2; not Qwen3-4B evaluation",
+  "real_model_gate": "NOT_RUN",
+  "field_readout": "NOT_RUN",
+  "gpu_prefill_latency": "NOT_RUN",
+  "files": {
+    "engine.py": "a46f9869c02f5f1e0af66a482c3e645f375db3bea52e486bec5b00ecf36bed81",
+    "test_engine.py": "76fd9847976b9f5325f968cc8f170a5ba2e9573882160bc5a3d4ffdcf488ecfc",
+    "run_experiment.py": "858636ab5149e10f97af4a88e5bccb7db39d33f0772fa6fe46a6ff6942a1925b",
+    "tests_local.log": "c7e28f5e595ee6e43c73f6b5c2e83f414d5b712f9457b66692e1a501564829de"
+  },
+  "v100_cpu_environment": {
+    "torch": "2.5.1+cu124",
+    "transformers": "5.12.1",
+    "execution": "tiny Qwen CPU only"
+  },
+  "v100_cpu_log_sha256": "d59c8ce3e126fcc86bd3e47f9cdc88c34f78a442f73eb884c9968c20ca533997",
+  "v100_cpu_tests": 9
+}

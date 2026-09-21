@@ -1,0 +1,15 @@
+{
+  "fresh_n": 256,
+  "diagnostic_n": 16,
+  "v3_source": "outputs/prefill_compute_goal/compression_depth_v3/runs/4080-20260920-v1/qwen4b",
+  "diagnostic_chunks": 2368,
+  "single_chunk_trials": 9472,
+  "fresh_seeds": [
+    20260921,
+    20260922,
+    20260923,
+    20260924
+  ],
+  "gold_reparsed": true,
+  "old_ids_disjoint": true
+}

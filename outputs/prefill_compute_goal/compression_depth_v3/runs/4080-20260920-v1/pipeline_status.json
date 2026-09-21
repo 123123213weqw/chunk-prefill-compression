@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETED",
+  "models": {
+    "qwen4b": {
+      "status": "COMPLETED",
+      "returncode": 0
+    },
+    "qwen06b": {
+      "status": "COMPLETED",
+      "returncode": 0
+    }
+  }
+}

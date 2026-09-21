@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "pid": 1610368,
+  "started_unix": 1789829477.7000809,
+  "stages": {
+    "4096": "completed_audited",
+    "8192": "completed_audited",
+    "16384": "completed_audited"
+  },
+  "input_sha256": {
+    "<PROJECT_ROOT>/outputs/prefill_compute_goal/layer_shrink_v2/aggregate_report.py": "e2b7f9958d247f7432abc44b0b9bf10b23dbba035463262c7d45d3a6446ae816",
+    "<PROJECT_ROOT>/outputs/prefill_compute_goal/layer_shrink_v2/data_reference.py": "cb81446a9ae010f7cee9c4e9c642486a2baf95483479b79960c2b3ec222957b5",
+    "<PROJECT_ROOT>/outputs/prefill_compute_goal/layer_shrink_v2/dataset_checks.py": "539882b7515e4185e794770099f572ab5d957c9ffca43651bfd0582fc662fb0f",
+    "<PROJECT_ROOT>/outputs/prefill_compute_goal/layer_shrink_v2/engine.py": "fe4e3b62c8378ef8b62e8a52559e0236e7612b0256afed02600c6f1c89b62bdc",
+    "<PROJECT_ROOT>/outputs/prefill_compute_goal/layer_shrink_v2/paired_stats.py": "27dbf1f78df7e4b60311a590b8d27afa276fbb14999e58b7afdfd4441e6fe8f5",
+    "<PROJECT_ROOT>/outputs/prefill_compute_goal/layer_shrink_v2/pipeline.py": "e827cb30f0cb78770c0742ca4dd2f4dc189cf335258f9060b1da0cee40c5ef17",
+    "<PROJECT_ROOT>/outputs/prefill_compute_goal/layer_shrink_v2/report_experiment.py": "b8a86959a3319a1b07ec672aadc0fc34062392af6a407f4cb2e9998c76d6d10f",
+    "<PROJECT_ROOT>/outputs/prefill_compute_goal/layer_shrink_v2/run_experiment.py": "6de229ee6ddd903992487f45d70f152b7d7003f8d4d43166d2c85f77d0a09689",
+    "<PROJECT_ROOT>/outputs/prefill_compute_goal/layer_shrink_v2/specs.py": "a976477e80abc140170e8cc4ac9001240bc0aac7cfbad81e208276ea4d07c1e5",
+    "<PROJECT_ROOT>/outputs/prefill_compute_goal/layer_shrink_v2/test_engine.py": "d68c42cd69a14c996710b441157200f30f942a9bc181ad7ef5ed8e862cc6bca3",
+    "<PROJECT_ROOT>/outputs/prefill_compute_goal/layer_shrink_v2/test_matrix.py": "9b8b5c7918fce09ca089e85f66ec52f30e604a782f23b2c82450d3b032c1a41c",
+    "<PROJECT_ROOT>/outputs/prefill_compute_goal/layer_shrink_v2/test_report.py": "1393f181b03f6de62ed90913458c35d0ff01de1b9453ebb95adba1e59508933d",
+    "<PROJECT_ROOT>/outputs/prefill_compute_goal/layer_shrink_v2/PROTOCOL.md": "181b1fd25fade8c03d637e16587d46554417b8de0afe1ae37876743376f717cf",
+    "<PROJECT_ROOT>/outputs/validation_v3/methods.py": "c45142718fd90ae87569a1bcc33f0a15d7c5ba619ca65ae4fb69defa4c709cb5",
+    "<PROJECT_ROOT>/outputs/validation_v3/dataset/development.jsonl": "c775d3fcaf2cc3a6f32b3c06d8b2ccec02e800d9146f4b8ad3c329c2f8e8c3c5"
+  },
+  "active_length": 16384,
+  "finished_unix": 1789833119.7341235
+}

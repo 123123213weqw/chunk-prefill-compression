@@ -1,0 +1,1595 @@
+{
+  "status": "PASS",
+  "samples": 96,
+  "pairs": 48,
+  "test_used": false,
+  "scores": {
+    "native_full": {
+      "n": 96,
+      "readout_correct": 94,
+      "control_correct": 96,
+      "field_correct": 334,
+      "fields": 336,
+      "unavailable_readout": 0,
+      "unavailable_control": 0
+    },
+    "identity_d12": {
+      "n": 96,
+      "readout_correct": 94,
+      "control_correct": 96,
+      "field_correct": 334,
+      "fields": 336,
+      "unavailable_readout": 0,
+      "unavailable_control": 0
+    },
+    "identity_d24": {
+      "n": 96,
+      "readout_correct": 94,
+      "control_correct": 96,
+      "field_correct": 334,
+      "fields": 336,
+      "unavailable_readout": 0,
+      "unavailable_control": 0
+    },
+    "mean_d12_k32": {
+      "n": 96,
+      "readout_correct": 29,
+      "control_correct": 96,
+      "field_correct": 225,
+      "fields": 336,
+      "unavailable_readout": 0,
+      "unavailable_control": 0
+    },
+    "mean_d24_k32": {
+      "n": 96,
+      "readout_correct": 90,
+      "control_correct": 96,
+      "field_correct": 330,
+      "fields": 336,
+      "unavailable_readout": 0,
+      "unavailable_control": 0
+    },
+    "mean_d12_k48": {
+      "n": 96,
+      "readout_correct": 59,
+      "control_correct": 96,
+      "field_correct": 293,
+      "fields": 336,
+      "unavailable_readout": 0,
+      "unavailable_control": 0
+    }
+  },
+  "source_sha256": {
+    "paired_stats.py": "27dbf1f78df7e4b60311a590b8d27afa276fbb14999e58b7afdfd4441e6fe8f5",
+    "test_matrix.py": "9b8b5c7918fce09ca089e85f66ec52f30e604a782f23b2c82450d3b032c1a41c",
+    "dataset_checks.py": "539882b7515e4185e794770099f572ab5d957c9ffca43651bfd0582fc662fb0f",
+    "pipeline.py": "e827cb30f0cb78770c0742ca4dd2f4dc189cf335258f9060b1da0cee40c5ef17",
+    "test_engine.py": "d68c42cd69a14c996710b441157200f30f942a9bc181ad7ef5ed8e862cc6bca3",
+    "specs.py": "a976477e80abc140170e8cc4ac9001240bc0aac7cfbad81e208276ea4d07c1e5",
+    "development.jsonl": "c775d3fcaf2cc3a6f32b3c06d8b2ccec02e800d9146f4b8ad3c329c2f8e8c3c5",
+    "engine.py": "fe4e3b62c8378ef8b62e8a52559e0236e7612b0256afed02600c6f1c89b62bdc",
+    "report_experiment.py": "b8a86959a3319a1b07ec672aadc0fc34062392af6a407f4cb2e9998c76d6d10f",
+    "data_reference.py": "cb81446a9ae010f7cee9c4e9c642486a2baf95483479b79960c2b3ec222957b5",
+    "run_experiment.py": "6de229ee6ddd903992487f45d70f152b7d7003f8d4d43166d2c85f77d0a09689",
+    "methods.py": "c45142718fd90ae87569a1bcc33f0a15d7c5ba619ca65ae4fb69defa4c709cb5",
+    "aggregate_report.py": "e2b7f9958d247f7432abc44b0b9bf10b23dbba035463262c7d45d3a6446ae816",
+    "PROTOCOL.md": "181b1fd25fade8c03d637e16587d46554417b8de0afe1ae37876743376f717cf",
+    "test_report.py": "1393f181b03f6de62ed90913458c35d0ff01de1b9453ebb95adba1e59508933d"
+  },
+  "stages": [
+    {
+      "length": 4096,
+      "audit": "PASS"
+    },
+    {
+      "length": 8192,
+      "audit": "PASS"
+    },
+    {
+      "length": 16384,
+      "audit": "PASS"
+    }
+  ],
+  "paired_comparisons": {
+    "mean_d12_k32": {
+      "n": 96,
+      "pairs": 48,
+      "strata": 12,
+      "method_minus_full": -0.6770833333333334,
+      "ci95": [
+        -0.7708333333333334,
+        -0.59375
+      ],
+      "bootstrap_repeats": 2000,
+      "bootstrap_seed": 20260919,
+      "full_correct_to_method_wrong": 65,
+      "full_wrong_to_method_correct": 0,
+      "full_correct_n": 94,
+      "full_correct_retained": 29,
+      "full_correct_retention": 0.30851063829787234,
+      "unavailable_full": 0,
+      "unavailable_method": 0
+    },
+    "mean_d24_k32": {
+      "n": 96,
+      "pairs": 48,
+      "strata": 12,
+      "method_minus_full": -0.041666666666666664,
+      "ci95": [
+        -0.08333333333333333,
+        0.0
+      ],
+      "bootstrap_repeats": 2000,
+      "bootstrap_seed": 20260919,
+      "full_correct_to_method_wrong": 4,
+      "full_wrong_to_method_correct": 0,
+      "full_correct_n": 94,
+      "full_correct_retained": 90,
+      "full_correct_retention": 0.9574468085106383,
+      "unavailable_full": 0,
+      "unavailable_method": 0
+    },
+    "mean_d12_k48": {
+      "n": 96,
+      "pairs": 48,
+      "strata": 12,
+      "method_minus_full": -0.3645833333333333,
+      "ci95": [
+        -0.4895833333333333,
+        -0.25
+      ],
+      "bootstrap_repeats": 2000,
+      "bootstrap_seed": 20260919,
+      "full_correct_to_method_wrong": 35,
+      "full_wrong_to_method_correct": 0,
+      "full_correct_n": 94,
+      "full_correct_retained": 59,
+      "full_correct_retention": 0.6276595744680851,
+      "unavailable_full": 0,
+      "unavailable_method": 0
+    }
+  },
+  "stratified_scores": [
+    {
+      "method": "identity_d12",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 4096,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 4096,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 4096,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 4096,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 8192,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 8192,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 8192,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 8192,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 16384,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 16384,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 16384,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d12",
+      "length": 16384,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 6,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 4096,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 4096,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 4096,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 4096,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 8192,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 8192,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 8192,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 8192,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 16384,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 16384,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 16384,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "identity_d24",
+      "length": 16384,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 6,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 0,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 5,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 4096,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 4096,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 0,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 4096,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 4096,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 5,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 2,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 1,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 8192,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 8192,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 6,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 8192,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 8192,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 0,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 4,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 0,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 16384,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 16384,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 6,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 16384,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k32",
+      "length": 16384,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 0,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 3,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 5,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 4096,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 4096,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 6,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 4096,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 4096,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 6,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 6,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 5,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 8192,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 8192,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 7,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 8192,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 8192,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 5,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 6,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 3,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 16384,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 16384,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 6,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 16384,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d12_k48",
+      "length": 16384,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 1,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 4096,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 4096,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 4096,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 4096,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 8192,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 8192,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 8192,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 8192,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 16384,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 16384,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 16384,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "mean_d24_k32",
+      "length": 16384,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 2,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 4096,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 4096,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 4096,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 4096,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 4096,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 8192,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 8192,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 8192,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 8192,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 8192,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 16384,
+      "template": "inventory",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 16384,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 16384,
+      "template": "latency",
+      "layout": "clustered",
+      "probe": "readout",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 16384,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "control",
+      "n": 8,
+      "correct": 8,
+      "unavailable": 0
+    },
+    {
+      "method": "native_full",
+      "length": 16384,
+      "template": "latency",
+      "layout": "distributed",
+      "probe": "readout",
+      "n": 8,
+      "correct": 6,
+      "unavailable": 0
+    }
+  ],
+  "all_trial_boundaries_isolated": true
+}

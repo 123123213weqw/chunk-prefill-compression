@@ -1,0 +1,1030 @@
+{
+  "audit": "PASS_completed_units_only",
+  "partial": true,
+  "completed_units": 507,
+  "expected_units": 3200,
+  "phase_counts": {
+    "correctness": 507
+  },
+  "common_paired_documents": 62,
+  "accuracy": {
+    "full/b1024": {
+      "n": 62,
+      "correct": 52,
+      "native_correct_n": 52,
+      "retained": 52,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 62,
+      "conditional_retention": 1.0
+    },
+    "d27_mean32/b1024": {
+      "n": 62,
+      "correct": 50,
+      "native_correct_n": 52,
+      "retained": 50,
+      "lost": 2,
+      "gained": 0,
+      "control_correct": 62,
+      "conditional_retention": 0.9615384615384616
+    },
+    "d27_endpoint32/b1024": {
+      "n": 62,
+      "correct": 46,
+      "native_correct_n": 52,
+      "retained": 46,
+      "lost": 6,
+      "gained": 0,
+      "control_correct": 62,
+      "conditional_retention": 0.8846153846153846
+    },
+    "d30_mean16/b1024": {
+      "n": 62,
+      "correct": 50,
+      "native_correct_n": 52,
+      "retained": 50,
+      "lost": 2,
+      "gained": 0,
+      "control_correct": 62,
+      "conditional_retention": 0.9615384615384616
+    },
+    "full/b4096": {
+      "n": 62,
+      "correct": 52,
+      "native_correct_n": 52,
+      "retained": 52,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 62,
+      "conditional_retention": 1.0
+    },
+    "d27_mean32/b4096": {
+      "n": 62,
+      "correct": 49,
+      "native_correct_n": 52,
+      "retained": 49,
+      "lost": 3,
+      "gained": 0,
+      "control_correct": 62,
+      "conditional_retention": 0.9423076923076923
+    },
+    "d27_endpoint32/b4096": {
+      "n": 62,
+      "correct": 46,
+      "native_correct_n": 52,
+      "retained": 46,
+      "lost": 6,
+      "gained": 0,
+      "control_correct": 62,
+      "conditional_retention": 0.8846153846153846
+    },
+    "d30_mean16/b4096": {
+      "n": 62,
+      "correct": 50,
+      "native_correct_n": 52,
+      "retained": 50,
+      "lost": 2,
+      "gained": 0,
+      "control_correct": 62,
+      "conditional_retention": 0.9615384615384616
+    }
+  },
+  "cells": {
+    "full/b1024/fields/4096": {
+      "n": 16,
+      "correct": 16,
+      "native_correct_n": 16,
+      "retained": 16,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 16,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "full/b1024/fields/16384": {
+      "n": 10,
+      "correct": 7,
+      "native_correct_n": 7,
+      "retained": 7,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 10,
+      "conditional_retention": 1.0,
+      "native_adequate": false
+    },
+    "full/b1024/narrative/4096": {
+      "n": 4,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 4,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "full/b1024/narrative/16384": {
+      "n": 14,
+      "correct": 9,
+      "native_correct_n": 9,
+      "retained": 9,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 14,
+      "conditional_retention": 1.0,
+      "native_adequate": false
+    },
+    "full/b1024/code/4096": {
+      "n": 2,
+      "correct": 2,
+      "native_correct_n": 2,
+      "retained": 2,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 2,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "full/b1024/code/16384": {
+      "n": 6,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 6,
+      "conditional_retention": 1.0,
+      "native_adequate": false
+    },
+    "full/b1024/updates/4096": {
+      "n": 6,
+      "correct": 6,
+      "native_correct_n": 6,
+      "retained": 6,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 6,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "full/b1024/updates/16384": {
+      "n": 4,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 4,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d27_mean32/b1024/fields/4096": {
+      "n": 16,
+      "correct": 16,
+      "native_correct_n": 16,
+      "retained": 16,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 16,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d27_mean32/b1024/fields/16384": {
+      "n": 10,
+      "correct": 6,
+      "native_correct_n": 7,
+      "retained": 6,
+      "lost": 1,
+      "gained": 0,
+      "control_correct": 10,
+      "conditional_retention": 0.8571428571428571,
+      "native_adequate": false
+    },
+    "d27_mean32/b1024/narrative/4096": {
+      "n": 4,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 4,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d27_mean32/b1024/narrative/16384": {
+      "n": 14,
+      "correct": 8,
+      "native_correct_n": 9,
+      "retained": 8,
+      "lost": 1,
+      "gained": 0,
+      "control_correct": 14,
+      "conditional_retention": 0.8888888888888888,
+      "native_adequate": false
+    },
+    "d27_mean32/b1024/code/4096": {
+      "n": 2,
+      "correct": 2,
+      "native_correct_n": 2,
+      "retained": 2,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 2,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d27_mean32/b1024/code/16384": {
+      "n": 6,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 6,
+      "conditional_retention": 1.0,
+      "native_adequate": false
+    },
+    "d27_mean32/b1024/updates/4096": {
+      "n": 6,
+      "correct": 6,
+      "native_correct_n": 6,
+      "retained": 6,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 6,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d27_mean32/b1024/updates/16384": {
+      "n": 4,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 4,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d27_endpoint32/b1024/fields/4096": {
+      "n": 16,
+      "correct": 13,
+      "native_correct_n": 16,
+      "retained": 13,
+      "lost": 3,
+      "gained": 0,
+      "control_correct": 16,
+      "conditional_retention": 0.8125,
+      "native_adequate": true
+    },
+    "d27_endpoint32/b1024/fields/16384": {
+      "n": 10,
+      "correct": 6,
+      "native_correct_n": 7,
+      "retained": 6,
+      "lost": 1,
+      "gained": 0,
+      "control_correct": 10,
+      "conditional_retention": 0.8571428571428571,
+      "native_adequate": false
+    },
+    "d27_endpoint32/b1024/narrative/4096": {
+      "n": 4,
+      "correct": 3,
+      "native_correct_n": 4,
+      "retained": 3,
+      "lost": 1,
+      "gained": 0,
+      "control_correct": 4,
+      "conditional_retention": 0.75,
+      "native_adequate": true
+    },
+    "d27_endpoint32/b1024/narrative/16384": {
+      "n": 14,
+      "correct": 9,
+      "native_correct_n": 9,
+      "retained": 9,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 14,
+      "conditional_retention": 1.0,
+      "native_adequate": false
+    },
+    "d27_endpoint32/b1024/code/4096": {
+      "n": 2,
+      "correct": 1,
+      "native_correct_n": 2,
+      "retained": 1,
+      "lost": 1,
+      "gained": 0,
+      "control_correct": 2,
+      "conditional_retention": 0.5,
+      "native_adequate": true
+    },
+    "d27_endpoint32/b1024/code/16384": {
+      "n": 6,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 6,
+      "conditional_retention": 1.0,
+      "native_adequate": false
+    },
+    "d27_endpoint32/b1024/updates/4096": {
+      "n": 6,
+      "correct": 6,
+      "native_correct_n": 6,
+      "retained": 6,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 6,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d27_endpoint32/b1024/updates/16384": {
+      "n": 4,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 4,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d30_mean16/b1024/fields/4096": {
+      "n": 16,
+      "correct": 16,
+      "native_correct_n": 16,
+      "retained": 16,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 16,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d30_mean16/b1024/fields/16384": {
+      "n": 10,
+      "correct": 7,
+      "native_correct_n": 7,
+      "retained": 7,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 10,
+      "conditional_retention": 1.0,
+      "native_adequate": false
+    },
+    "d30_mean16/b1024/narrative/4096": {
+      "n": 4,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 4,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d30_mean16/b1024/narrative/16384": {
+      "n": 14,
+      "correct": 7,
+      "native_correct_n": 9,
+      "retained": 7,
+      "lost": 2,
+      "gained": 0,
+      "control_correct": 14,
+      "conditional_retention": 0.7777777777777778,
+      "native_adequate": false
+    },
+    "d30_mean16/b1024/code/4096": {
+      "n": 2,
+      "correct": 2,
+      "native_correct_n": 2,
+      "retained": 2,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 2,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d30_mean16/b1024/code/16384": {
+      "n": 6,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 6,
+      "conditional_retention": 1.0,
+      "native_adequate": false
+    },
+    "d30_mean16/b1024/updates/4096": {
+      "n": 6,
+      "correct": 6,
+      "native_correct_n": 6,
+      "retained": 6,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 6,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d30_mean16/b1024/updates/16384": {
+      "n": 4,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 4,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "full/b4096/fields/4096": {
+      "n": 16,
+      "correct": 16,
+      "native_correct_n": 16,
+      "retained": 16,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 16,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "full/b4096/fields/16384": {
+      "n": 10,
+      "correct": 7,
+      "native_correct_n": 7,
+      "retained": 7,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 10,
+      "conditional_retention": 1.0,
+      "native_adequate": false
+    },
+    "full/b4096/narrative/4096": {
+      "n": 4,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 4,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "full/b4096/narrative/16384": {
+      "n": 14,
+      "correct": 9,
+      "native_correct_n": 9,
+      "retained": 9,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 14,
+      "conditional_retention": 1.0,
+      "native_adequate": false
+    },
+    "full/b4096/code/4096": {
+      "n": 2,
+      "correct": 2,
+      "native_correct_n": 2,
+      "retained": 2,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 2,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "full/b4096/code/16384": {
+      "n": 6,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 6,
+      "conditional_retention": 1.0,
+      "native_adequate": false
+    },
+    "full/b4096/updates/4096": {
+      "n": 6,
+      "correct": 6,
+      "native_correct_n": 6,
+      "retained": 6,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 6,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "full/b4096/updates/16384": {
+      "n": 4,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 4,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d27_mean32/b4096/fields/4096": {
+      "n": 16,
+      "correct": 16,
+      "native_correct_n": 16,
+      "retained": 16,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 16,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d27_mean32/b4096/fields/16384": {
+      "n": 10,
+      "correct": 6,
+      "native_correct_n": 7,
+      "retained": 6,
+      "lost": 1,
+      "gained": 0,
+      "control_correct": 10,
+      "conditional_retention": 0.8571428571428571,
+      "native_adequate": false
+    },
+    "d27_mean32/b4096/narrative/4096": {
+      "n": 4,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 4,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d27_mean32/b4096/narrative/16384": {
+      "n": 14,
+      "correct": 8,
+      "native_correct_n": 9,
+      "retained": 8,
+      "lost": 1,
+      "gained": 0,
+      "control_correct": 14,
+      "conditional_retention": 0.8888888888888888,
+      "native_adequate": false
+    },
+    "d27_mean32/b4096/code/4096": {
+      "n": 2,
+      "correct": 2,
+      "native_correct_n": 2,
+      "retained": 2,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 2,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d27_mean32/b4096/code/16384": {
+      "n": 6,
+      "correct": 3,
+      "native_correct_n": 4,
+      "retained": 3,
+      "lost": 1,
+      "gained": 0,
+      "control_correct": 6,
+      "conditional_retention": 0.75,
+      "native_adequate": false
+    },
+    "d27_mean32/b4096/updates/4096": {
+      "n": 6,
+      "correct": 6,
+      "native_correct_n": 6,
+      "retained": 6,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 6,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d27_mean32/b4096/updates/16384": {
+      "n": 4,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 4,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d27_endpoint32/b4096/fields/4096": {
+      "n": 16,
+      "correct": 13,
+      "native_correct_n": 16,
+      "retained": 13,
+      "lost": 3,
+      "gained": 0,
+      "control_correct": 16,
+      "conditional_retention": 0.8125,
+      "native_adequate": true
+    },
+    "d27_endpoint32/b4096/fields/16384": {
+      "n": 10,
+      "correct": 6,
+      "native_correct_n": 7,
+      "retained": 6,
+      "lost": 1,
+      "gained": 0,
+      "control_correct": 10,
+      "conditional_retention": 0.8571428571428571,
+      "native_adequate": false
+    },
+    "d27_endpoint32/b4096/narrative/4096": {
+      "n": 4,
+      "correct": 3,
+      "native_correct_n": 4,
+      "retained": 3,
+      "lost": 1,
+      "gained": 0,
+      "control_correct": 4,
+      "conditional_retention": 0.75,
+      "native_adequate": true
+    },
+    "d27_endpoint32/b4096/narrative/16384": {
+      "n": 14,
+      "correct": 9,
+      "native_correct_n": 9,
+      "retained": 9,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 14,
+      "conditional_retention": 1.0,
+      "native_adequate": false
+    },
+    "d27_endpoint32/b4096/code/4096": {
+      "n": 2,
+      "correct": 1,
+      "native_correct_n": 2,
+      "retained": 1,
+      "lost": 1,
+      "gained": 0,
+      "control_correct": 2,
+      "conditional_retention": 0.5,
+      "native_adequate": true
+    },
+    "d27_endpoint32/b4096/code/16384": {
+      "n": 6,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 6,
+      "conditional_retention": 1.0,
+      "native_adequate": false
+    },
+    "d27_endpoint32/b4096/updates/4096": {
+      "n": 6,
+      "correct": 6,
+      "native_correct_n": 6,
+      "retained": 6,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 6,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d27_endpoint32/b4096/updates/16384": {
+      "n": 4,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 4,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d30_mean16/b4096/fields/4096": {
+      "n": 16,
+      "correct": 16,
+      "native_correct_n": 16,
+      "retained": 16,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 16,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d30_mean16/b4096/fields/16384": {
+      "n": 10,
+      "correct": 7,
+      "native_correct_n": 7,
+      "retained": 7,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 10,
+      "conditional_retention": 1.0,
+      "native_adequate": false
+    },
+    "d30_mean16/b4096/narrative/4096": {
+      "n": 4,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 4,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d30_mean16/b4096/narrative/16384": {
+      "n": 14,
+      "correct": 7,
+      "native_correct_n": 9,
+      "retained": 7,
+      "lost": 2,
+      "gained": 0,
+      "control_correct": 14,
+      "conditional_retention": 0.7777777777777778,
+      "native_adequate": false
+    },
+    "d30_mean16/b4096/code/4096": {
+      "n": 2,
+      "correct": 2,
+      "native_correct_n": 2,
+      "retained": 2,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 2,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d30_mean16/b4096/code/16384": {
+      "n": 6,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 6,
+      "conditional_retention": 1.0,
+      "native_adequate": false
+    },
+    "d30_mean16/b4096/updates/4096": {
+      "n": 6,
+      "correct": 6,
+      "native_correct_n": 6,
+      "retained": 6,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 6,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    },
+    "d30_mean16/b4096/updates/16384": {
+      "n": 4,
+      "correct": 4,
+      "native_correct_n": 4,
+      "retained": 4,
+      "lost": 0,
+      "gained": 0,
+      "control_correct": 4,
+      "conditional_retention": 1.0,
+      "native_adequate": true
+    }
+  },
+  "cross_block": {
+    "full": {
+      "documents": 62,
+      "task_ids_changed": 2,
+      "task_correctness_changed": 0
+    },
+    "d27_mean32": {
+      "documents": 62,
+      "task_ids_changed": 1,
+      "task_correctness_changed": 1
+    },
+    "d27_endpoint32": {
+      "documents": 62,
+      "task_ids_changed": 0,
+      "task_correctness_changed": 0
+    },
+    "d30_mean16": {
+      "documents": 62,
+      "task_ids_changed": 0,
+      "task_correctness_changed": 0
+    }
+  },
+  "timing": {
+    "full/b1024": {
+      "per_document": [],
+      "all": {
+        "documents": 0,
+        "median_document_reduction": null
+      },
+      "by_length": {
+        "4096": {
+          "documents": 0,
+          "median_document_reduction": null
+        },
+        "16384": {
+          "documents": 0,
+          "median_document_reduction": null
+        }
+      }
+    },
+    "full/b4096": {
+      "per_document": [],
+      "all": {
+        "documents": 0,
+        "median_document_reduction": null
+      },
+      "by_length": {
+        "4096": {
+          "documents": 0,
+          "median_document_reduction": null
+        },
+        "16384": {
+          "documents": 0,
+          "median_document_reduction": null
+        }
+      }
+    },
+    "full/best_of_two_blocks": {
+      "selection_note": "Two-point tuning on these timing documents, not universally optimal settings.",
+      "per_document": [],
+      "all": {
+        "documents": 0,
+        "median_document_reduction": null
+      },
+      "by_length": {
+        "4096": {
+          "documents": 0,
+          "median_document_reduction": null
+        },
+        "16384": {
+          "documents": 0,
+          "median_document_reduction": null
+        }
+      }
+    },
+    "d27_mean32/b1024": {
+      "per_document": [],
+      "all": {
+        "documents": 0,
+        "median_document_reduction": null
+      },
+      "by_length": {
+        "4096": {
+          "documents": 0,
+          "median_document_reduction": null
+        },
+        "16384": {
+          "documents": 0,
+          "median_document_reduction": null
+        }
+      }
+    },
+    "d27_mean32/b4096": {
+      "per_document": [],
+      "all": {
+        "documents": 0,
+        "median_document_reduction": null
+      },
+      "by_length": {
+        "4096": {
+          "documents": 0,
+          "median_document_reduction": null
+        },
+        "16384": {
+          "documents": 0,
+          "median_document_reduction": null
+        }
+      }
+    },
+    "d27_mean32/best_of_two_blocks": {
+      "selection_note": "Two-point tuning on these timing documents, not universally optimal settings.",
+      "per_document": [],
+      "all": {
+        "documents": 0,
+        "median_document_reduction": null
+      },
+      "by_length": {
+        "4096": {
+          "documents": 0,
+          "median_document_reduction": null
+        },
+        "16384": {
+          "documents": 0,
+          "median_document_reduction": null
+        }
+      }
+    },
+    "d27_endpoint32/b1024": {
+      "per_document": [],
+      "all": {
+        "documents": 0,
+        "median_document_reduction": null
+      },
+      "by_length": {
+        "4096": {
+          "documents": 0,
+          "median_document_reduction": null
+        },
+        "16384": {
+          "documents": 0,
+          "median_document_reduction": null
+        }
+      }
+    },
+    "d27_endpoint32/b4096": {
+      "per_document": [],
+      "all": {
+        "documents": 0,
+        "median_document_reduction": null
+      },
+      "by_length": {
+        "4096": {
+          "documents": 0,
+          "median_document_reduction": null
+        },
+        "16384": {
+          "documents": 0,
+          "median_document_reduction": null
+        }
+      }
+    },
+    "d27_endpoint32/best_of_two_blocks": {
+      "selection_note": "Two-point tuning on these timing documents, not universally optimal settings.",
+      "per_document": [],
+      "all": {
+        "documents": 0,
+        "median_document_reduction": null
+      },
+      "by_length": {
+        "4096": {
+          "documents": 0,
+          "median_document_reduction": null
+        },
+        "16384": {
+          "documents": 0,
+          "median_document_reduction": null
+        }
+      }
+    },
+    "d30_mean16/b1024": {
+      "per_document": [],
+      "all": {
+        "documents": 0,
+        "median_document_reduction": null
+      },
+      "by_length": {
+        "4096": {
+          "documents": 0,
+          "median_document_reduction": null
+        },
+        "16384": {
+          "documents": 0,
+          "median_document_reduction": null
+        }
+      }
+    },
+    "d30_mean16/b4096": {
+      "per_document": [],
+      "all": {
+        "documents": 0,
+        "median_document_reduction": null
+      },
+      "by_length": {
+        "4096": {
+          "documents": 0,
+          "median_document_reduction": null
+        },
+        "16384": {
+          "documents": 0,
+          "median_document_reduction": null
+        }
+      }
+    },
+    "d30_mean16/best_of_two_blocks": {
+      "selection_note": "Two-point tuning on these timing documents, not universally optimal settings.",
+      "per_document": [],
+      "all": {
+        "documents": 0,
+        "median_document_reduction": null
+      },
+      "by_length": {
+        "4096": {
+          "documents": 0,
+          "median_document_reduction": null
+        },
+        "16384": {
+          "documents": 0,
+          "median_document_reduction": null
+        }
+      }
+    }
+  }
+}

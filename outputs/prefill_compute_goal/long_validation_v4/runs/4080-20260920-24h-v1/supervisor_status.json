@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETED",
+  "worker_returncode": 0,
+  "worker": {
+    "status": "COMPLETED",
+    "completed_units": 13360,
+    "expected_units": 13360,
+    "elapsed_seconds": 51346.864666461945,
+    "finished_unix": 1789966199.623597
+  }
+}

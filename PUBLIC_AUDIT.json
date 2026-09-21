@@ -1,0 +1,41 @@
+{
+  "publication_date": "2026-09-21",
+  "status": "PASS",
+  "scope": "Public redacted artifacts; CPU tests and raw-record report audits, not new GPU benchmarks.",
+  "cpu_tests": [
+    {
+      "test": "outputs/prefill_compute_goal/confirmatory_v5/test_engine.py",
+      "exit_code": 0,
+      "output_tail": "ck_partition) ... ok\ntest_equal_budget (__main__.Test.test_equal_budget) ... ok\ntest_future_chunk_isolation (__main__.Test.test_future_chunk_isolation) ... ok\ntest_identity (__main__.Test.test_identity) ... ok\ntest_pool (__main__.Test.test_pool) ... ok\ntest_teacher (__main__.Test.test_teacher) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.168s\n\nOK\n"
+    },
+    {
+      "test": "outputs/prefill_compute_goal/confirmatory_v5/test_long.py",
+      "exit_code": 0,
+      "output_tail": "ndpoint) ... ok\ntest_one_chunk_shape (__main__.TestLong.test_one_chunk_shape) ... ok\ntest_partition (__main__.TestLong.test_partition) ... ok\ntest_restore_complement (__main__.TestLong.test_restore_complement) ... ok\ntest_sibling_chunk_untouched (__main__.TestLong.test_sibling_chunk_untouched) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.038s\n\nOK\n"
+    },
+    {
+      "test": "outputs/prefill_compute_goal/confirmatory_v5/test_scores.py",
+      "exit_code": 0,
+      "output_tail": "test_teacher_likelihood_and_restore (__main__.Scores.test_teacher_likelihood_and_restore) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.019s\n\nOK\n"
+    },
+    {
+      "test": "outputs/prefill_compute_goal/confirmatory_v5/test_clean.py",
+      "exit_code": 0,
+      "output_tail": "test_block_and_four_token_pool (__main__.Clean.test_block_and_four_token_pool) ... ok\ntest_native_prefix (__main__.Clean.test_native_prefix) ... ok\ntest_record_off_equivalence_and_shape_audit (__main__.Clean.test_record_off_equivalence_and_shape_audit) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.041s\n\nOK\n"
+    }
+  ],
+  "report_audits": {
+    "v1": "PASS",
+    "v2": "PASS (96 samples)",
+    "v3_qwen4b": "PASS (1408 correctness records,336 timing trials)",
+    "v3_qwen06b": "PASS (1280 correctness records,336 timing trials)",
+    "v4": "PASS (13360/13360 units,256 paired-coverage documents)",
+    "v5_snapshot": "PASS_completed_units_only (507/3200 units,62 paired-coverage documents)"
+  },
+  "privacy_scan": "No private home prefixes, known private host IPs, credential patterns or private-key headers detected in exported text.",
+  "not_claimed": [
+    "v5 complete",
+    "universal losslessness",
+    "new GPU measurements from publication audit"
+  ]
+}

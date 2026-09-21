@@ -1,0 +1,101 @@
+{
+  "source_sha256": {
+    "report.py": "cd49b9ca4dfa0f966166cd0ac271fd5540ce751da104b27cc9a0fe107489cc35",
+    "scoring.py": "c45142718fd90ae87569a1bcc33f0a15d7c5ba619ca65ae4fb69defa4c709cb5",
+    "diagnostic.jsonl": "ef23d7eb942b74617aaeba07c33cc3ddd66a18548644da23530208c434c893de",
+    "data.py": "7617c3607a048cd5074d086744df91738397de2c269d39637a370b7bc2c0c98d",
+    "smoke.py": "7be9e2b2c30d812e007c09f9f09a85d9f9286524ef290c84ed32716e5c6caaf8",
+    "README.md": "5a1edcee2271822a282f993697b0b9784c859809c09dd2931912bca802541717",
+    "test_engine.py": "6ed150226cf984a3e69a823a58a31dc6b404b571299f3f7698af3ed207f27c8c",
+    "test_long.py": "18925c0fcde49ad0b4e4a0058cd0ea24b36ec916aebba476b944e07a279c7b49",
+    "prepare.py": "5b87325e72989144969ce14e025ab72a8ff27174e208b9f5c02cd506db9c289c",
+    "specs.py": "daea8fe741bc8452c25e39ce2a39cc3628f5929cdf2d1dd0f14d18f53a5b64aa",
+    "engine.py": "149c7ebb691734fa413fcc61d426dc136cbfd9b6b030859fb3f5effde884ed8e",
+    "fresh.jsonl": "6b83e943f1bb34bdcf19f15aa6fea6d39deb65475ec6a040a7f7c9e231458ade",
+    "preparation.json": "5667b14373f379b8dfee9b3fc53a3cc3108ee9756903fb3b3c881d79cc29ee2e",
+    "counterfactuals.json": "cd420a498c208bee44519a289dbcfddaf505e078e0002cc94b1b2a268eaa13d0",
+    "thresholds.json": "f44c6f0eeb3a8e9594f16a4e696877e083810fd6ac140ebdbb8157678f9ea3b5",
+    "core.py": "e750d82c502cd33185f72adb8604a849ab606d3193fcd9a94aa117434e364ddd",
+    "base_engine.py": "fe4e3b62c8378ef8b62e8a52559e0236e7612b0256afed02600c6f1c89b62bdc",
+    "PROTOCOL.md": "d6fa76f757be78838d461fdd7e2de858031ad9513111144b0bc4c95f7f63cfbb",
+    "run.py": "e715d73e43d1c86708d019f65902f8f98dc58a7931eb4578b314477a1febba29",
+    "launch.py": "724273bd5727a68938450c67e3e64302e9d3c02996580ea20d766d079e66e42b",
+    "test_scores.py": "539ff3455ba1659e557be787134e1bab751978962a686b7ab0dfb09422c93969"
+  },
+  "model": "<MODEL_ROOT>/Qwen3-4B-Instruct-2507",
+  "methods": {
+    "d12_k32": {
+      "kind": "fixed",
+      "depth": 12,
+      "keep": 32
+    },
+    "d18_k32": {
+      "kind": "fixed",
+      "depth": 18,
+      "keep": 32
+    },
+    "d24_k32": {
+      "kind": "fixed",
+      "depth": 24,
+      "keep": 32
+    },
+    "d27_k32": {
+      "kind": "fixed",
+      "depth": 27,
+      "keep": 32
+    },
+    "d30_k32": {
+      "kind": "fixed",
+      "depth": 30,
+      "keep": 32
+    },
+    "d18_k48": {
+      "kind": "fixed",
+      "depth": 18,
+      "keep": 48
+    },
+    "d27_k48": {
+      "kind": "fixed",
+      "depth": 27,
+      "keep": 48
+    },
+    "d24_k40": {
+      "kind": "fixed",
+      "depth": 24,
+      "keep": 40
+    },
+    "d30_k16": {
+      "kind": "fixed",
+      "depth": 30,
+      "keep": 16
+    },
+    "d18_k48_floor": {
+      "kind": "fixed",
+      "depth": 18,
+      "keep": 48,
+      "phase": "floor"
+    },
+    "d18_k48_endpoint": {
+      "kind": "fixed",
+      "depth": 18,
+      "keep": 48,
+      "merge": "endpoint"
+    },
+    "d27_k32_endpoint": {
+      "kind": "fixed",
+      "depth": 27,
+      "keep": 32,
+      "merge": "endpoint"
+    },
+    "adaptive_equal": {
+      "kind": "adaptive_equal"
+    },
+    "random_equal": {
+      "kind": "random_equal"
+    }
+  },
+  "expected_units": 13360,
+  "fresh_documents": 256,
+  "diagnostic_documents": 16,
+  "hours_per_invocation": 24.0
+}
