@@ -33,6 +33,15 @@
 - code/16K 的 Full 仅18/32，不支持强保真结论；新种子仍是相同模板，一个模型/设备不证明通用性。
 - 历史 [507 单元快照](outputs/prefill_compute_goal/confirmatory_v5/runs/4080-20260921-v1-snapshot-507/results/REPORT.md) 保持原样；不是最终结果，也不会自动更新。
 
+## v5 失败案例局部恢复（2026-09-22）
+
+[诊断说明与完整记录](outputs/prefill_compute_goal/failure_diagnosis_v5/README.md)：已完成108单元，覆盖3个原失败样本及3个正确对照；这是答案可见的事后机制诊断，不是新的独立验证集。
+
+- 保留仓库证据chunk的全部64个位置，救回2/3个失败；只保留32个，救回1/3个。
+- 有1个案例只保护箱数chunk也能恢复，保护两个非证据chunk也能恢复；另1个案例同时保护两处证据仍未恢复。
+- 因此局部保留有帮助，但原始证据保护不是充分条件，不能简单归因于“关键token被平均掉”。3个正确对照在所有已测干预中保持正确。
+- 原输出精确复现、21项CPU测试、完整原始记录审计及6类篡改检测均通过。未新增干净计时结论；仪器化耗时不是加速结果。
+
 ## v4：256 条新样本的结果
 
 Qwen3-4B-Instruct-2507，RTX4080，FP16 SDPA，4K/16K 合成文本。
@@ -111,6 +120,6 @@ python outputs/prefill_compute_goal/confirmatory_v5/run.py \
 - 不上传模型权重、KV大张量、私人服务器日志、SSH/认证/环境文件；未使用的旧锁定测试 split 仍不分发。
 - 原始数据不含私人真实业务内容。公开数据已经可见，不应继续称作外部保密盲测。
 - 文件系统前缀、主机别名和GPU UUID已脱敏。相应公开 `source_sha256` 已重建；**不能称脱敏源码与私有原始源码字节一致**。
-- [历史哈希映射](PUBLIC_PROVENANCE_20260921.json)与 [v5 完整发布哈希映射](PUBLIC_PROVENANCE_20260922.json)保留修改前指纹与修改后文件哈希；[公开审计](PUBLIC_AUDIT.json)记录重新复核的范围；[文件清单](PUBLIC_SNAPSHOT.json)覆盖本次发布。
+- [历史哈希映射](PUBLIC_PROVENANCE_20260921.json)、[v5 完整发布哈希映射](PUBLIC_PROVENANCE_20260922.json)与 [失败诊断哈希映射](PUBLIC_PROVENANCE_DIAGNOSIS_20260922.json)保留修改前指纹与修改后文件哈希；[公开审计](PUBLIC_AUDIT.json)记录重新复核的范围；[文件清单](PUBLIC_SNAPSHOT.json)覆盖本次发布。
 
 `prefill_compute_goal` 是历史目录名，不需要任何任务调度服务。尚未证明通用无损压缩或模型原生上下文扩展。

@@ -31,12 +31,67 @@
     "v3_qwen06b": "PASS (1280 correctness records,336 timing trials)",
     "v4": "PASS (13360/13360 units,256 paired-coverage documents)",
     "v5_snapshot": "PASS_completed_units_only (507/3200 units,62 paired-coverage documents)",
-    "v5_complete": "PASS (3200/3200 units,256 paired-coverage documents; regenerated public summary equals private summary)"
+    "v5_complete": "PASS (3200/3200 units,256 paired-coverage documents; regenerated public summary equals private summary)",
+    "v5_failure_diagnosis": "PASS (108/108 units, 3 exposed loss cases + 3 correct controls; public/private summaries equal; historical greedy outputs and legacy engine reproduced)"
   },
   "privacy_scan": "No private home prefixes, known private host IPs, credential patterns or private-key headers detected in exported text.",
   "not_claimed": [
     "universal losslessness",
-    "new GPU measurements from publication audit"
+    "new GPU measurements from publication audit",
+    "Independent validation accuracy gain from post-hoc diagnosis",
+    "Clean timing or speedup from instrumented diagnostic runtime"
   ],
-  "cpu_tests_note": "CPU test entries retained from 2026-09-21 publication; 2026-09-22 re-audited completed v5 records without new GPU measurements."
+  "cpu_tests_note": "CPU test entries retained from 2026-09-21 publication; 2026-09-22 re-audited completed v5 records without new GPU measurements.",
+  "diagnosis_cpu_tests": [
+    {
+      "test": "test_engine.py",
+      "exit_code": 0,
+      "output_tail": "test_adaptive_extremes (__main__.Test.test_adaptive_extremes) ... ok\ntest_all_shapes (__main__.Test.test_all_shapes) ... ok\ntest_block_partition (__main__.Test.test_block_partition) ... ok\ntest_equal_budget (__main__.Test.test_equal_budget) ... ok\ntest_future_chunk_isolation (__main__.Test.test_future_chunk_isolation) ... ok\ntest_identity (__main__.Test.test_identity) ... ok\ntest_pool (__main__.Test.test_pool) ... ok\ntest_teacher (__main__.Test.test_teacher) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.193s\n\nOK\n"
+    },
+    {
+      "test": "test_long.py",
+      "exit_code": 0,
+      "output_tail": "test_endpoint (__main__.TestLong.test_endpoint) ... ok\ntest_one_chunk_shape (__main__.TestLong.test_one_chunk_shape) ... ok\ntest_partition (__main__.TestLong.test_partition) ... ok\ntest_restore_complement (__main__.TestLong.test_restore_complement) ... ok\ntest_sibling_chunk_untouched (__main__.TestLong.test_sibling_chunk_untouched) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.038s\n\nOK\n"
+    },
+    {
+      "test": "test_scores.py",
+      "exit_code": 0,
+      "output_tail": "test_teacher_likelihood_and_restore (__main__.Scores.test_teacher_likelihood_and_restore) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.015s\n\nOK\n"
+    },
+    {
+      "test": "test_diagnostic.py",
+      "exit_code": 0,
+      "output_tail": "_identity (__main__.Diagnostic.test_all_restore_equals_identity) ... ok\ntest_future_override_does_not_touch_previous_chunk (__main__.Diagnostic.test_future_override_does_not_touch_previous_chunk) ... ok\ntest_invalid (__main__.Diagnostic.test_invalid) ... ok\ntest_keep32_mixed_lengths (__main__.Diagnostic.test_keep32_mixed_lengths) ... ok\ntest_keep64_equals_restore (__main__.Diagnostic.test_keep64_equals_restore) ... ok\ntest_no_override_matches_legacy (__main__.Diagnostic.test_no_override_matches_legacy) ... ok\ntest_partition_and_positions (__main__.Diagnostic.test_partition_and_positions) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.038s\n\nOK\n"
+    }
+  ],
+  "diagnosis_tamper_tests": {
+    "status": "PASS",
+    "baseline_audit": "PASS",
+    "tamper_tests": [
+      {
+        "mutation": "missing_unit",
+        "detected": true
+      },
+      {
+        "mutation": "false_score",
+        "detected": true
+      },
+      {
+        "mutation": "wrong_route",
+        "detected": true
+      },
+      {
+        "mutation": "false_queue",
+        "detected": true
+      },
+      {
+        "mutation": "bad_source_hash",
+        "detected": true
+      },
+      {
+        "mutation": "bad_baseline_ids",
+        "detected": true
+      }
+    ]
+  }
 }

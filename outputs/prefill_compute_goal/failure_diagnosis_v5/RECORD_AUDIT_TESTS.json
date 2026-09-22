@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "baseline_audit": "PASS",
+  "tamper_tests": [
+    {
+      "mutation": "missing_unit",
+      "detected": true
+    },
+    {
+      "mutation": "false_score",
+      "detected": true
+    },
+    {
+      "mutation": "wrong_route",
+      "detected": true
+    },
+    {
+      "mutation": "false_queue",
+      "detected": true
+    },
+    {
+      "mutation": "bad_source_hash",
+      "detected": true
+    },
+    {
+      "mutation": "bad_baseline_ids",
+      "detected": true
+    }
+  ]
+}

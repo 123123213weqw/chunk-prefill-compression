@@ -1,0 +1,178 @@
+{
+  "scope": "Descriptive all-v5 narrative b1024 breakdown; post-hoc, no significance or independence claim.",
+  "cells": [
+    {
+      "target_tokens": 4096,
+      "warehouse": "Amber",
+      "n": 8,
+      "full_correct": 8,
+      "compressed_correct": 8,
+      "lost": 0,
+      "gained": 0
+    },
+    {
+      "target_tokens": 4096,
+      "warehouse": "Birch",
+      "n": 8,
+      "full_correct": 7,
+      "compressed_correct": 7,
+      "lost": 0,
+      "gained": 0
+    },
+    {
+      "target_tokens": 4096,
+      "warehouse": "Cedar",
+      "n": 8,
+      "full_correct": 6,
+      "compressed_correct": 6,
+      "lost": 0,
+      "gained": 0
+    },
+    {
+      "target_tokens": 4096,
+      "warehouse": "Dune",
+      "n": 8,
+      "full_correct": 7,
+      "compressed_correct": 7,
+      "lost": 0,
+      "gained": 0
+    },
+    {
+      "target_tokens": 16384,
+      "warehouse": "Amber",
+      "n": 8,
+      "full_correct": 5,
+      "compressed_correct": 2,
+      "lost": 3,
+      "gained": 0
+    },
+    {
+      "target_tokens": 16384,
+      "warehouse": "Birch",
+      "n": 8,
+      "full_correct": 5,
+      "compressed_correct": 6,
+      "lost": 0,
+      "gained": 1
+    },
+    {
+      "target_tokens": 16384,
+      "warehouse": "Cedar",
+      "n": 8,
+      "full_correct": 6,
+      "compressed_correct": 6,
+      "lost": 0,
+      "gained": 0
+    },
+    {
+      "target_tokens": 16384,
+      "warehouse": "Dune",
+      "n": 8,
+      "full_correct": 8,
+      "compressed_correct": 8,
+      "lost": 0,
+      "gained": 0
+    }
+  ],
+  "selected_warehouse_group_offsets": [
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "role": "loss",
+      "warehouse_tokens": [
+        {
+          "t_index": 2464,
+          "chunk": 38,
+          "offset_in_chunk": 32,
+          "group16": 8,
+          "offset_in_group16": 0,
+          "group16_anchor_logical_position": 2514,
+          "decoded": " Amber"
+        }
+      ]
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "role": "matched_correct",
+      "warehouse_tokens": [
+        {
+          "t_index": 2475,
+          "chunk": 38,
+          "offset_in_chunk": 43,
+          "group16": 10,
+          "offset_in_group16": 3,
+          "group16_anchor_logical_position": 2522,
+          "decoded": " Amber"
+        }
+      ]
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "role": "loss",
+      "warehouse_tokens": [
+        {
+          "t_index": 2453,
+          "chunk": 38,
+          "offset_in_chunk": 21,
+          "group16": 5,
+          "offset_in_group16": 1,
+          "group16_anchor_logical_position": 2502,
+          "decoded": " Amber"
+        }
+      ]
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "role": "matched_correct",
+      "warehouse_tokens": [
+        {
+          "t_index": 2461,
+          "chunk": 38,
+          "offset_in_chunk": 29,
+          "group16": 7,
+          "offset_in_group16": 1,
+          "group16_anchor_logical_position": 2510,
+          "decoded": " Amber"
+        }
+      ]
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "role": "loss",
+      "warehouse_tokens": [
+        {
+          "t_index": 2423,
+          "chunk": 37,
+          "offset_in_chunk": 55,
+          "group16": 13,
+          "offset_in_group16": 3,
+          "group16_anchor_logical_position": 2470,
+          "decoded": " Amber"
+        }
+      ]
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "role": "matched_correct",
+      "warehouse_tokens": [
+        {
+          "t_index": 2461,
+          "chunk": 38,
+          "offset_in_chunk": 29,
+          "group16": 7,
+          "offset_in_group16": 1,
+          "group16_anchor_logical_position": 2510,
+          "decoded": " D"
+        },
+        {
+          "t_index": 2462,
+          "chunk": 38,
+          "offset_in_chunk": 30,
+          "group16": 7,
+          "offset_in_group16": 2,
+          "group16_anchor_logical_position": 2510,
+          "decoded": "une"
+        }
+      ]
+    }
+  ]
+}

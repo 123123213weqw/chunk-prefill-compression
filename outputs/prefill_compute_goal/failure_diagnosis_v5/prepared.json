@@ -1,0 +1,3752 @@
+{
+  "status": "READY_GPU_NOT_RUN",
+  "selection_sha256": "51c53ef3fbd8a8c1f494750ace7d0df777dfbe34befa34d93798d884473df0ca",
+  "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "block": 1024,
+  "depth": 30,
+  "base_keep": 16,
+  "index_convention": "zero-based chunks and tokens relative to T; logical RoPE positions include S; end offsets exclusive",
+  "locations": [
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "role": "loss",
+      "S_tokens": 47,
+      "T_tokens": 16384,
+      "evidence": {
+        "warehouse": {
+          "sentence": {
+            "char_start": 8432,
+            "char_end": 8499,
+            "text": "The parcel labelled R28cdf3d1 was delivered to the Amber warehouse.",
+            "token_start": 2450,
+            "token_end_exclusive": 2467,
+            "chunks": [
+              38
+            ],
+            "tokens": [
+              {
+                "t_index": 2450,
+                "chunk": 38,
+                "offset_in_chunk": 18,
+                "group16": 4,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2498,
+                "decoded": "The"
+              },
+              {
+                "t_index": 2451,
+                "chunk": 38,
+                "offset_in_chunk": 19,
+                "group16": 4,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2498,
+                "decoded": " parcel"
+              },
+              {
+                "t_index": 2452,
+                "chunk": 38,
+                "offset_in_chunk": 20,
+                "group16": 5,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2502,
+                "decoded": " labelled"
+              },
+              {
+                "t_index": 2453,
+                "chunk": 38,
+                "offset_in_chunk": 21,
+                "group16": 5,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2502,
+                "decoded": " R"
+              },
+              {
+                "t_index": 2454,
+                "chunk": 38,
+                "offset_in_chunk": 22,
+                "group16": 5,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2502,
+                "decoded": "2"
+              },
+              {
+                "t_index": 2455,
+                "chunk": 38,
+                "offset_in_chunk": 23,
+                "group16": 5,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2502,
+                "decoded": "8"
+              },
+              {
+                "t_index": 2456,
+                "chunk": 38,
+                "offset_in_chunk": 24,
+                "group16": 6,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2506,
+                "decoded": "cdf"
+              },
+              {
+                "t_index": 2457,
+                "chunk": 38,
+                "offset_in_chunk": 25,
+                "group16": 6,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2506,
+                "decoded": "3"
+              },
+              {
+                "t_index": 2458,
+                "chunk": 38,
+                "offset_in_chunk": 26,
+                "group16": 6,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2506,
+                "decoded": "d"
+              },
+              {
+                "t_index": 2459,
+                "chunk": 38,
+                "offset_in_chunk": 27,
+                "group16": 6,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2506,
+                "decoded": "1"
+              },
+              {
+                "t_index": 2460,
+                "chunk": 38,
+                "offset_in_chunk": 28,
+                "group16": 7,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2510,
+                "decoded": " was"
+              },
+              {
+                "t_index": 2461,
+                "chunk": 38,
+                "offset_in_chunk": 29,
+                "group16": 7,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2510,
+                "decoded": " delivered"
+              },
+              {
+                "t_index": 2462,
+                "chunk": 38,
+                "offset_in_chunk": 30,
+                "group16": 7,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2510,
+                "decoded": " to"
+              },
+              {
+                "t_index": 2463,
+                "chunk": 38,
+                "offset_in_chunk": 31,
+                "group16": 7,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2510,
+                "decoded": " the"
+              },
+              {
+                "t_index": 2464,
+                "chunk": 38,
+                "offset_in_chunk": 32,
+                "group16": 8,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2514,
+                "decoded": " Amber"
+              },
+              {
+                "t_index": 2465,
+                "chunk": 38,
+                "offset_in_chunk": 33,
+                "group16": 8,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2514,
+                "decoded": " warehouse"
+              },
+              {
+                "t_index": 2466,
+                "chunk": 38,
+                "offset_in_chunk": 34,
+                "group16": 8,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2514,
+                "decoded": ".\n"
+              }
+            ]
+          },
+          "value": {
+            "char_start": 8483,
+            "char_end": 8488,
+            "text": "Amber",
+            "token_start": 2464,
+            "token_end_exclusive": 2465,
+            "chunks": [
+              38
+            ],
+            "tokens": [
+              {
+                "t_index": 2464,
+                "chunk": 38,
+                "offset_in_chunk": 32,
+                "group16": 8,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2514,
+                "decoded": " Amber"
+              }
+            ]
+          }
+        },
+        "boxes": {
+          "sentence": {
+            "char_start": 44951,
+            "char_end": 45006,
+            "text": "The parcel labelled R28cdf3d1 contains 46 sealed boxes.",
+            "token_start": 13069,
+            "token_end_exclusive": 13086,
+            "chunks": [
+              204
+            ],
+            "tokens": [
+              {
+                "t_index": 13069,
+                "chunk": 204,
+                "offset_in_chunk": 13,
+                "group16": 3,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13118,
+                "decoded": "The"
+              },
+              {
+                "t_index": 13070,
+                "chunk": 204,
+                "offset_in_chunk": 14,
+                "group16": 3,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13118,
+                "decoded": " parcel"
+              },
+              {
+                "t_index": 13071,
+                "chunk": 204,
+                "offset_in_chunk": 15,
+                "group16": 3,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13118,
+                "decoded": " labelled"
+              },
+              {
+                "t_index": 13072,
+                "chunk": 204,
+                "offset_in_chunk": 16,
+                "group16": 4,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13122,
+                "decoded": " R"
+              },
+              {
+                "t_index": 13073,
+                "chunk": 204,
+                "offset_in_chunk": 17,
+                "group16": 4,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13122,
+                "decoded": "2"
+              },
+              {
+                "t_index": 13074,
+                "chunk": 204,
+                "offset_in_chunk": 18,
+                "group16": 4,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13122,
+                "decoded": "8"
+              },
+              {
+                "t_index": 13075,
+                "chunk": 204,
+                "offset_in_chunk": 19,
+                "group16": 4,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13122,
+                "decoded": "cdf"
+              },
+              {
+                "t_index": 13076,
+                "chunk": 204,
+                "offset_in_chunk": 20,
+                "group16": 5,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13126,
+                "decoded": "3"
+              },
+              {
+                "t_index": 13077,
+                "chunk": 204,
+                "offset_in_chunk": 21,
+                "group16": 5,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13126,
+                "decoded": "d"
+              },
+              {
+                "t_index": 13078,
+                "chunk": 204,
+                "offset_in_chunk": 22,
+                "group16": 5,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13126,
+                "decoded": "1"
+              },
+              {
+                "t_index": 13079,
+                "chunk": 204,
+                "offset_in_chunk": 23,
+                "group16": 5,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13126,
+                "decoded": " contains"
+              },
+              {
+                "t_index": 13080,
+                "chunk": 204,
+                "offset_in_chunk": 24,
+                "group16": 6,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13130,
+                "decoded": " "
+              },
+              {
+                "t_index": 13081,
+                "chunk": 204,
+                "offset_in_chunk": 25,
+                "group16": 6,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13130,
+                "decoded": "4"
+              },
+              {
+                "t_index": 13082,
+                "chunk": 204,
+                "offset_in_chunk": 26,
+                "group16": 6,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13130,
+                "decoded": "6"
+              },
+              {
+                "t_index": 13083,
+                "chunk": 204,
+                "offset_in_chunk": 27,
+                "group16": 6,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13130,
+                "decoded": " sealed"
+              },
+              {
+                "t_index": 13084,
+                "chunk": 204,
+                "offset_in_chunk": 28,
+                "group16": 7,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13134,
+                "decoded": " boxes"
+              },
+              {
+                "t_index": 13085,
+                "chunk": 204,
+                "offset_in_chunk": 29,
+                "group16": 7,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13134,
+                "decoded": ".\n"
+              }
+            ]
+          },
+          "value": {
+            "char_start": 44990,
+            "char_end": 44992,
+            "text": "46",
+            "token_start": 13081,
+            "token_end_exclusive": 13083,
+            "chunks": [
+              204
+            ],
+            "tokens": [
+              {
+                "t_index": 13081,
+                "chunk": 204,
+                "offset_in_chunk": 25,
+                "group16": 6,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13130,
+                "decoded": "4"
+              },
+              {
+                "t_index": 13082,
+                "chunk": 204,
+                "offset_in_chunk": 26,
+                "group16": 6,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13130,
+                "decoded": "6"
+              }
+            ]
+          }
+        }
+      },
+      "intervention_groups": {
+        "chunk_38": [
+          38
+        ],
+        "chunk_204": [
+          204
+        ],
+        "warehouse_sentence": [
+          38
+        ],
+        "all_evidence": [
+          38,
+          204
+        ]
+      },
+      "placebo_groups": {
+        "chunk_38": [
+          37
+        ],
+        "chunk_204": [
+          203
+        ],
+        "warehouse_sentence": [
+          37
+        ],
+        "all_evidence": [
+          36,
+          37
+        ]
+      }
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "role": "matched_correct",
+      "S_tokens": 47,
+      "T_tokens": 16384,
+      "evidence": {
+        "warehouse": {
+          "sentence": {
+            "char_start": 8376,
+            "char_end": 8443,
+            "text": "The parcel labelled R3c721f5e was delivered to the Amber warehouse.",
+            "token_start": 2459,
+            "token_end_exclusive": 2478,
+            "chunks": [
+              38
+            ],
+            "tokens": [
+              {
+                "t_index": 2459,
+                "chunk": 38,
+                "offset_in_chunk": 27,
+                "group16": 6,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2506,
+                "decoded": "The"
+              },
+              {
+                "t_index": 2460,
+                "chunk": 38,
+                "offset_in_chunk": 28,
+                "group16": 7,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2510,
+                "decoded": " parcel"
+              },
+              {
+                "t_index": 2461,
+                "chunk": 38,
+                "offset_in_chunk": 29,
+                "group16": 7,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2510,
+                "decoded": " labelled"
+              },
+              {
+                "t_index": 2462,
+                "chunk": 38,
+                "offset_in_chunk": 30,
+                "group16": 7,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2510,
+                "decoded": " R"
+              },
+              {
+                "t_index": 2463,
+                "chunk": 38,
+                "offset_in_chunk": 31,
+                "group16": 7,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2510,
+                "decoded": "3"
+              },
+              {
+                "t_index": 2464,
+                "chunk": 38,
+                "offset_in_chunk": 32,
+                "group16": 8,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2514,
+                "decoded": "c"
+              },
+              {
+                "t_index": 2465,
+                "chunk": 38,
+                "offset_in_chunk": 33,
+                "group16": 8,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2514,
+                "decoded": "7"
+              },
+              {
+                "t_index": 2466,
+                "chunk": 38,
+                "offset_in_chunk": 34,
+                "group16": 8,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2514,
+                "decoded": "2"
+              },
+              {
+                "t_index": 2467,
+                "chunk": 38,
+                "offset_in_chunk": 35,
+                "group16": 8,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2514,
+                "decoded": "1"
+              },
+              {
+                "t_index": 2468,
+                "chunk": 38,
+                "offset_in_chunk": 36,
+                "group16": 9,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2518,
+                "decoded": "f"
+              },
+              {
+                "t_index": 2469,
+                "chunk": 38,
+                "offset_in_chunk": 37,
+                "group16": 9,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2518,
+                "decoded": "5"
+              },
+              {
+                "t_index": 2470,
+                "chunk": 38,
+                "offset_in_chunk": 38,
+                "group16": 9,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2518,
+                "decoded": "e"
+              },
+              {
+                "t_index": 2471,
+                "chunk": 38,
+                "offset_in_chunk": 39,
+                "group16": 9,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2518,
+                "decoded": " was"
+              },
+              {
+                "t_index": 2472,
+                "chunk": 38,
+                "offset_in_chunk": 40,
+                "group16": 10,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2522,
+                "decoded": " delivered"
+              },
+              {
+                "t_index": 2473,
+                "chunk": 38,
+                "offset_in_chunk": 41,
+                "group16": 10,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2522,
+                "decoded": " to"
+              },
+              {
+                "t_index": 2474,
+                "chunk": 38,
+                "offset_in_chunk": 42,
+                "group16": 10,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2522,
+                "decoded": " the"
+              },
+              {
+                "t_index": 2475,
+                "chunk": 38,
+                "offset_in_chunk": 43,
+                "group16": 10,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2522,
+                "decoded": " Amber"
+              },
+              {
+                "t_index": 2476,
+                "chunk": 38,
+                "offset_in_chunk": 44,
+                "group16": 11,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2526,
+                "decoded": " warehouse"
+              },
+              {
+                "t_index": 2477,
+                "chunk": 38,
+                "offset_in_chunk": 45,
+                "group16": 11,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2526,
+                "decoded": ".\n"
+              }
+            ]
+          },
+          "value": {
+            "char_start": 8427,
+            "char_end": 8432,
+            "text": "Amber",
+            "token_start": 2475,
+            "token_end_exclusive": 2476,
+            "chunks": [
+              38
+            ],
+            "tokens": [
+              {
+                "t_index": 2475,
+                "chunk": 38,
+                "offset_in_chunk": 43,
+                "group16": 10,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2522,
+                "decoded": " Amber"
+              }
+            ]
+          }
+        },
+        "boxes": {
+          "sentence": {
+            "char_start": 44703,
+            "char_end": 44758,
+            "text": "The parcel labelled R3c721f5e contains 57 sealed boxes.",
+            "token_start": 13076,
+            "token_end_exclusive": 13095,
+            "chunks": [
+              204
+            ],
+            "tokens": [
+              {
+                "t_index": 13076,
+                "chunk": 204,
+                "offset_in_chunk": 20,
+                "group16": 5,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13126,
+                "decoded": "The"
+              },
+              {
+                "t_index": 13077,
+                "chunk": 204,
+                "offset_in_chunk": 21,
+                "group16": 5,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13126,
+                "decoded": " parcel"
+              },
+              {
+                "t_index": 13078,
+                "chunk": 204,
+                "offset_in_chunk": 22,
+                "group16": 5,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13126,
+                "decoded": " labelled"
+              },
+              {
+                "t_index": 13079,
+                "chunk": 204,
+                "offset_in_chunk": 23,
+                "group16": 5,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13126,
+                "decoded": " R"
+              },
+              {
+                "t_index": 13080,
+                "chunk": 204,
+                "offset_in_chunk": 24,
+                "group16": 6,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13130,
+                "decoded": "3"
+              },
+              {
+                "t_index": 13081,
+                "chunk": 204,
+                "offset_in_chunk": 25,
+                "group16": 6,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13130,
+                "decoded": "c"
+              },
+              {
+                "t_index": 13082,
+                "chunk": 204,
+                "offset_in_chunk": 26,
+                "group16": 6,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13130,
+                "decoded": "7"
+              },
+              {
+                "t_index": 13083,
+                "chunk": 204,
+                "offset_in_chunk": 27,
+                "group16": 6,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13130,
+                "decoded": "2"
+              },
+              {
+                "t_index": 13084,
+                "chunk": 204,
+                "offset_in_chunk": 28,
+                "group16": 7,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13134,
+                "decoded": "1"
+              },
+              {
+                "t_index": 13085,
+                "chunk": 204,
+                "offset_in_chunk": 29,
+                "group16": 7,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13134,
+                "decoded": "f"
+              },
+              {
+                "t_index": 13086,
+                "chunk": 204,
+                "offset_in_chunk": 30,
+                "group16": 7,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13134,
+                "decoded": "5"
+              },
+              {
+                "t_index": 13087,
+                "chunk": 204,
+                "offset_in_chunk": 31,
+                "group16": 7,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13134,
+                "decoded": "e"
+              },
+              {
+                "t_index": 13088,
+                "chunk": 204,
+                "offset_in_chunk": 32,
+                "group16": 8,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13138,
+                "decoded": " contains"
+              },
+              {
+                "t_index": 13089,
+                "chunk": 204,
+                "offset_in_chunk": 33,
+                "group16": 8,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13138,
+                "decoded": " "
+              },
+              {
+                "t_index": 13090,
+                "chunk": 204,
+                "offset_in_chunk": 34,
+                "group16": 8,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13138,
+                "decoded": "5"
+              },
+              {
+                "t_index": 13091,
+                "chunk": 204,
+                "offset_in_chunk": 35,
+                "group16": 8,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13138,
+                "decoded": "7"
+              },
+              {
+                "t_index": 13092,
+                "chunk": 204,
+                "offset_in_chunk": 36,
+                "group16": 9,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13142,
+                "decoded": " sealed"
+              },
+              {
+                "t_index": 13093,
+                "chunk": 204,
+                "offset_in_chunk": 37,
+                "group16": 9,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13142,
+                "decoded": " boxes"
+              },
+              {
+                "t_index": 13094,
+                "chunk": 204,
+                "offset_in_chunk": 38,
+                "group16": 9,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13142,
+                "decoded": ".\n"
+              }
+            ]
+          },
+          "value": {
+            "char_start": 44742,
+            "char_end": 44744,
+            "text": "57",
+            "token_start": 13090,
+            "token_end_exclusive": 13092,
+            "chunks": [
+              204
+            ],
+            "tokens": [
+              {
+                "t_index": 13090,
+                "chunk": 204,
+                "offset_in_chunk": 34,
+                "group16": 8,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13138,
+                "decoded": "5"
+              },
+              {
+                "t_index": 13091,
+                "chunk": 204,
+                "offset_in_chunk": 35,
+                "group16": 8,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13138,
+                "decoded": "7"
+              }
+            ]
+          }
+        }
+      },
+      "intervention_groups": {
+        "chunk_38": [
+          38
+        ],
+        "chunk_204": [
+          204
+        ],
+        "warehouse_sentence": [
+          38
+        ],
+        "all_evidence": [
+          38,
+          204
+        ]
+      },
+      "placebo_groups": {
+        "chunk_38": [
+          37
+        ],
+        "chunk_204": [
+          203
+        ],
+        "warehouse_sentence": [
+          37
+        ],
+        "all_evidence": [
+          36,
+          37
+        ]
+      }
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "role": "loss",
+      "S_tokens": 47,
+      "T_tokens": 16384,
+      "evidence": {
+        "warehouse": {
+          "sentence": {
+            "char_start": 8432,
+            "char_end": 8499,
+            "text": "The parcel labelled Rd4e7d007 was delivered to the Amber warehouse.",
+            "token_start": 2438,
+            "token_end_exclusive": 2456,
+            "chunks": [
+              38
+            ],
+            "tokens": [
+              {
+                "t_index": 2438,
+                "chunk": 38,
+                "offset_in_chunk": 6,
+                "group16": 1,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2486,
+                "decoded": "The"
+              },
+              {
+                "t_index": 2439,
+                "chunk": 38,
+                "offset_in_chunk": 7,
+                "group16": 1,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2486,
+                "decoded": " parcel"
+              },
+              {
+                "t_index": 2440,
+                "chunk": 38,
+                "offset_in_chunk": 8,
+                "group16": 2,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2490,
+                "decoded": " labelled"
+              },
+              {
+                "t_index": 2441,
+                "chunk": 38,
+                "offset_in_chunk": 9,
+                "group16": 2,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2490,
+                "decoded": " Rd"
+              },
+              {
+                "t_index": 2442,
+                "chunk": 38,
+                "offset_in_chunk": 10,
+                "group16": 2,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2490,
+                "decoded": "4"
+              },
+              {
+                "t_index": 2443,
+                "chunk": 38,
+                "offset_in_chunk": 11,
+                "group16": 2,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2490,
+                "decoded": "e"
+              },
+              {
+                "t_index": 2444,
+                "chunk": 38,
+                "offset_in_chunk": 12,
+                "group16": 3,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2494,
+                "decoded": "7"
+              },
+              {
+                "t_index": 2445,
+                "chunk": 38,
+                "offset_in_chunk": 13,
+                "group16": 3,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2494,
+                "decoded": "d"
+              },
+              {
+                "t_index": 2446,
+                "chunk": 38,
+                "offset_in_chunk": 14,
+                "group16": 3,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2494,
+                "decoded": "0"
+              },
+              {
+                "t_index": 2447,
+                "chunk": 38,
+                "offset_in_chunk": 15,
+                "group16": 3,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2494,
+                "decoded": "0"
+              },
+              {
+                "t_index": 2448,
+                "chunk": 38,
+                "offset_in_chunk": 16,
+                "group16": 4,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2498,
+                "decoded": "7"
+              },
+              {
+                "t_index": 2449,
+                "chunk": 38,
+                "offset_in_chunk": 17,
+                "group16": 4,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2498,
+                "decoded": " was"
+              },
+              {
+                "t_index": 2450,
+                "chunk": 38,
+                "offset_in_chunk": 18,
+                "group16": 4,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2498,
+                "decoded": " delivered"
+              },
+              {
+                "t_index": 2451,
+                "chunk": 38,
+                "offset_in_chunk": 19,
+                "group16": 4,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2498,
+                "decoded": " to"
+              },
+              {
+                "t_index": 2452,
+                "chunk": 38,
+                "offset_in_chunk": 20,
+                "group16": 5,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2502,
+                "decoded": " the"
+              },
+              {
+                "t_index": 2453,
+                "chunk": 38,
+                "offset_in_chunk": 21,
+                "group16": 5,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2502,
+                "decoded": " Amber"
+              },
+              {
+                "t_index": 2454,
+                "chunk": 38,
+                "offset_in_chunk": 22,
+                "group16": 5,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2502,
+                "decoded": " warehouse"
+              },
+              {
+                "t_index": 2455,
+                "chunk": 38,
+                "offset_in_chunk": 23,
+                "group16": 5,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2502,
+                "decoded": ".\n"
+              }
+            ]
+          },
+          "value": {
+            "char_start": 8483,
+            "char_end": 8488,
+            "text": "Amber",
+            "token_start": 2453,
+            "token_end_exclusive": 2454,
+            "chunks": [
+              38
+            ],
+            "tokens": [
+              {
+                "t_index": 2453,
+                "chunk": 38,
+                "offset_in_chunk": 21,
+                "group16": 5,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2502,
+                "decoded": " Amber"
+              }
+            ]
+          }
+        },
+        "boxes": {
+          "sentence": {
+            "char_start": 44951,
+            "char_end": 45006,
+            "text": "The parcel labelled Rd4e7d007 contains 62 sealed boxes.",
+            "token_start": 13066,
+            "token_end_exclusive": 13084,
+            "chunks": [
+              204
+            ],
+            "tokens": [
+              {
+                "t_index": 13066,
+                "chunk": 204,
+                "offset_in_chunk": 10,
+                "group16": 2,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13114,
+                "decoded": "The"
+              },
+              {
+                "t_index": 13067,
+                "chunk": 204,
+                "offset_in_chunk": 11,
+                "group16": 2,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13114,
+                "decoded": " parcel"
+              },
+              {
+                "t_index": 13068,
+                "chunk": 204,
+                "offset_in_chunk": 12,
+                "group16": 3,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13118,
+                "decoded": " labelled"
+              },
+              {
+                "t_index": 13069,
+                "chunk": 204,
+                "offset_in_chunk": 13,
+                "group16": 3,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13118,
+                "decoded": " Rd"
+              },
+              {
+                "t_index": 13070,
+                "chunk": 204,
+                "offset_in_chunk": 14,
+                "group16": 3,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13118,
+                "decoded": "4"
+              },
+              {
+                "t_index": 13071,
+                "chunk": 204,
+                "offset_in_chunk": 15,
+                "group16": 3,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13118,
+                "decoded": "e"
+              },
+              {
+                "t_index": 13072,
+                "chunk": 204,
+                "offset_in_chunk": 16,
+                "group16": 4,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13122,
+                "decoded": "7"
+              },
+              {
+                "t_index": 13073,
+                "chunk": 204,
+                "offset_in_chunk": 17,
+                "group16": 4,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13122,
+                "decoded": "d"
+              },
+              {
+                "t_index": 13074,
+                "chunk": 204,
+                "offset_in_chunk": 18,
+                "group16": 4,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13122,
+                "decoded": "0"
+              },
+              {
+                "t_index": 13075,
+                "chunk": 204,
+                "offset_in_chunk": 19,
+                "group16": 4,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13122,
+                "decoded": "0"
+              },
+              {
+                "t_index": 13076,
+                "chunk": 204,
+                "offset_in_chunk": 20,
+                "group16": 5,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13126,
+                "decoded": "7"
+              },
+              {
+                "t_index": 13077,
+                "chunk": 204,
+                "offset_in_chunk": 21,
+                "group16": 5,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13126,
+                "decoded": " contains"
+              },
+              {
+                "t_index": 13078,
+                "chunk": 204,
+                "offset_in_chunk": 22,
+                "group16": 5,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13126,
+                "decoded": " "
+              },
+              {
+                "t_index": 13079,
+                "chunk": 204,
+                "offset_in_chunk": 23,
+                "group16": 5,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13126,
+                "decoded": "6"
+              },
+              {
+                "t_index": 13080,
+                "chunk": 204,
+                "offset_in_chunk": 24,
+                "group16": 6,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13130,
+                "decoded": "2"
+              },
+              {
+                "t_index": 13081,
+                "chunk": 204,
+                "offset_in_chunk": 25,
+                "group16": 6,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13130,
+                "decoded": " sealed"
+              },
+              {
+                "t_index": 13082,
+                "chunk": 204,
+                "offset_in_chunk": 26,
+                "group16": 6,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13130,
+                "decoded": " boxes"
+              },
+              {
+                "t_index": 13083,
+                "chunk": 204,
+                "offset_in_chunk": 27,
+                "group16": 6,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13130,
+                "decoded": ".\n"
+              }
+            ]
+          },
+          "value": {
+            "char_start": 44990,
+            "char_end": 44992,
+            "text": "62",
+            "token_start": 13079,
+            "token_end_exclusive": 13081,
+            "chunks": [
+              204
+            ],
+            "tokens": [
+              {
+                "t_index": 13079,
+                "chunk": 204,
+                "offset_in_chunk": 23,
+                "group16": 5,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13126,
+                "decoded": "6"
+              },
+              {
+                "t_index": 13080,
+                "chunk": 204,
+                "offset_in_chunk": 24,
+                "group16": 6,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13130,
+                "decoded": "2"
+              }
+            ]
+          }
+        }
+      },
+      "intervention_groups": {
+        "chunk_38": [
+          38
+        ],
+        "chunk_204": [
+          204
+        ],
+        "warehouse_sentence": [
+          38
+        ],
+        "all_evidence": [
+          38,
+          204
+        ]
+      },
+      "placebo_groups": {
+        "chunk_38": [
+          37
+        ],
+        "chunk_204": [
+          203
+        ],
+        "warehouse_sentence": [
+          37
+        ],
+        "all_evidence": [
+          36,
+          37
+        ]
+      }
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "role": "matched_correct",
+      "S_tokens": 47,
+      "T_tokens": 16384,
+      "evidence": {
+        "warehouse": {
+          "sentence": {
+            "char_start": 8376,
+            "char_end": 8443,
+            "text": "The parcel labelled R8f7f8a22 was delivered to the Amber warehouse.",
+            "token_start": 2445,
+            "token_end_exclusive": 2464,
+            "chunks": [
+              38
+            ],
+            "tokens": [
+              {
+                "t_index": 2445,
+                "chunk": 38,
+                "offset_in_chunk": 13,
+                "group16": 3,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2494,
+                "decoded": "The"
+              },
+              {
+                "t_index": 2446,
+                "chunk": 38,
+                "offset_in_chunk": 14,
+                "group16": 3,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2494,
+                "decoded": " parcel"
+              },
+              {
+                "t_index": 2447,
+                "chunk": 38,
+                "offset_in_chunk": 15,
+                "group16": 3,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2494,
+                "decoded": " labelled"
+              },
+              {
+                "t_index": 2448,
+                "chunk": 38,
+                "offset_in_chunk": 16,
+                "group16": 4,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2498,
+                "decoded": " R"
+              },
+              {
+                "t_index": 2449,
+                "chunk": 38,
+                "offset_in_chunk": 17,
+                "group16": 4,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2498,
+                "decoded": "8"
+              },
+              {
+                "t_index": 2450,
+                "chunk": 38,
+                "offset_in_chunk": 18,
+                "group16": 4,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2498,
+                "decoded": "f"
+              },
+              {
+                "t_index": 2451,
+                "chunk": 38,
+                "offset_in_chunk": 19,
+                "group16": 4,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2498,
+                "decoded": "7"
+              },
+              {
+                "t_index": 2452,
+                "chunk": 38,
+                "offset_in_chunk": 20,
+                "group16": 5,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2502,
+                "decoded": "f"
+              },
+              {
+                "t_index": 2453,
+                "chunk": 38,
+                "offset_in_chunk": 21,
+                "group16": 5,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2502,
+                "decoded": "8"
+              },
+              {
+                "t_index": 2454,
+                "chunk": 38,
+                "offset_in_chunk": 22,
+                "group16": 5,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2502,
+                "decoded": "a"
+              },
+              {
+                "t_index": 2455,
+                "chunk": 38,
+                "offset_in_chunk": 23,
+                "group16": 5,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2502,
+                "decoded": "2"
+              },
+              {
+                "t_index": 2456,
+                "chunk": 38,
+                "offset_in_chunk": 24,
+                "group16": 6,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2506,
+                "decoded": "2"
+              },
+              {
+                "t_index": 2457,
+                "chunk": 38,
+                "offset_in_chunk": 25,
+                "group16": 6,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2506,
+                "decoded": " was"
+              },
+              {
+                "t_index": 2458,
+                "chunk": 38,
+                "offset_in_chunk": 26,
+                "group16": 6,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2506,
+                "decoded": " delivered"
+              },
+              {
+                "t_index": 2459,
+                "chunk": 38,
+                "offset_in_chunk": 27,
+                "group16": 6,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2506,
+                "decoded": " to"
+              },
+              {
+                "t_index": 2460,
+                "chunk": 38,
+                "offset_in_chunk": 28,
+                "group16": 7,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2510,
+                "decoded": " the"
+              },
+              {
+                "t_index": 2461,
+                "chunk": 38,
+                "offset_in_chunk": 29,
+                "group16": 7,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2510,
+                "decoded": " Amber"
+              },
+              {
+                "t_index": 2462,
+                "chunk": 38,
+                "offset_in_chunk": 30,
+                "group16": 7,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2510,
+                "decoded": " warehouse"
+              },
+              {
+                "t_index": 2463,
+                "chunk": 38,
+                "offset_in_chunk": 31,
+                "group16": 7,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2510,
+                "decoded": ".\n"
+              }
+            ]
+          },
+          "value": {
+            "char_start": 8427,
+            "char_end": 8432,
+            "text": "Amber",
+            "token_start": 2461,
+            "token_end_exclusive": 2462,
+            "chunks": [
+              38
+            ],
+            "tokens": [
+              {
+                "t_index": 2461,
+                "chunk": 38,
+                "offset_in_chunk": 29,
+                "group16": 7,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2510,
+                "decoded": " Amber"
+              }
+            ]
+          }
+        },
+        "boxes": {
+          "sentence": {
+            "char_start": 44703,
+            "char_end": 44758,
+            "text": "The parcel labelled R8f7f8a22 contains 66 sealed boxes.",
+            "token_start": 13089,
+            "token_end_exclusive": 13108,
+            "chunks": [
+              204
+            ],
+            "tokens": [
+              {
+                "t_index": 13089,
+                "chunk": 204,
+                "offset_in_chunk": 33,
+                "group16": 8,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13138,
+                "decoded": "The"
+              },
+              {
+                "t_index": 13090,
+                "chunk": 204,
+                "offset_in_chunk": 34,
+                "group16": 8,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13138,
+                "decoded": " parcel"
+              },
+              {
+                "t_index": 13091,
+                "chunk": 204,
+                "offset_in_chunk": 35,
+                "group16": 8,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13138,
+                "decoded": " labelled"
+              },
+              {
+                "t_index": 13092,
+                "chunk": 204,
+                "offset_in_chunk": 36,
+                "group16": 9,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13142,
+                "decoded": " R"
+              },
+              {
+                "t_index": 13093,
+                "chunk": 204,
+                "offset_in_chunk": 37,
+                "group16": 9,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13142,
+                "decoded": "8"
+              },
+              {
+                "t_index": 13094,
+                "chunk": 204,
+                "offset_in_chunk": 38,
+                "group16": 9,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13142,
+                "decoded": "f"
+              },
+              {
+                "t_index": 13095,
+                "chunk": 204,
+                "offset_in_chunk": 39,
+                "group16": 9,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13142,
+                "decoded": "7"
+              },
+              {
+                "t_index": 13096,
+                "chunk": 204,
+                "offset_in_chunk": 40,
+                "group16": 10,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13146,
+                "decoded": "f"
+              },
+              {
+                "t_index": 13097,
+                "chunk": 204,
+                "offset_in_chunk": 41,
+                "group16": 10,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13146,
+                "decoded": "8"
+              },
+              {
+                "t_index": 13098,
+                "chunk": 204,
+                "offset_in_chunk": 42,
+                "group16": 10,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13146,
+                "decoded": "a"
+              },
+              {
+                "t_index": 13099,
+                "chunk": 204,
+                "offset_in_chunk": 43,
+                "group16": 10,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13146,
+                "decoded": "2"
+              },
+              {
+                "t_index": 13100,
+                "chunk": 204,
+                "offset_in_chunk": 44,
+                "group16": 11,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13150,
+                "decoded": "2"
+              },
+              {
+                "t_index": 13101,
+                "chunk": 204,
+                "offset_in_chunk": 45,
+                "group16": 11,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13150,
+                "decoded": " contains"
+              },
+              {
+                "t_index": 13102,
+                "chunk": 204,
+                "offset_in_chunk": 46,
+                "group16": 11,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13150,
+                "decoded": " "
+              },
+              {
+                "t_index": 13103,
+                "chunk": 204,
+                "offset_in_chunk": 47,
+                "group16": 11,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13150,
+                "decoded": "6"
+              },
+              {
+                "t_index": 13104,
+                "chunk": 204,
+                "offset_in_chunk": 48,
+                "group16": 12,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13154,
+                "decoded": "6"
+              },
+              {
+                "t_index": 13105,
+                "chunk": 204,
+                "offset_in_chunk": 49,
+                "group16": 12,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13154,
+                "decoded": " sealed"
+              },
+              {
+                "t_index": 13106,
+                "chunk": 204,
+                "offset_in_chunk": 50,
+                "group16": 12,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13154,
+                "decoded": " boxes"
+              },
+              {
+                "t_index": 13107,
+                "chunk": 204,
+                "offset_in_chunk": 51,
+                "group16": 12,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13154,
+                "decoded": ".\n"
+              }
+            ]
+          },
+          "value": {
+            "char_start": 44742,
+            "char_end": 44744,
+            "text": "66",
+            "token_start": 13103,
+            "token_end_exclusive": 13105,
+            "chunks": [
+              204
+            ],
+            "tokens": [
+              {
+                "t_index": 13103,
+                "chunk": 204,
+                "offset_in_chunk": 47,
+                "group16": 11,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13150,
+                "decoded": "6"
+              },
+              {
+                "t_index": 13104,
+                "chunk": 204,
+                "offset_in_chunk": 48,
+                "group16": 12,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13154,
+                "decoded": "6"
+              }
+            ]
+          }
+        }
+      },
+      "intervention_groups": {
+        "chunk_38": [
+          38
+        ],
+        "chunk_204": [
+          204
+        ],
+        "warehouse_sentence": [
+          38
+        ],
+        "all_evidence": [
+          38,
+          204
+        ]
+      },
+      "placebo_groups": {
+        "chunk_38": [
+          37
+        ],
+        "chunk_204": [
+          203
+        ],
+        "warehouse_sentence": [
+          37
+        ],
+        "all_evidence": [
+          36,
+          37
+        ]
+      }
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "role": "loss",
+      "S_tokens": 47,
+      "T_tokens": 16384,
+      "evidence": {
+        "warehouse": {
+          "sentence": {
+            "char_start": 8376,
+            "char_end": 8443,
+            "text": "The parcel labelled Ref9c475a was delivered to the Amber warehouse.",
+            "token_start": 2409,
+            "token_end_exclusive": 2426,
+            "chunks": [
+              37
+            ],
+            "tokens": [
+              {
+                "t_index": 2409,
+                "chunk": 37,
+                "offset_in_chunk": 41,
+                "group16": 10,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2458,
+                "decoded": "The"
+              },
+              {
+                "t_index": 2410,
+                "chunk": 37,
+                "offset_in_chunk": 42,
+                "group16": 10,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2458,
+                "decoded": " parcel"
+              },
+              {
+                "t_index": 2411,
+                "chunk": 37,
+                "offset_in_chunk": 43,
+                "group16": 10,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2458,
+                "decoded": " labelled"
+              },
+              {
+                "t_index": 2412,
+                "chunk": 37,
+                "offset_in_chunk": 44,
+                "group16": 11,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2462,
+                "decoded": " Ref"
+              },
+              {
+                "t_index": 2413,
+                "chunk": 37,
+                "offset_in_chunk": 45,
+                "group16": 11,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2462,
+                "decoded": "9"
+              },
+              {
+                "t_index": 2414,
+                "chunk": 37,
+                "offset_in_chunk": 46,
+                "group16": 11,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2462,
+                "decoded": "c"
+              },
+              {
+                "t_index": 2415,
+                "chunk": 37,
+                "offset_in_chunk": 47,
+                "group16": 11,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2462,
+                "decoded": "4"
+              },
+              {
+                "t_index": 2416,
+                "chunk": 37,
+                "offset_in_chunk": 48,
+                "group16": 12,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2466,
+                "decoded": "7"
+              },
+              {
+                "t_index": 2417,
+                "chunk": 37,
+                "offset_in_chunk": 49,
+                "group16": 12,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2466,
+                "decoded": "5"
+              },
+              {
+                "t_index": 2418,
+                "chunk": 37,
+                "offset_in_chunk": 50,
+                "group16": 12,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2466,
+                "decoded": "a"
+              },
+              {
+                "t_index": 2419,
+                "chunk": 37,
+                "offset_in_chunk": 51,
+                "group16": 12,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2466,
+                "decoded": " was"
+              },
+              {
+                "t_index": 2420,
+                "chunk": 37,
+                "offset_in_chunk": 52,
+                "group16": 13,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2470,
+                "decoded": " delivered"
+              },
+              {
+                "t_index": 2421,
+                "chunk": 37,
+                "offset_in_chunk": 53,
+                "group16": 13,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2470,
+                "decoded": " to"
+              },
+              {
+                "t_index": 2422,
+                "chunk": 37,
+                "offset_in_chunk": 54,
+                "group16": 13,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2470,
+                "decoded": " the"
+              },
+              {
+                "t_index": 2423,
+                "chunk": 37,
+                "offset_in_chunk": 55,
+                "group16": 13,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2470,
+                "decoded": " Amber"
+              },
+              {
+                "t_index": 2424,
+                "chunk": 37,
+                "offset_in_chunk": 56,
+                "group16": 14,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2474,
+                "decoded": " warehouse"
+              },
+              {
+                "t_index": 2425,
+                "chunk": 37,
+                "offset_in_chunk": 57,
+                "group16": 14,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2474,
+                "decoded": ".\n"
+              }
+            ]
+          },
+          "value": {
+            "char_start": 8427,
+            "char_end": 8432,
+            "text": "Amber",
+            "token_start": 2423,
+            "token_end_exclusive": 2424,
+            "chunks": [
+              37
+            ],
+            "tokens": [
+              {
+                "t_index": 2423,
+                "chunk": 37,
+                "offset_in_chunk": 55,
+                "group16": 13,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2470,
+                "decoded": " Amber"
+              }
+            ]
+          }
+        },
+        "boxes": {
+          "sentence": {
+            "char_start": 44759,
+            "char_end": 44814,
+            "text": "The parcel labelled Ref9c475a contains 57 sealed boxes.",
+            "token_start": 13092,
+            "token_end_exclusive": 13109,
+            "chunks": [
+              204
+            ],
+            "tokens": [
+              {
+                "t_index": 13092,
+                "chunk": 204,
+                "offset_in_chunk": 36,
+                "group16": 9,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13142,
+                "decoded": "The"
+              },
+              {
+                "t_index": 13093,
+                "chunk": 204,
+                "offset_in_chunk": 37,
+                "group16": 9,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13142,
+                "decoded": " parcel"
+              },
+              {
+                "t_index": 13094,
+                "chunk": 204,
+                "offset_in_chunk": 38,
+                "group16": 9,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13142,
+                "decoded": " labelled"
+              },
+              {
+                "t_index": 13095,
+                "chunk": 204,
+                "offset_in_chunk": 39,
+                "group16": 9,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13142,
+                "decoded": " Ref"
+              },
+              {
+                "t_index": 13096,
+                "chunk": 204,
+                "offset_in_chunk": 40,
+                "group16": 10,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13146,
+                "decoded": "9"
+              },
+              {
+                "t_index": 13097,
+                "chunk": 204,
+                "offset_in_chunk": 41,
+                "group16": 10,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13146,
+                "decoded": "c"
+              },
+              {
+                "t_index": 13098,
+                "chunk": 204,
+                "offset_in_chunk": 42,
+                "group16": 10,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13146,
+                "decoded": "4"
+              },
+              {
+                "t_index": 13099,
+                "chunk": 204,
+                "offset_in_chunk": 43,
+                "group16": 10,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13146,
+                "decoded": "7"
+              },
+              {
+                "t_index": 13100,
+                "chunk": 204,
+                "offset_in_chunk": 44,
+                "group16": 11,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13150,
+                "decoded": "5"
+              },
+              {
+                "t_index": 13101,
+                "chunk": 204,
+                "offset_in_chunk": 45,
+                "group16": 11,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13150,
+                "decoded": "a"
+              },
+              {
+                "t_index": 13102,
+                "chunk": 204,
+                "offset_in_chunk": 46,
+                "group16": 11,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13150,
+                "decoded": " contains"
+              },
+              {
+                "t_index": 13103,
+                "chunk": 204,
+                "offset_in_chunk": 47,
+                "group16": 11,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13150,
+                "decoded": " "
+              },
+              {
+                "t_index": 13104,
+                "chunk": 204,
+                "offset_in_chunk": 48,
+                "group16": 12,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13154,
+                "decoded": "5"
+              },
+              {
+                "t_index": 13105,
+                "chunk": 204,
+                "offset_in_chunk": 49,
+                "group16": 12,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13154,
+                "decoded": "7"
+              },
+              {
+                "t_index": 13106,
+                "chunk": 204,
+                "offset_in_chunk": 50,
+                "group16": 12,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13154,
+                "decoded": " sealed"
+              },
+              {
+                "t_index": 13107,
+                "chunk": 204,
+                "offset_in_chunk": 51,
+                "group16": 12,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13154,
+                "decoded": " boxes"
+              },
+              {
+                "t_index": 13108,
+                "chunk": 204,
+                "offset_in_chunk": 52,
+                "group16": 13,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13158,
+                "decoded": ".\n"
+              }
+            ]
+          },
+          "value": {
+            "char_start": 44798,
+            "char_end": 44800,
+            "text": "57",
+            "token_start": 13104,
+            "token_end_exclusive": 13106,
+            "chunks": [
+              204
+            ],
+            "tokens": [
+              {
+                "t_index": 13104,
+                "chunk": 204,
+                "offset_in_chunk": 48,
+                "group16": 12,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13154,
+                "decoded": "5"
+              },
+              {
+                "t_index": 13105,
+                "chunk": 204,
+                "offset_in_chunk": 49,
+                "group16": 12,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13154,
+                "decoded": "7"
+              }
+            ]
+          }
+        }
+      },
+      "intervention_groups": {
+        "chunk_37": [
+          37
+        ],
+        "chunk_204": [
+          204
+        ],
+        "warehouse_sentence": [
+          37
+        ],
+        "all_evidence": [
+          37,
+          204
+        ]
+      },
+      "placebo_groups": {
+        "chunk_37": [
+          36
+        ],
+        "chunk_204": [
+          203
+        ],
+        "warehouse_sentence": [
+          36
+        ],
+        "all_evidence": [
+          35,
+          36
+        ]
+      }
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "role": "matched_correct",
+      "S_tokens": 47,
+      "T_tokens": 16384,
+      "evidence": {
+        "warehouse": {
+          "sentence": {
+            "char_start": 8376,
+            "char_end": 8442,
+            "text": "The parcel labelled R8f7f8a22 was delivered to the Dune warehouse.",
+            "token_start": 2445,
+            "token_end_exclusive": 2465,
+            "chunks": [
+              38
+            ],
+            "tokens": [
+              {
+                "t_index": 2445,
+                "chunk": 38,
+                "offset_in_chunk": 13,
+                "group16": 3,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2494,
+                "decoded": "The"
+              },
+              {
+                "t_index": 2446,
+                "chunk": 38,
+                "offset_in_chunk": 14,
+                "group16": 3,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2494,
+                "decoded": " parcel"
+              },
+              {
+                "t_index": 2447,
+                "chunk": 38,
+                "offset_in_chunk": 15,
+                "group16": 3,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2494,
+                "decoded": " labelled"
+              },
+              {
+                "t_index": 2448,
+                "chunk": 38,
+                "offset_in_chunk": 16,
+                "group16": 4,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2498,
+                "decoded": " R"
+              },
+              {
+                "t_index": 2449,
+                "chunk": 38,
+                "offset_in_chunk": 17,
+                "group16": 4,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2498,
+                "decoded": "8"
+              },
+              {
+                "t_index": 2450,
+                "chunk": 38,
+                "offset_in_chunk": 18,
+                "group16": 4,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2498,
+                "decoded": "f"
+              },
+              {
+                "t_index": 2451,
+                "chunk": 38,
+                "offset_in_chunk": 19,
+                "group16": 4,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2498,
+                "decoded": "7"
+              },
+              {
+                "t_index": 2452,
+                "chunk": 38,
+                "offset_in_chunk": 20,
+                "group16": 5,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2502,
+                "decoded": "f"
+              },
+              {
+                "t_index": 2453,
+                "chunk": 38,
+                "offset_in_chunk": 21,
+                "group16": 5,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2502,
+                "decoded": "8"
+              },
+              {
+                "t_index": 2454,
+                "chunk": 38,
+                "offset_in_chunk": 22,
+                "group16": 5,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2502,
+                "decoded": "a"
+              },
+              {
+                "t_index": 2455,
+                "chunk": 38,
+                "offset_in_chunk": 23,
+                "group16": 5,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2502,
+                "decoded": "2"
+              },
+              {
+                "t_index": 2456,
+                "chunk": 38,
+                "offset_in_chunk": 24,
+                "group16": 6,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2506,
+                "decoded": "2"
+              },
+              {
+                "t_index": 2457,
+                "chunk": 38,
+                "offset_in_chunk": 25,
+                "group16": 6,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2506,
+                "decoded": " was"
+              },
+              {
+                "t_index": 2458,
+                "chunk": 38,
+                "offset_in_chunk": 26,
+                "group16": 6,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2506,
+                "decoded": " delivered"
+              },
+              {
+                "t_index": 2459,
+                "chunk": 38,
+                "offset_in_chunk": 27,
+                "group16": 6,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2506,
+                "decoded": " to"
+              },
+              {
+                "t_index": 2460,
+                "chunk": 38,
+                "offset_in_chunk": 28,
+                "group16": 7,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2510,
+                "decoded": " the"
+              },
+              {
+                "t_index": 2461,
+                "chunk": 38,
+                "offset_in_chunk": 29,
+                "group16": 7,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2510,
+                "decoded": " D"
+              },
+              {
+                "t_index": 2462,
+                "chunk": 38,
+                "offset_in_chunk": 30,
+                "group16": 7,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2510,
+                "decoded": "une"
+              },
+              {
+                "t_index": 2463,
+                "chunk": 38,
+                "offset_in_chunk": 31,
+                "group16": 7,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 2510,
+                "decoded": " warehouse"
+              },
+              {
+                "t_index": 2464,
+                "chunk": 38,
+                "offset_in_chunk": 32,
+                "group16": 8,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 2514,
+                "decoded": ".\n"
+              }
+            ]
+          },
+          "value": {
+            "char_start": 8427,
+            "char_end": 8431,
+            "text": "Dune",
+            "token_start": 2461,
+            "token_end_exclusive": 2463,
+            "chunks": [
+              38
+            ],
+            "tokens": [
+              {
+                "t_index": 2461,
+                "chunk": 38,
+                "offset_in_chunk": 29,
+                "group16": 7,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 2510,
+                "decoded": " D"
+              },
+              {
+                "t_index": 2462,
+                "chunk": 38,
+                "offset_in_chunk": 30,
+                "group16": 7,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 2510,
+                "decoded": "une"
+              }
+            ]
+          }
+        },
+        "boxes": {
+          "sentence": {
+            "char_start": 44702,
+            "char_end": 44757,
+            "text": "The parcel labelled R8f7f8a22 contains 66 sealed boxes.",
+            "token_start": 13090,
+            "token_end_exclusive": 13109,
+            "chunks": [
+              204
+            ],
+            "tokens": [
+              {
+                "t_index": 13090,
+                "chunk": 204,
+                "offset_in_chunk": 34,
+                "group16": 8,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13138,
+                "decoded": "The"
+              },
+              {
+                "t_index": 13091,
+                "chunk": 204,
+                "offset_in_chunk": 35,
+                "group16": 8,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13138,
+                "decoded": " parcel"
+              },
+              {
+                "t_index": 13092,
+                "chunk": 204,
+                "offset_in_chunk": 36,
+                "group16": 9,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13142,
+                "decoded": " labelled"
+              },
+              {
+                "t_index": 13093,
+                "chunk": 204,
+                "offset_in_chunk": 37,
+                "group16": 9,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13142,
+                "decoded": " R"
+              },
+              {
+                "t_index": 13094,
+                "chunk": 204,
+                "offset_in_chunk": 38,
+                "group16": 9,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13142,
+                "decoded": "8"
+              },
+              {
+                "t_index": 13095,
+                "chunk": 204,
+                "offset_in_chunk": 39,
+                "group16": 9,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13142,
+                "decoded": "f"
+              },
+              {
+                "t_index": 13096,
+                "chunk": 204,
+                "offset_in_chunk": 40,
+                "group16": 10,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13146,
+                "decoded": "7"
+              },
+              {
+                "t_index": 13097,
+                "chunk": 204,
+                "offset_in_chunk": 41,
+                "group16": 10,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13146,
+                "decoded": "f"
+              },
+              {
+                "t_index": 13098,
+                "chunk": 204,
+                "offset_in_chunk": 42,
+                "group16": 10,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13146,
+                "decoded": "8"
+              },
+              {
+                "t_index": 13099,
+                "chunk": 204,
+                "offset_in_chunk": 43,
+                "group16": 10,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13146,
+                "decoded": "a"
+              },
+              {
+                "t_index": 13100,
+                "chunk": 204,
+                "offset_in_chunk": 44,
+                "group16": 11,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13150,
+                "decoded": "2"
+              },
+              {
+                "t_index": 13101,
+                "chunk": 204,
+                "offset_in_chunk": 45,
+                "group16": 11,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13150,
+                "decoded": "2"
+              },
+              {
+                "t_index": 13102,
+                "chunk": 204,
+                "offset_in_chunk": 46,
+                "group16": 11,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13150,
+                "decoded": " contains"
+              },
+              {
+                "t_index": 13103,
+                "chunk": 204,
+                "offset_in_chunk": 47,
+                "group16": 11,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13150,
+                "decoded": " "
+              },
+              {
+                "t_index": 13104,
+                "chunk": 204,
+                "offset_in_chunk": 48,
+                "group16": 12,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13154,
+                "decoded": "6"
+              },
+              {
+                "t_index": 13105,
+                "chunk": 204,
+                "offset_in_chunk": 49,
+                "group16": 12,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13154,
+                "decoded": "6"
+              },
+              {
+                "t_index": 13106,
+                "chunk": 204,
+                "offset_in_chunk": 50,
+                "group16": 12,
+                "offset_in_group16": 2,
+                "group16_anchor_logical_position": 13154,
+                "decoded": " sealed"
+              },
+              {
+                "t_index": 13107,
+                "chunk": 204,
+                "offset_in_chunk": 51,
+                "group16": 12,
+                "offset_in_group16": 3,
+                "group16_anchor_logical_position": 13154,
+                "decoded": " boxes"
+              },
+              {
+                "t_index": 13108,
+                "chunk": 204,
+                "offset_in_chunk": 52,
+                "group16": 13,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13158,
+                "decoded": ".\n"
+              }
+            ]
+          },
+          "value": {
+            "char_start": 44741,
+            "char_end": 44743,
+            "text": "66",
+            "token_start": 13104,
+            "token_end_exclusive": 13106,
+            "chunks": [
+              204
+            ],
+            "tokens": [
+              {
+                "t_index": 13104,
+                "chunk": 204,
+                "offset_in_chunk": 48,
+                "group16": 12,
+                "offset_in_group16": 0,
+                "group16_anchor_logical_position": 13154,
+                "decoded": "6"
+              },
+              {
+                "t_index": 13105,
+                "chunk": 204,
+                "offset_in_chunk": 49,
+                "group16": 12,
+                "offset_in_group16": 1,
+                "group16_anchor_logical_position": 13154,
+                "decoded": "6"
+              }
+            ]
+          }
+        }
+      },
+      "intervention_groups": {
+        "chunk_38": [
+          38
+        ],
+        "chunk_204": [
+          204
+        ],
+        "warehouse_sentence": [
+          38
+        ],
+        "all_evidence": [
+          38,
+          204
+        ]
+      },
+      "placebo_groups": {
+        "chunk_38": [
+          37
+        ],
+        "chunk_204": [
+          203
+        ],
+        "warehouse_sentence": [
+          37
+        ],
+        "all_evidence": [
+          36,
+          37
+        ]
+      }
+    }
+  ],
+  "queue": [
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "full",
+      "chunk_keeps": {},
+      "unit_key": "1155f1c2b9ca39381f7f5844__full"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "compressed",
+      "chunk_keeps": {},
+      "unit_key": "1155f1c2b9ca39381f7f5844__compressed"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 32
+      },
+      "unit_key": "1155f1c2b9ca39381f7f5844__chunk_38__evidence__keep32"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 64
+      },
+      "unit_key": "1155f1c2b9ca39381f7f5844__chunk_38__evidence__keep64"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 32
+      },
+      "unit_key": "1155f1c2b9ca39381f7f5844__chunk_38__placebo__keep32"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 64
+      },
+      "unit_key": "1155f1c2b9ca39381f7f5844__chunk_38__placebo__keep64"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "204": 32
+      },
+      "unit_key": "1155f1c2b9ca39381f7f5844__chunk_204__evidence__keep32"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "204": 64
+      },
+      "unit_key": "1155f1c2b9ca39381f7f5844__chunk_204__evidence__keep64"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "203": 32
+      },
+      "unit_key": "1155f1c2b9ca39381f7f5844__chunk_204__placebo__keep32"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "203": 64
+      },
+      "unit_key": "1155f1c2b9ca39381f7f5844__chunk_204__placebo__keep64"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 32
+      },
+      "unit_key": "1155f1c2b9ca39381f7f5844__warehouse_sentence__evidence__keep32"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 64
+      },
+      "unit_key": "1155f1c2b9ca39381f7f5844__warehouse_sentence__evidence__keep64"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 32
+      },
+      "unit_key": "1155f1c2b9ca39381f7f5844__warehouse_sentence__placebo__keep32"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 64
+      },
+      "unit_key": "1155f1c2b9ca39381f7f5844__warehouse_sentence__placebo__keep64"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 32,
+        "204": 32
+      },
+      "unit_key": "1155f1c2b9ca39381f7f5844__all_evidence__evidence__keep32"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 64,
+        "204": 64
+      },
+      "unit_key": "1155f1c2b9ca39381f7f5844__all_evidence__evidence__keep64"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "36": 32,
+        "37": 32
+      },
+      "unit_key": "1155f1c2b9ca39381f7f5844__all_evidence__placebo__keep32"
+    },
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "36": 64,
+        "37": 64
+      },
+      "unit_key": "1155f1c2b9ca39381f7f5844__all_evidence__placebo__keep64"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "full",
+      "chunk_keeps": {},
+      "unit_key": "df95590d8ecd480de63b0a95__full"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "compressed",
+      "chunk_keeps": {},
+      "unit_key": "df95590d8ecd480de63b0a95__compressed"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 32
+      },
+      "unit_key": "df95590d8ecd480de63b0a95__chunk_38__evidence__keep32"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 64
+      },
+      "unit_key": "df95590d8ecd480de63b0a95__chunk_38__evidence__keep64"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 32
+      },
+      "unit_key": "df95590d8ecd480de63b0a95__chunk_38__placebo__keep32"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 64
+      },
+      "unit_key": "df95590d8ecd480de63b0a95__chunk_38__placebo__keep64"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "204": 32
+      },
+      "unit_key": "df95590d8ecd480de63b0a95__chunk_204__evidence__keep32"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "204": 64
+      },
+      "unit_key": "df95590d8ecd480de63b0a95__chunk_204__evidence__keep64"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "203": 32
+      },
+      "unit_key": "df95590d8ecd480de63b0a95__chunk_204__placebo__keep32"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "203": 64
+      },
+      "unit_key": "df95590d8ecd480de63b0a95__chunk_204__placebo__keep64"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 32
+      },
+      "unit_key": "df95590d8ecd480de63b0a95__warehouse_sentence__evidence__keep32"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 64
+      },
+      "unit_key": "df95590d8ecd480de63b0a95__warehouse_sentence__evidence__keep64"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 32
+      },
+      "unit_key": "df95590d8ecd480de63b0a95__warehouse_sentence__placebo__keep32"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 64
+      },
+      "unit_key": "df95590d8ecd480de63b0a95__warehouse_sentence__placebo__keep64"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 32,
+        "204": 32
+      },
+      "unit_key": "df95590d8ecd480de63b0a95__all_evidence__evidence__keep32"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 64,
+        "204": 64
+      },
+      "unit_key": "df95590d8ecd480de63b0a95__all_evidence__evidence__keep64"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "36": 32,
+        "37": 32
+      },
+      "unit_key": "df95590d8ecd480de63b0a95__all_evidence__placebo__keep32"
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "36": 64,
+        "37": 64
+      },
+      "unit_key": "df95590d8ecd480de63b0a95__all_evidence__placebo__keep64"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "full",
+      "chunk_keeps": {},
+      "unit_key": "18c5665358c364ff70111471__full"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "compressed",
+      "chunk_keeps": {},
+      "unit_key": "18c5665358c364ff70111471__compressed"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 32
+      },
+      "unit_key": "18c5665358c364ff70111471__chunk_38__evidence__keep32"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 64
+      },
+      "unit_key": "18c5665358c364ff70111471__chunk_38__evidence__keep64"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 32
+      },
+      "unit_key": "18c5665358c364ff70111471__chunk_38__placebo__keep32"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 64
+      },
+      "unit_key": "18c5665358c364ff70111471__chunk_38__placebo__keep64"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "204": 32
+      },
+      "unit_key": "18c5665358c364ff70111471__chunk_204__evidence__keep32"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "204": 64
+      },
+      "unit_key": "18c5665358c364ff70111471__chunk_204__evidence__keep64"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "203": 32
+      },
+      "unit_key": "18c5665358c364ff70111471__chunk_204__placebo__keep32"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "203": 64
+      },
+      "unit_key": "18c5665358c364ff70111471__chunk_204__placebo__keep64"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 32
+      },
+      "unit_key": "18c5665358c364ff70111471__warehouse_sentence__evidence__keep32"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 64
+      },
+      "unit_key": "18c5665358c364ff70111471__warehouse_sentence__evidence__keep64"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 32
+      },
+      "unit_key": "18c5665358c364ff70111471__warehouse_sentence__placebo__keep32"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 64
+      },
+      "unit_key": "18c5665358c364ff70111471__warehouse_sentence__placebo__keep64"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 32,
+        "204": 32
+      },
+      "unit_key": "18c5665358c364ff70111471__all_evidence__evidence__keep32"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 64,
+        "204": 64
+      },
+      "unit_key": "18c5665358c364ff70111471__all_evidence__evidence__keep64"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "36": 32,
+        "37": 32
+      },
+      "unit_key": "18c5665358c364ff70111471__all_evidence__placebo__keep32"
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "36": 64,
+        "37": 64
+      },
+      "unit_key": "18c5665358c364ff70111471__all_evidence__placebo__keep64"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "full",
+      "chunk_keeps": {},
+      "unit_key": "73a05237143cc0773a4a9152__full"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "compressed",
+      "chunk_keeps": {},
+      "unit_key": "73a05237143cc0773a4a9152__compressed"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 32
+      },
+      "unit_key": "73a05237143cc0773a4a9152__chunk_38__evidence__keep32"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 64
+      },
+      "unit_key": "73a05237143cc0773a4a9152__chunk_38__evidence__keep64"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 32
+      },
+      "unit_key": "73a05237143cc0773a4a9152__chunk_38__placebo__keep32"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 64
+      },
+      "unit_key": "73a05237143cc0773a4a9152__chunk_38__placebo__keep64"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "204": 32
+      },
+      "unit_key": "73a05237143cc0773a4a9152__chunk_204__evidence__keep32"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "204": 64
+      },
+      "unit_key": "73a05237143cc0773a4a9152__chunk_204__evidence__keep64"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "203": 32
+      },
+      "unit_key": "73a05237143cc0773a4a9152__chunk_204__placebo__keep32"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "203": 64
+      },
+      "unit_key": "73a05237143cc0773a4a9152__chunk_204__placebo__keep64"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 32
+      },
+      "unit_key": "73a05237143cc0773a4a9152__warehouse_sentence__evidence__keep32"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 64
+      },
+      "unit_key": "73a05237143cc0773a4a9152__warehouse_sentence__evidence__keep64"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 32
+      },
+      "unit_key": "73a05237143cc0773a4a9152__warehouse_sentence__placebo__keep32"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 64
+      },
+      "unit_key": "73a05237143cc0773a4a9152__warehouse_sentence__placebo__keep64"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 32,
+        "204": 32
+      },
+      "unit_key": "73a05237143cc0773a4a9152__all_evidence__evidence__keep32"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 64,
+        "204": 64
+      },
+      "unit_key": "73a05237143cc0773a4a9152__all_evidence__evidence__keep64"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "36": 32,
+        "37": 32
+      },
+      "unit_key": "73a05237143cc0773a4a9152__all_evidence__placebo__keep32"
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "36": 64,
+        "37": 64
+      },
+      "unit_key": "73a05237143cc0773a4a9152__all_evidence__placebo__keep64"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "full",
+      "chunk_keeps": {},
+      "unit_key": "3615d03937e9ef228782b28f__full"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "compressed",
+      "chunk_keeps": {},
+      "unit_key": "3615d03937e9ef228782b28f__compressed"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "intervention",
+      "group": "chunk_37",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "37": 32
+      },
+      "unit_key": "3615d03937e9ef228782b28f__chunk_37__evidence__keep32"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "intervention",
+      "group": "chunk_37",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "37": 64
+      },
+      "unit_key": "3615d03937e9ef228782b28f__chunk_37__evidence__keep64"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "intervention",
+      "group": "chunk_37",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "36": 32
+      },
+      "unit_key": "3615d03937e9ef228782b28f__chunk_37__placebo__keep32"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "intervention",
+      "group": "chunk_37",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "36": 64
+      },
+      "unit_key": "3615d03937e9ef228782b28f__chunk_37__placebo__keep64"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "204": 32
+      },
+      "unit_key": "3615d03937e9ef228782b28f__chunk_204__evidence__keep32"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "204": 64
+      },
+      "unit_key": "3615d03937e9ef228782b28f__chunk_204__evidence__keep64"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "203": 32
+      },
+      "unit_key": "3615d03937e9ef228782b28f__chunk_204__placebo__keep32"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "203": 64
+      },
+      "unit_key": "3615d03937e9ef228782b28f__chunk_204__placebo__keep64"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "37": 32
+      },
+      "unit_key": "3615d03937e9ef228782b28f__warehouse_sentence__evidence__keep32"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "37": 64
+      },
+      "unit_key": "3615d03937e9ef228782b28f__warehouse_sentence__evidence__keep64"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "36": 32
+      },
+      "unit_key": "3615d03937e9ef228782b28f__warehouse_sentence__placebo__keep32"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "36": 64
+      },
+      "unit_key": "3615d03937e9ef228782b28f__warehouse_sentence__placebo__keep64"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "37": 32,
+        "204": 32
+      },
+      "unit_key": "3615d03937e9ef228782b28f__all_evidence__evidence__keep32"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "37": 64,
+        "204": 64
+      },
+      "unit_key": "3615d03937e9ef228782b28f__all_evidence__evidence__keep64"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "35": 32,
+        "36": 32
+      },
+      "unit_key": "3615d03937e9ef228782b28f__all_evidence__placebo__keep32"
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "35": 64,
+        "36": 64
+      },
+      "unit_key": "3615d03937e9ef228782b28f__all_evidence__placebo__keep64"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "full",
+      "chunk_keeps": {},
+      "unit_key": "db38fac84d1584897de1e7b7__full"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "compressed",
+      "chunk_keeps": {},
+      "unit_key": "db38fac84d1584897de1e7b7__compressed"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 32
+      },
+      "unit_key": "db38fac84d1584897de1e7b7__chunk_38__evidence__keep32"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 64
+      },
+      "unit_key": "db38fac84d1584897de1e7b7__chunk_38__evidence__keep64"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 32
+      },
+      "unit_key": "db38fac84d1584897de1e7b7__chunk_38__placebo__keep32"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "intervention",
+      "group": "chunk_38",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 64
+      },
+      "unit_key": "db38fac84d1584897de1e7b7__chunk_38__placebo__keep64"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "204": 32
+      },
+      "unit_key": "db38fac84d1584897de1e7b7__chunk_204__evidence__keep32"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "204": 64
+      },
+      "unit_key": "db38fac84d1584897de1e7b7__chunk_204__evidence__keep64"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "203": 32
+      },
+      "unit_key": "db38fac84d1584897de1e7b7__chunk_204__placebo__keep32"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "intervention",
+      "group": "chunk_204",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "203": 64
+      },
+      "unit_key": "db38fac84d1584897de1e7b7__chunk_204__placebo__keep64"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 32
+      },
+      "unit_key": "db38fac84d1584897de1e7b7__warehouse_sentence__evidence__keep32"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 64
+      },
+      "unit_key": "db38fac84d1584897de1e7b7__warehouse_sentence__evidence__keep64"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 32
+      },
+      "unit_key": "db38fac84d1584897de1e7b7__warehouse_sentence__placebo__keep32"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "intervention",
+      "group": "warehouse_sentence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "37": 64
+      },
+      "unit_key": "db38fac84d1584897de1e7b7__warehouse_sentence__placebo__keep64"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 32,
+        "204": 32
+      },
+      "unit_key": "db38fac84d1584897de1e7b7__all_evidence__evidence__keep32"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "evidence",
+      "chunk_keeps": {
+        "38": 64,
+        "204": 64
+      },
+      "unit_key": "db38fac84d1584897de1e7b7__all_evidence__evidence__keep64"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "36": 32,
+        "37": 32
+      },
+      "unit_key": "db38fac84d1584897de1e7b7__all_evidence__placebo__keep32"
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "method": "intervention",
+      "group": "all_evidence",
+      "kind": "placebo",
+      "chunk_keeps": {
+        "36": 64,
+        "37": 64
+      },
+      "unit_key": "db38fac84d1584897de1e7b7__all_evidence__placebo__keep64"
+    }
+  ],
+  "expected_units": 108
+}

@@ -1,0 +1,33 @@
+{
+  "status": "POST_HOC_DIAGNOSTIC",
+  "model": "<MODEL_ROOT>/Qwen3-4B-Instruct-2507",
+  "block": 1024,
+  "base_spec": {
+    "kind": "fixed",
+    "depth": 30,
+    "keep": 16
+  },
+  "expected_units": 108,
+  "source_sha256": {
+    "report.py": "e78c5565dd3f36c32c7409b2abfdedd82f9263efbc086763bcd5a6072f088505",
+    "scoring.py": "c45142718fd90ae87569a1bcc33f0a15d7c5ba619ca65ae4fb69defa4c709cb5",
+    "data.py": "7617c3607a048cd5074d086744df91738397de2c269d39637a370b7bc2c0c98d",
+    "prepared.json": "f45237bb4b686de95ea69c668ad8a2e12b0d7b43ba9b1f8ae0e4ae54c6716b02",
+    "test_engine.py": "6ed150226cf984a3e69a823a58a31dc6b404b571299f3f7698af3ed207f27c8c",
+    "test_long.py": "18925c0fcde49ad0b4e4a0058cd0ea24b36ec916aebba476b944e07a279c7b49",
+    "prepare.py": "9360128396459d4657589fecd4de5106f1bb32db09dd5299e94eedbfbd2b1007",
+    "engine.py": "478e4efcc09bf5da74fb3f7c45a290718a28e0f36fe20521cda4be51a59618a7",
+    "selection.json": "51c53ef3fbd8a8c1f494750ace7d0df777dfbe34befa34d93798d884473df0ca",
+    "test_diagnostic.py": "86836256caf7cbb889f25ca2f6324230695b2d9e90d1d5b6a97f85a5d2c2d28d",
+    "core.py": "176d4dbcbd25f109b2acc5817f895ae3edb5f4d1d19d8ab4d26e9f5a6f5f7092",
+    "base_engine.py": "fe4e3b62c8378ef8b62e8a52559e0236e7612b0256afed02600c6f1c89b62bdc",
+    "legacy_engine.py": "149c7ebb691734fa413fcc61d426dc136cbfd9b6b030859fb3f5effde884ed8e",
+    "PROTOCOL.md": "5d49890b886c07b79aa9b8d4640ddd4d4251f56ba74f6a6f2732ad0a9dd5fbad",
+    "OFFLINE_REPORT.md": "c8f03a927c30ef597e8d09b38073729bdf6043b563a2f99558381fa841fcd9b7",
+    "run.py": "350f218286a137f97982cd29f43f68d07173d9f133f8d75f95d5c8bfac0fc89f",
+    "select_cases.py": "a3c70186645f0b7ea24b88c3bb899b0c3bc3797022138778d9122fabd4a0d30c",
+    "launch.py": "34a6bf3e9110b3ad909bfff32967535c0d548e8b714e2dc79a9e302b38ec873a",
+    "test_scores.py": "539ff3455ba1659e557be787134e1bab751978962a686b7ab0dfb09422c93969"
+  },
+  "seed": 20260930
+}

@@ -25,3 +25,10 @@ The completed v5 run was published separately on2026-09-22, retaining the partia
 snapshot as historical evidence. PUBLIC_PROVENANCE_20260922.json records this
 new export; PUBLIC_PROVENANCE_20260921.json remains unchanged. Final public and
 private statistical summaries were checked for equality after report regeneration.
+
+The failure_diagnosis_v5 extension (2026-09-22) publishes all108 diagnostic units
+for3 previously exposed loss cases and3 correct controls. It is a post-hoc oracle
+intervention study, not independent evaluation. Runtime-frozen sources are separate
+from later written interpretation. Its provenance is in
+PUBLIC_PROVENANCE_DIAGNOSIS_20260922.json. Existing completed/partial v5 runs
+and their provenance files remain unchanged.
