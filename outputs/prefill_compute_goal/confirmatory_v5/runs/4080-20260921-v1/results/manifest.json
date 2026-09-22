@@ -1,0 +1,52 @@
+{
+  "source_sha256": {
+    "report.py": "5bb33c20bbb9d544cd6d9ff5354b9e55f8672bf5a204204376827a23835f3460",
+    "scoring.py": "c45142718fd90ae87569a1bcc33f0a15d7c5ba619ca65ae4fb69defa4c709cb5",
+    "data.py": "7617c3607a048cd5074d086744df91738397de2c269d39637a370b7bc2c0c98d",
+    "smoke.py": "7dd019bee92863b05202d0b014b5300ec1728e25458777dcd0e57cbed3684ec6",
+    "README.md": "6867b6f00139f456d093e68dfabeb9d3f96eb3b2c50818e809556cd6985830ec",
+    "test_clean.py": "a6ebbf16cac8097d48fc67451a29d873edcfedcd1c2bec3519228297059a18a7",
+    "test_engine.py": "6ed150226cf984a3e69a823a58a31dc6b404b571299f3f7698af3ed207f27c8c",
+    "test_long.py": "18925c0fcde49ad0b4e4a0058cd0ea24b36ec916aebba476b944e07a279c7b49",
+    "prepare.py": "c629342fc0d2459e8ecc5de9888064ecf9a90e3c5596229b2ca2e4e9d444800d",
+    "specs.py": "c8a2ee0ea1b853e26014e69d821775e01388b4b97b71e97f5a494485a5d1c9cd",
+    "engine.py": "149c7ebb691734fa413fcc61d426dc136cbfd9b6b030859fb3f5effde884ed8e",
+    "fresh.jsonl": "3d3f621c4c81d12449443ad5467e3493999edb4a3731147dae408ae7636f1239",
+    "preparation.json": "e30ac93afc958a1e3bf1541c72a1c3ffeee32122661e7b32f7d315d3c0638096",
+    "core.py": "e496c59fbe3ab01034e89d4d698a39402c136d987256d2241fd6c7a183f04911",
+    "base_engine.py": "fe4e3b62c8378ef8b62e8a52559e0236e7612b0256afed02600c6f1c89b62bdc",
+    "clean.py": "2c375ffd7e3d7ece0541d67d8fd2e014cf19d6e3171829545beebcc69354122c",
+    "PROTOCOL.md": "09a6f76aad7be7e6c0237d82098c9dd0f42d2b219697e80067b678964d0ef500",
+    "run.py": "28e88313e1550e2e85391a57c7cfa979bde71b11fdf204ca49a6fd5c6bede532",
+    "launch.py": "60e0bed8f9ef7e6f243c6a75bccb68128470f331701dc2b4ae97eaf12dc73306",
+    "test_scores.py": "539ff3455ba1659e557be787134e1bab751978962a686b7ab0dfb09422c93969"
+  },
+  "model": "<MODEL_ROOT>/Qwen3-4B-Instruct-2507",
+  "methods": {
+    "d27_mean32": {
+      "kind": "fixed",
+      "depth": 27,
+      "keep": 32
+    },
+    "d27_endpoint32": {
+      "kind": "fixed",
+      "depth": 27,
+      "keep": 32,
+      "merge": "endpoint"
+    },
+    "d30_mean16": {
+      "kind": "fixed",
+      "depth": 30,
+      "keep": 16
+    }
+  },
+  "blocks": [
+    1024,
+    4096
+  ],
+  "expected_units": 3200,
+  "samples": 256,
+  "timing_samples": 16,
+  "warmups": 2,
+  "repeats": 7
+}

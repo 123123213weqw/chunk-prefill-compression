@@ -1,0 +1,140 @@
+{
+  "unit_key": "correctness__2ebfd3120ab83d877f708a1b__d27_mean32__b1024__rnone",
+  "status": "COMPLETED",
+  "job": {
+    "phase": "correctness",
+    "sample_id": "2ebfd3120ab83d877f708a1b",
+    "block": 1024,
+    "method": "d27_mean32",
+    "spec": {
+      "kind": "fixed",
+      "depth": 27,
+      "keep": 32
+    }
+  },
+  "sample": {
+    "sample_id": "2ebfd3120ab83d877f708a1b",
+    "pair_id": "49ff6b555ce3bfec4263",
+    "member": 0,
+    "task": "narrative",
+    "target_tokens": 16384,
+    "generator_seed": 20260927,
+    "instance": 1
+  },
+  "unit_seconds": 4.4370341300964355,
+  "shape": {
+    "status": "PASS",
+    "layer_lengths": [
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254
+    ],
+    "linear_flops": 104624962928640,
+    "kv_bytes": 2123071488,
+    "projection_input_checks": 252,
+    "compressed_chunks": 256,
+    "total_chunks": 256,
+    "saved_T_layer_tokens": 73728
+  },
+  "instrumented_prefill_seconds": 3.3386665950529277,
+  "probes": {
+    "task": {
+      "answer": "{\n  \"warehouse\": \"Birch\",\n  \"boxes\": 45\n}\n",
+      "gold": {
+        "warehouse": "Birch",
+        "boxes": 45
+      },
+      "ids": [
+        515,
+        220,
+        330,
+        45546,
+        788,
+        330,
+        33,
+        404,
+        331,
+        756,
+        220,
+        330,
+        22204,
+        788,
+        220,
+        19,
+        20,
+        198,
+        532,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "warehouse": "Birch",
+        "boxes": 45
+      },
+      "field_correct": 2,
+      "fields": 2
+    },
+    "control": {
+      "answer": "{\"label\": \"ready-blue\"}\n",
+      "gold": {
+        "label": "ready-blue"
+      },
+      "ids": [
+        4913,
+        1502,
+        788,
+        330,
+        2307,
+        31654,
+        16707,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "label": "ready-blue"
+      },
+      "field_correct": 1,
+      "fields": 1
+    }
+  },
+  "route_counts": {
+    "d27_k32": 256
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "unit_key": "correctness__0139165f98894a465256b82f__full__b4096__rnone",
+  "status": "COMPLETED",
+  "job": {
+    "phase": "correctness",
+    "sample_id": "0139165f98894a465256b82f",
+    "block": 4096,
+    "method": "full",
+    "gate": true
+  },
+  "sample": {
+    "sample_id": "0139165f98894a465256b82f",
+    "pair_id": "986f7eea8fc5b3de8dc3",
+    "member": 0,
+    "task": "narrative",
+    "target_tokens": 4096,
+    "generator_seed": 20260929,
+    "instance": 3
+  },
+  "unit_seconds": 2.691710948944092,
+  "shape": {
+    "status": "PASS",
+    "layer_lengths": [
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158,
+      4158
+    ],
+    "linear_flops": 30214654525440,
+    "kv_bytes": 613122048,
+    "projection_input_checks": 252,
+    "compressed_chunks": 0,
+    "total_chunks": 64,
+    "saved_T_layer_tokens": 0
+  },
+  "probes": {
+    "task": {
+      "answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 57\n}\n",
+      "gold": {
+        "warehouse": "Dune",
+        "boxes": 57
+      },
+      "ids": [
+        515,
+        220,
+        330,
+        45546,
+        788,
+        330,
+        35,
+        2886,
+        756,
+        220,
+        330,
+        22204,
+        788,
+        220,
+        20,
+        22,
+        198,
+        532,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "warehouse": "Dune",
+        "boxes": 57
+      },
+      "field_correct": 2,
+      "fields": 2
+    },
+    "control": {
+      "answer": "{\"label\": \"ready-blue\"}\n",
+      "gold": {
+        "label": "ready-blue"
+      },
+      "ids": [
+        4913,
+        1502,
+        788,
+        330,
+        2307,
+        31654,
+        16707,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "label": "ready-blue"
+      },
+      "field_correct": 1,
+      "fields": 1
+    }
+  },
+  "gates": [
+    {
+      "probe": "task",
+      "kv_rms": 0.0,
+      "logit_rms": 0.0,
+      "kl": 0.0,
+      "ids_equal": true
+    },
+    {
+      "probe": "control",
+      "kv_rms": 0.0,
+      "logit_rms": 0.0,
+      "kl": 0.0,
+      "ids_equal": true
+    }
+  ]
+}

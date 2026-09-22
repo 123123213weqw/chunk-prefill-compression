@@ -1,0 +1,140 @@
+{
+  "unit_key": "correctness__a976dcdf2103ef054273309f__d27_endpoint32__b4096__rnone",
+  "status": "COMPLETED",
+  "job": {
+    "phase": "correctness",
+    "sample_id": "a976dcdf2103ef054273309f",
+    "block": 4096,
+    "method": "d27_endpoint32",
+    "spec": {
+      "kind": "fixed",
+      "depth": 27,
+      "keep": 32,
+      "merge": "endpoint"
+    }
+  },
+  "sample": {
+    "sample_id": "a976dcdf2103ef054273309f",
+    "pair_id": "60f45de77216207da34d",
+    "member": 0,
+    "task": "fields",
+    "target_tokens": 16384,
+    "generator_seed": 20260929,
+    "instance": 0
+  },
+  "unit_seconds": 4.37531590461731,
+  "shape": {
+    "status": "PASS",
+    "layer_lengths": [
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      16446,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254,
+      8254
+    ],
+    "linear_flops": 104624962928640,
+    "kv_bytes": 2123071488,
+    "projection_input_checks": 252,
+    "compressed_chunks": 256,
+    "total_chunks": 256,
+    "saved_T_layer_tokens": 73728
+  },
+  "instrumented_prefill_seconds": 3.3379335589706898,
+  "probes": {
+    "task": {
+      "answer": "{\n  \"count\": 38,\n  \"limit\": 47\n}\n",
+      "gold": {
+        "count": 38,
+        "limit": 47
+      },
+      "ids": [
+        515,
+        220,
+        330,
+        1830,
+        788,
+        220,
+        18,
+        23,
+        345,
+        220,
+        330,
+        9506,
+        788,
+        220,
+        19,
+        22,
+        198,
+        532,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "count": 38,
+        "limit": 47
+      },
+      "field_correct": 2,
+      "fields": 2
+    },
+    "control": {
+      "answer": "{\"label\": \"ready-blue\"}\n",
+      "gold": {
+        "label": "ready-blue"
+      },
+      "ids": [
+        4913,
+        1502,
+        788,
+        330,
+        2307,
+        31654,
+        16707,
+        151645
+      ],
+      "hit_cap": false,
+      "correct": true,
+      "format_ok": true,
+      "parsed": {
+        "label": "ready-blue"
+      },
+      "field_correct": 1,
+      "fields": 1
+    }
+  },
+  "route_counts": {
+    "d27_k32": 256
+  }
+}

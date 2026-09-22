@@ -1,0 +1,37 @@
+{
+  "unit_key": "timing__f0c2f199bd46b9a9985575ca__d27_endpoint32__b4096__r1",
+  "status": "COMPLETED",
+  "job": {
+    "phase": "timing",
+    "sample_id": "f0c2f199bd46b9a9985575ca",
+    "method": "d27_endpoint32",
+    "block": 4096,
+    "repeat": 1,
+    "warmup": false
+  },
+  "sample": {
+    "sample_id": "f0c2f199bd46b9a9985575ca",
+    "pair_id": "42cc8400b776d355786e",
+    "member": 0,
+    "task": "updates",
+    "target_tokens": 16384,
+    "generator_seed": 20260927,
+    "instance": 0
+  },
+  "unit_seconds": 3.611187696456909,
+  "seconds": 3.3183472550008446,
+  "base_allocated_bytes": 8110241792,
+  "peak_allocated_bytes": 10843111424,
+  "peak_reserved_bytes": 11637096448,
+  "before_gpu": {
+    "foreign": [],
+    "processes": "1892004, 8042",
+    "telemetry": "NVIDIA GeForce RTX 4080, 55, 2700, 10801, 196.53, 61, 8304"
+  },
+  "after_gpu": {
+    "foreign": [],
+    "processes": "1892004, 11388",
+    "telemetry": "NVIDIA GeForce RTX 4080, 74, 2700, 10801, 247.54, 100, 11650"
+  },
+  "diagnostics_enabled": false
+}
