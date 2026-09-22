@@ -87387,8 +87387,6 @@
       "sha256": "d4a7fbca397ee56a3d429f8c08654df077b7fe263cbba3eb85b6798365b56a7b"
     }
   ],
-  "file_count_excluding_this_manifest": 14246,
-  "total_bytes_excluding_this_manifest": 194947504,
-  "file_count": 17475,
-  "total_bytes": 210194319
+  "file_count_excluding_this_manifest": 17475,
+  "total_bytes_excluding_this_manifest": 210194319
 }
