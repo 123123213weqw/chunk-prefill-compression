@@ -1,15 +1,15 @@
 {
-  "publication_date": "2026-09-22",
+  "publication_date": "2026-09-23",
   "owner": "123123213weqw",
   "repository": "chunk-prefill-compression",
-  "scope": "Prefill v0-v5 research code and synthetic experiment records; completed v5 3200/3200 plus 108-unit post-hoc failure diagnosis and immutable historical partial snapshot507/3200. Used development data is public.",
+  "scope": "Prefill v0-v5 research code and synthetic experiment records; completed v5 3200/3200 plus 108-unit post-hoc failure diagnosis and 36-unit inverse diagnosis and immutable historical partial snapshot507/3200. Used development data is public.",
   "excluded": [
     "model/tokenizer weights",
     "KV tensors",
     "private logs/SSH/auth/environment files",
     "legacy unrun test/all splits"
   ],
-  "privacy_note": "Environment paths/host labels/GPU UUIDs redacted; public source hashes rebased explicitly with original hashes in PUBLIC_PROVENANCE_20260921.json , PUBLIC_PROVENANCE_20260922.json and PUBLIC_PROVENANCE_DIAGNOSIS_20260922.json. Synthetic text and numerical experiment values are preserved.",
+  "privacy_note": "Environment paths/host labels/GPU UUIDs redacted; public source hashes rebased explicitly with original hashes in PUBLIC_PROVENANCE_20260921.json , PUBLIC_PROVENANCE_20260922.json and PUBLIC_PROVENANCE_DIAGNOSIS_20260922.json and PUBLIC_PROVENANCE_CAUSALITY_20260923.json. Synthetic text and numerical experiment values are preserved.",
   "files": [
     {
       "path": ".gitignore",
@@ -18,13 +18,13 @@
     },
     {
       "path": "PUBLICATION.md",
-      "bytes": 2152,
-      "sha256": "b539d35c7ba1c770b28487dce2051c31e3b75b00e302300677b467dfcc4a911c"
+      "bytes": 2531,
+      "sha256": "5481de0d32506436f28a8af048f2012e84aa9ae8427464a1cd1980973e9e1d32"
     },
     {
       "path": "PUBLIC_AUDIT.json",
-      "bytes": 6256,
-      "sha256": "114dd3150cdc8eaa876995d402ba3e3ba36ef8b18ddac35a8a3b927875dca11a"
+      "bytes": 7234,
+      "sha256": "5474ab7903769d817187d9bed730b073b40effc89d5e9cbe02cab56c9076538a"
     },
     {
       "path": "PUBLIC_PROVENANCE_20260921.json",
@@ -37,14 +37,19 @@
       "sha256": "9f7baa61012175b6625cc15184fd3c19fac686d799c9bd1303770a2657f1cfe1"
     },
     {
+      "path": "PUBLIC_PROVENANCE_CAUSALITY_20260923.json",
+      "bytes": 42124,
+      "sha256": "28f87390c87c69e5a3dd966dc58af680ada34fb6200825adb820ef025f558bb2"
+    },
+    {
       "path": "PUBLIC_PROVENANCE_DIAGNOSIS_20260922.json",
       "bytes": 70690,
       "sha256": "76bb15e996f8545fe21b0caeb086347e955193f5bf352ca506a191ba4f23d8bf"
     },
     {
       "path": "README.md",
-      "bytes": 8448,
-      "sha256": "6f8f2a837e3f679b30b9bab3cd4786c0707b7bd2aa21f3d6985d70356e468191"
+      "bytes": 9336,
+      "sha256": "00dd34b97f892a60a8510efdc3dc82786a13ed0b83ac0b6e3f37137363319740"
     },
     {
       "path": "outputs/chunkpack_validation_v1/EXPERIMENT_PLAN.md",
@@ -19485,6 +19490,471 @@
       "path": "outputs/prefill_compute_goal/cost_model.py",
       "bytes": 3607,
       "sha256": "d2ca611ebf31ebb89acef5dbdf2e33ae4497c29896d304708b95185c676d29a9"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/OFFLINE_REPORT.md",
+      "bytes": 1971,
+      "sha256": "c8f03a927c30ef597e8d09b38073729bdf6043b563a2f99558381fa841fcd9b7"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/PARENT_DIAGNOSIS_SUMMARY.json",
+      "bytes": 27665,
+      "sha256": "76f90c2dc2159316321ffde8d02ddfc8b6a0b9cf4aeca46b7e66d8cc29da8943"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/PROTOCOL.md",
+      "bytes": 2643,
+      "sha256": "5d49890b886c07b79aa9b8d4640ddd4d4251f56ba74f6a6f2732ad0a9dd5fbad"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/PROTOCOL_V6.md",
+      "bytes": 1935,
+      "sha256": "82e036074249d65de9c3da09af0ea9b1f8ae6432baabf803d5d90e886a9aa674"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/README.md",
+      "bytes": 2780,
+      "sha256": "bd3c3b04dc2634a7b40463e383399c6a4ac04c1a0f3d3a2ef8115de0790c66db"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/RECORD_AUDIT_TESTS.json",
+      "bytes": 573,
+      "sha256": "c83c531e39cd2d690d47ab07963074f3c5279f3dab7d0da4a8bb756aa0b9065a"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/base_engine.py",
+      "bytes": 8650,
+      "sha256": "fe4e3b62c8378ef8b62e8a52559e0236e7612b0256afed02600c6f1c89b62bdc"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/core.py",
+      "bytes": 5852,
+      "sha256": "176d4dbcbd25f109b2acc5817f895ae3edb5f4d1d19d8ab4d26e9f5a6f5f7092"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/data.py",
+      "bytes": 7125,
+      "sha256": "7617c3607a048cd5074d086744df91738397de2c269d39637a370b7bc2c0c98d"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/engine.py",
+      "bytes": 7942,
+      "sha256": "a658e40ff800a7f39f6b69d8bc388a61f4044ed8a6d44890e27c41c437a1a496"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/launch.py",
+      "bytes": 1487,
+      "sha256": "eaaaaa210ed225c480a2b8540275690f43f22874de5476868e4dd69ddf873f41"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/legacy_engine.py",
+      "bytes": 7433,
+      "sha256": "149c7ebb691734fa413fcc61d426dc136cbfd9b6b030859fb3f5effde884ed8e"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/prepare.py",
+      "bytes": 5439,
+      "sha256": "9360128396459d4657589fecd4de5106f1bb32db09dd5299e94eedbfbd2b1007"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/prepare_v6.py",
+      "bytes": 1473,
+      "sha256": "a601beea5f9b0c117c9815de6ebb5dacfe176c120caea1269d930cd6088848c3"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/prepared.json",
+      "bytes": 111768,
+      "sha256": "f45237bb4b686de95ea69c668ad8a2e12b0d7b43ba9b1f8ae0e4ae54c6716b02"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/queue_v6.json",
+      "bytes": 9370,
+      "sha256": "2bf0be0f5002a2cc89a427fc8524fd59fdfbaad8e6564946fb1b9c8e775e12ff"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/report.py",
+      "bytes": 6035,
+      "sha256": "057d9cbf92d327b1be3d322aacd89cc3404bcb87291b5bf18ae148ee76bdea45"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/run.py",
+      "bytes": 5264,
+      "sha256": "17dcd91f54f533f27a9d5ec282fc77d109b9d55d7774a2d6fc7176e57dd18f41"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/OFFLINE_REPORT.md",
+      "bytes": 1971,
+      "sha256": "c8f03a927c30ef597e8d09b38073729bdf6043b563a2f99558381fa841fcd9b7"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/PARENT_DIAGNOSIS_SUMMARY.json",
+      "bytes": 27665,
+      "sha256": "76f90c2dc2159316321ffde8d02ddfc8b6a0b9cf4aeca46b7e66d8cc29da8943"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/PROTOCOL.md",
+      "bytes": 2643,
+      "sha256": "5d49890b886c07b79aa9b8d4640ddd4d4251f56ba74f6a6f2732ad0a9dd5fbad"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/PROTOCOL_V6.md",
+      "bytes": 1935,
+      "sha256": "82e036074249d65de9c3da09af0ea9b1f8ae6432baabf803d5d90e886a9aa674"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/base_engine.py",
+      "bytes": 8650,
+      "sha256": "fe4e3b62c8378ef8b62e8a52559e0236e7612b0256afed02600c6f1c89b62bdc"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/core.py",
+      "bytes": 5852,
+      "sha256": "176d4dbcbd25f109b2acc5817f895ae3edb5f4d1d19d8ab4d26e9f5a6f5f7092"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/data.py",
+      "bytes": 7125,
+      "sha256": "7617c3607a048cd5074d086744df91738397de2c269d39637a370b7bc2c0c98d"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/engine.py",
+      "bytes": 7942,
+      "sha256": "a658e40ff800a7f39f6b69d8bc388a61f4044ed8a6d44890e27c41c437a1a496"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/launch.py",
+      "bytes": 1487,
+      "sha256": "eaaaaa210ed225c480a2b8540275690f43f22874de5476868e4dd69ddf873f41"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/legacy_engine.py",
+      "bytes": 7433,
+      "sha256": "149c7ebb691734fa413fcc61d426dc136cbfd9b6b030859fb3f5effde884ed8e"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/prepare.py",
+      "bytes": 5439,
+      "sha256": "9360128396459d4657589fecd4de5106f1bb32db09dd5299e94eedbfbd2b1007"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/prepare_v6.py",
+      "bytes": 1473,
+      "sha256": "a601beea5f9b0c117c9815de6ebb5dacfe176c120caea1269d930cd6088848c3"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/prepared.json",
+      "bytes": 111768,
+      "sha256": "f45237bb4b686de95ea69c668ad8a2e12b0d7b43ba9b1f8ae0e4ae54c6716b02"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/queue_v6.json",
+      "bytes": 9370,
+      "sha256": "2bf0be0f5002a2cc89a427fc8524fd59fdfbaad8e6564946fb1b9c8e775e12ff"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/report.py",
+      "bytes": 6035,
+      "sha256": "057d9cbf92d327b1be3d322aacd89cc3404bcb87291b5bf18ae148ee76bdea45"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/run.py",
+      "bytes": 5264,
+      "sha256": "17dcd91f54f533f27a9d5ec282fc77d109b9d55d7774a2d6fc7176e57dd18f41"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/scoring.py",
+      "bytes": 7169,
+      "sha256": "c45142718fd90ae87569a1bcc33f0a15d7c5ba619ca65ae4fb69defa4c709cb5"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/select_cases.py",
+      "bytes": 2422,
+      "sha256": "a3c70186645f0b7ea24b88c3bb899b0c3bc3797022138778d9122fabd4a0d30c"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/selection.json",
+      "bytes": 436064,
+      "sha256": "51c53ef3fbd8a8c1f494750ace7d0df777dfbe34befa34d93798d884473df0ca"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/test_diagnostic.py",
+      "bytes": 2280,
+      "sha256": "86836256caf7cbb889f25ca2f6324230695b2d9e90d1d5b6a97f85a5d2c2d28d"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/test_engine.py",
+      "bytes": 5033,
+      "sha256": "6ed150226cf984a3e69a823a58a31dc6b404b571299f3f7698af3ed207f27c8c"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/test_inverse.py",
+      "bytes": 1595,
+      "sha256": "486d140a5be75f545026283b8ef65f5710091295dae94629083b209823c81e78"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/test_long.py",
+      "bytes": 1723,
+      "sha256": "18925c0fcde49ad0b4e4a0058cd0ea24b36ec916aebba476b944e07a279c7b49"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/frozen_source/test_scores.py",
+      "bytes": 783,
+      "sha256": "539ff3455ba1659e557be787134e1bab751978962a686b7ab0dfb09422c93969"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/REPORT.md",
+      "bytes": 2032,
+      "sha256": "23d988aff78515c4a7ed2d337d5e9b38f1e99f6d619114e87d0f31c06afefee6"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/environment.json",
+      "bytes": 428,
+      "sha256": "ef76d24a883918687fc1cf66b36c4076fc228ce23570f380562c17cef423cb09"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/manifest.json",
+      "bytes": 2337,
+      "sha256": "6bd23b3e0a599a9775df2c045225e7917b988c8fa583d148eb676d752d40a26d"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/queue.json",
+      "bytes": 8385,
+      "sha256": "165af941d64f2f6441889bf0849d169013b1f89a8157f3dea07168c99fe21daf"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/status.json",
+      "bytes": 157,
+      "sha256": "379bb831e17e78361f5b0c73c562f0673fdbe9d155337e5c6749d14027b77536"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/summary.json",
+      "bytes": 8174,
+      "sha256": "030b25d10ee11a3be780c4aec884cb2426adb4f17f0ba4567ee3141d7845c5bd"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/1155f1c2b9ca39381f7f5844__all_compressed.json",
+      "bytes": 34341,
+      "sha256": "360c925df5ca1a258fdf690a5447227a176f0708d7f58850987154ffa016676e"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/1155f1c2b9ca39381f7f5844__all_evidence__evidence__compress16.json",
+      "bytes": 30500,
+      "sha256": "2dbf74195cbd413c88b180851aefd7678221405e803d3965bea11dc8487fef4d"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/1155f1c2b9ca39381f7f5844__all_evidence__placebo__compress16.json",
+      "bytes": 30492,
+      "sha256": "3bd88e3fc5be91ff3b077d0286fa6452f626b369928fff21e35cee7d3e342128"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/1155f1c2b9ca39381f7f5844__full.json",
+      "bytes": 117322,
+      "sha256": "11f2e9486cb060a58eb2dc84942076f2f02921fe51f1cac7fe781b9c47a0540a"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/1155f1c2b9ca39381f7f5844__warehouse_sentence__evidence__compress16.json",
+      "bytes": 30477,
+      "sha256": "bab56be7526421f43faa6ac12d73099ff8fb9bf2d4ec56729daf395b65245714"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/1155f1c2b9ca39381f7f5844__warehouse_sentence__placebo__compress16.json",
+      "bytes": 30475,
+      "sha256": "d35190d4e04cfd13a56f62a4afa662ae4977a54c3f649f0f1b874a381f96bc71"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/18c5665358c364ff70111471__all_compressed.json",
+      "bytes": 34360,
+      "sha256": "794115bb5b74b0a6e164ba139f089b68c2bc13cd2e2504eda8e2d01db5615ab7"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/18c5665358c364ff70111471__all_evidence__evidence__compress16.json",
+      "bytes": 30496,
+      "sha256": "78f04550b9c3c169087caf6b1f86b5cc3890a800ce8a19e42d592f942478edc1"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/18c5665358c364ff70111471__all_evidence__placebo__compress16.json",
+      "bytes": 30496,
+      "sha256": "a7dfc96d2918f137aad06133a0c14415a60d21a64c58b9e37b608512f4807ff2"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/18c5665358c364ff70111471__full.json",
+      "bytes": 117315,
+      "sha256": "ea06bf9ca3b60819215fe31bbb62b48359a7a341c457a7de0117a0d50bdb13d4"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/18c5665358c364ff70111471__warehouse_sentence__evidence__compress16.json",
+      "bytes": 30475,
+      "sha256": "2967ec61b08be3513a41cab8f7a89803f3a0acf9024e1fec520f33a1b805e52a"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/18c5665358c364ff70111471__warehouse_sentence__placebo__compress16.json",
+      "bytes": 30474,
+      "sha256": "77fac7c87aca6607fe7ddaa0088cf53252d31df3851fe00c5c9672f754790538"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/3615d03937e9ef228782b28f__all_compressed.json",
+      "bytes": 34373,
+      "sha256": "e4c531a97e4e05f0304de736705780de39e5480e58a715d6b7ceed805b16c68a"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/3615d03937e9ef228782b28f__all_evidence__evidence__compress16.json",
+      "bytes": 30499,
+      "sha256": "cfb2c9f9258a9dba0865d7c0294865e84d42c067e2342cab38360a713b4a2ddf"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/3615d03937e9ef228782b28f__all_evidence__placebo__compress16.json",
+      "bytes": 30494,
+      "sha256": "c74f2814a31a3a752d2571fa9f828b5719c1138948ef94fd7af64c04afc49963"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/3615d03937e9ef228782b28f__full.json",
+      "bytes": 117337,
+      "sha256": "f30d4ca374f72b171ef473e2a7cb853fb2560c93b43761e37bc9e1139ac1ce5d"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/3615d03937e9ef228782b28f__warehouse_sentence__evidence__compress16.json",
+      "bytes": 30476,
+      "sha256": "7a6d63e31bdeea1103d8c7325a67fc39079b5800fb15893a81f9544df2f1dea4"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/3615d03937e9ef228782b28f__warehouse_sentence__placebo__compress16.json",
+      "bytes": 30472,
+      "sha256": "a35e548d62dc5fec93b1ab0a51c21d9acb4b77a3db4f6208be03abe868d53fd8"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/73a05237143cc0773a4a9152__all_compressed.json",
+      "bytes": 34372,
+      "sha256": "e00f6c54dcc43fd4e33629f5366c84a0a925858dd8e8dbf717de3911cb5bc100"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/73a05237143cc0773a4a9152__all_evidence__evidence__compress16.json",
+      "bytes": 30508,
+      "sha256": "0a95d515fa408cca0f339dd455812db4b06742a94d35492b4a7943a36ac0b8e7"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/73a05237143cc0773a4a9152__all_evidence__placebo__compress16.json",
+      "bytes": 30504,
+      "sha256": "a85377985b9d71cf2f281cc0e0415e8b6886b947684cc3e415850884f3984a2e"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/73a05237143cc0773a4a9152__full.json",
+      "bytes": 117315,
+      "sha256": "fb65923343dceebca72b02310f40061da77f6ec5577a901695c44bfbb7f55749"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/73a05237143cc0773a4a9152__warehouse_sentence__evidence__compress16.json",
+      "bytes": 30486,
+      "sha256": "4855b7f52a00814eb275da07885849cde01801187963c94cc48fd3aef7ed93ae"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/73a05237143cc0773a4a9152__warehouse_sentence__placebo__compress16.json",
+      "bytes": 30484,
+      "sha256": "b812908d54760ce0fb53ed7f10999b9394190de6c322280769a5ff27a7d9ea4d"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/db38fac84d1584897de1e7b7__all_compressed.json",
+      "bytes": 34379,
+      "sha256": "d7ca4bd947f1c42a8d3795cd21c539a0c367e935e1dc8627f48fd8dd22c833fd"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/db38fac84d1584897de1e7b7__all_evidence__evidence__compress16.json",
+      "bytes": 30505,
+      "sha256": "53154374f104c3e6635370e59c25d39b9dfaf7037b3d18934dafc5c9c1779ea8"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/db38fac84d1584897de1e7b7__all_evidence__placebo__compress16.json",
+      "bytes": 30500,
+      "sha256": "63eccb5dad816fa805f0d66abb2811ee43dfab7d8fa43cd26181b4219b0a8dc7"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/db38fac84d1584897de1e7b7__full.json",
+      "bytes": 117313,
+      "sha256": "939d7d5ee5575ae4021026a0490fb0785877c850cfde2f55a1cc1c79236a354e"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/db38fac84d1584897de1e7b7__warehouse_sentence__evidence__compress16.json",
+      "bytes": 30486,
+      "sha256": "a0d3258b45b095381486ef4b014de08a6f5908dffc569b683caed0b41ab1e7fd"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/db38fac84d1584897de1e7b7__warehouse_sentence__placebo__compress16.json",
+      "bytes": 30482,
+      "sha256": "6219dce55485beb59964b373246fd10d84b5e68ba29a19c7e4c3e027544c467f"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/df95590d8ecd480de63b0a95__all_compressed.json",
+      "bytes": 34366,
+      "sha256": "fc7b1ab813b1ce273b9f2da01c0a0d53c8be935c201b28a13910c4f81cb004a7"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/df95590d8ecd480de63b0a95__all_evidence__evidence__compress16.json",
+      "bytes": 30506,
+      "sha256": "7f718c815f36efb77607866baeb31f1e0fa0fd200e1e68aa708e09673cd33ac2"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/df95590d8ecd480de63b0a95__all_evidence__placebo__compress16.json",
+      "bytes": 30505,
+      "sha256": "7482f0c1bb5c2d670dba82cfeaef8d9571381147e5ec4945253b791deb4b4f66"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/df95590d8ecd480de63b0a95__full.json",
+      "bytes": 117341,
+      "sha256": "0a5ea1904b1caaa91c3b3fa4000c9924fc16fb8f0b754ae2a7033749bfe58e56"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/df95590d8ecd480de63b0a95__warehouse_sentence__evidence__compress16.json",
+      "bytes": 30487,
+      "sha256": "190ce502e5027cab3f0da1107b970d8dd51ca6ebf0985ca0f0791e7f9cded427"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/results/units/df95590d8ecd480de63b0a95__warehouse_sentence__placebo__compress16.json",
+      "bytes": 30484,
+      "sha256": "3b4440205fbda4f0d06dea682617d7ff874def8719dca42a1104173e4af1eead"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/runs/4080-20260923-v1/supervisor_status.json",
+      "bytes": 229,
+      "sha256": "20ad2c0b40a28373cef1ed1b82a9a041277f070213a56d6d7549827ead2aab15"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/scoring.py",
+      "bytes": 7169,
+      "sha256": "c45142718fd90ae87569a1bcc33f0a15d7c5ba619ca65ae4fb69defa4c709cb5"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/select_cases.py",
+      "bytes": 2422,
+      "sha256": "a3c70186645f0b7ea24b88c3bb899b0c3bc3797022138778d9122fabd4a0d30c"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/selection.json",
+      "bytes": 436064,
+      "sha256": "51c53ef3fbd8a8c1f494750ace7d0df777dfbe34befa34d93798d884473df0ca"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/test_diagnostic.py",
+      "bytes": 2280,
+      "sha256": "86836256caf7cbb889f25ca2f6324230695b2d9e90d1d5b6a97f85a5d2c2d28d"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/test_engine.py",
+      "bytes": 5033,
+      "sha256": "6ed150226cf984a3e69a823a58a31dc6b404b571299f3f7698af3ed207f27c8c"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/test_inverse.py",
+      "bytes": 1595,
+      "sha256": "486d140a5be75f545026283b8ef65f5710091295dae94629083b209823c81e78"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/test_long.py",
+      "bytes": 1723,
+      "sha256": "18925c0fcde49ad0b4e4a0058cd0ea24b36ec916aebba476b944e07a279c7b49"
+    },
+    {
+      "path": "outputs/prefill_compute_goal/failure_causality_v6/test_scores.py",
+      "bytes": 783,
+      "sha256": "539ff3455ba1659e557be787134e1bab751978962a686b7ab0dfb09422c93969"
     },
     {
       "path": "outputs/prefill_compute_goal/failure_diagnosis_v5/CPU_TEST_AUDIT.json",
@@ -88187,6 +88657,6 @@
       "sha256": "d4a7fbca397ee56a3d429f8c08654df077b7fe263cbba3eb85b6798365b56a7b"
     }
   ],
-  "file_count_excluding_this_manifest": 17635,
-  "total_bytes_excluding_this_manifest": 215818260
+  "file_count_excluding_this_manifest": 17729,
+  "total_bytes_excluding_this_manifest": 218867863
 }

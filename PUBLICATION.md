@@ -32,3 +32,9 @@ intervention study, not independent evaluation. Runtime-frozen sources are separ
 from later written interpretation. Its provenance is in
 PUBLIC_PROVENANCE_DIAGNOSIS_20260922.json. Existing completed/partial v5 runs
 and their provenance files remain unchanged.
+
+The v6 inverse failure-causality run (2026-09-23) publishes all36 new atomic
+records, matched same-budget placebo interventions, frozen source and independent
+CPU audit. It reuses exposed v5 cases, so is mechanistic and post-hoc, not a new
+validation cohort. Its path/source fingerprints are mapped in
+PUBLIC_PROVENANCE_CAUSALITY_20260923.json. Previous releases are unchanged.

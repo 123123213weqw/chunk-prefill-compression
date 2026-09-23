@@ -1,5 +1,5 @@
 {
-  "publication_date": "2026-09-22",
+  "publication_date": "2026-09-23",
   "status": "PASS",
   "scope": "Public redacted artifacts; CPU tests and raw-record report audits, not new GPU benchmarks.",
   "cpu_tests": [
@@ -32,14 +32,17 @@
     "v4": "PASS (13360/13360 units,256 paired-coverage documents)",
     "v5_snapshot": "PASS_completed_units_only (507/3200 units,62 paired-coverage documents)",
     "v5_complete": "PASS (3200/3200 units,256 paired-coverage documents; regenerated public summary equals private summary)",
-    "v5_failure_diagnosis": "PASS (108/108 units, 3 exposed loss cases + 3 correct controls; public/private summaries equal; historical greedy outputs and legacy engine reproduced)"
+    "v5_failure_diagnosis": "PASS (108/108 units, 3 exposed loss cases + 3 correct controls; public/private summaries equal; historical greedy outputs and legacy engine reproduced)",
+    "v6_inverse_failure_diagnosis": "PASS (36/36 units, 3 exposed loss cases + 3 correct controls; public/private summaries equal; historical greedy outputs reproduced)"
   },
   "privacy_scan": "No private home prefixes, known private host IPs, credential patterns or private-key headers detected in exported text.",
   "not_claimed": [
     "universal losslessness",
     "new GPU measurements from publication audit",
     "Independent validation accuracy gain from post-hoc diagnosis",
-    "Clean timing or speedup from instrumented diagnostic runtime"
+    "Clean timing or speedup from instrumented diagnostic runtime",
+    "Independent validation accuracy gain from v6 inverse post-hoc diagnosis",
+    "Mechanistic isolation of content vs RoPE/attention/numerics"
   ],
   "cpu_tests_note": "CPU test entries retained from 2026-09-21 publication; 2026-09-22 re-audited completed v5 records without new GPU measurements.",
   "diagnosis_cpu_tests": [
@@ -90,6 +93,40 @@
       },
       {
         "mutation": "bad_baseline_ids",
+        "detected": true
+      }
+    ]
+  },
+  "v6_tamper_tests": {
+    "status": "PASS",
+    "baseline_audit": "PASS",
+    "tamper_tests": [
+      {
+        "mutation": "missing_unit",
+        "detected": true
+      },
+      {
+        "mutation": "false_score",
+        "detected": true
+      },
+      {
+        "mutation": "wrong_route",
+        "detected": true
+      },
+      {
+        "mutation": "false_queue",
+        "detected": true
+      },
+      {
+        "mutation": "bad_source_hash",
+        "detected": true
+      },
+      {
+        "mutation": "bad_baseline_ids",
+        "detected": true
+      },
+      {
+        "mutation": "bad_equal_budget",
         "detected": true
       }
     ]

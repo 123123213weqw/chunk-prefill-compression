@@ -1,0 +1,860 @@
+{
+  "audit": "PASS",
+  "completed_units": 108,
+  "expected_units": 108,
+  "cases": [
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "role": "loss",
+      "full_correct": true,
+      "compressed_correct": false,
+      "full_margin": 4.004863040288953,
+      "compressed_margin": -9.774392028768375,
+      "comparisons": [
+        {
+          "group": "chunk_38",
+          "keep": 32,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": false,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 46\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 46\n}\n",
+          "evidence_margin": -8.39951331842883,
+          "placebo_margin": -10.02486817488159
+        },
+        {
+          "group": "chunk_38",
+          "keep": 64,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 46\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 46\n}\n",
+          "evidence_margin": -1.8054981466339015,
+          "placebo_margin": -10.134158636496863
+        },
+        {
+          "group": "chunk_204",
+          "keep": 32,
+          "evidence_chunks": [
+            204
+          ],
+          "placebo_chunks": [
+            203
+          ],
+          "evidence_correct": false,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 46\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 46\n}\n",
+          "evidence_margin": -9.9151341243886,
+          "placebo_margin": -9.743266277695398
+        },
+        {
+          "group": "chunk_204",
+          "keep": 64,
+          "evidence_chunks": [
+            204
+          ],
+          "placebo_chunks": [
+            203
+          ],
+          "evidence_correct": false,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 46\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 46\n}\n",
+          "evidence_margin": -9.805955918381983,
+          "placebo_margin": -9.337228081574608
+        },
+        {
+          "group": "warehouse_sentence",
+          "keep": 32,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": false,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 46\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 46\n}\n",
+          "evidence_margin": -8.39951331842883,
+          "placebo_margin": -10.02486817488159
+        },
+        {
+          "group": "warehouse_sentence",
+          "keep": 64,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 46\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 46\n}\n",
+          "evidence_margin": -1.8054981466339015,
+          "placebo_margin": -10.134158636496863
+        },
+        {
+          "group": "all_evidence",
+          "keep": 32,
+          "evidence_chunks": [
+            38,
+            204
+          ],
+          "placebo_chunks": [
+            36,
+            37
+          ],
+          "evidence_correct": false,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 46\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 46\n}\n",
+          "evidence_margin": -8.430637519268089,
+          "placebo_margin": -9.94674722676416
+        },
+        {
+          "group": "all_evidence",
+          "keep": 64,
+          "evidence_chunks": [
+            38,
+            204
+          ],
+          "placebo_chunks": [
+            36,
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 46\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 46\n}\n",
+          "evidence_margin": -1.8678617451496677,
+          "placebo_margin": -9.524925517932274
+        }
+      ]
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "role": "matched_correct",
+      "full_correct": true,
+      "compressed_correct": true,
+      "full_margin": 17.400351403887854,
+      "compressed_margin": 6.788431970548224,
+      "comparisons": [
+        {
+          "group": "chunk_38",
+          "keep": 32,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "evidence_margin": 12.665121116719376,
+          "placebo_margin": 6.725936779665169
+        },
+        {
+          "group": "chunk_38",
+          "keep": 64,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "evidence_margin": 17.67555981365335,
+          "placebo_margin": 6.773467596154717
+        },
+        {
+          "group": "chunk_204",
+          "keep": 32,
+          "evidence_chunks": [
+            204
+          ],
+          "placebo_chunks": [
+            203
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "evidence_margin": 7.101634717575621,
+          "placebo_margin": 6.788591335120252
+        },
+        {
+          "group": "chunk_204",
+          "keep": 64,
+          "evidence_chunks": [
+            204
+          ],
+          "placebo_chunks": [
+            203
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "evidence_margin": 7.89903041094658,
+          "placebo_margin": 6.741068973438921
+        },
+        {
+          "group": "warehouse_sentence",
+          "keep": 32,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "evidence_margin": 12.665121116719376,
+          "placebo_margin": 6.725936779665169
+        },
+        {
+          "group": "warehouse_sentence",
+          "keep": 64,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "evidence_margin": 17.67555981365335,
+          "placebo_margin": 6.773467596154717
+        },
+        {
+          "group": "all_evidence",
+          "keep": 32,
+          "evidence_chunks": [
+            38,
+            204
+          ],
+          "placebo_chunks": [
+            36,
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "evidence_margin": 12.680555990089431,
+          "placebo_margin": 8.100587904395177
+        },
+        {
+          "group": "all_evidence",
+          "keep": 64,
+          "evidence_chunks": [
+            38,
+            204
+          ],
+          "placebo_chunks": [
+            36,
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "evidence_margin": 17.6003677134186,
+          "placebo_margin": 11.521658720819737
+        }
+      ]
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "role": "loss",
+      "full_correct": true,
+      "compressed_correct": false,
+      "full_margin": -2.437211045049459,
+      "compressed_margin": -17.301085259118736,
+      "comparisons": [
+        {
+          "group": "chunk_38",
+          "keep": 32,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": false,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 62\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 62\n}\n",
+          "evidence_margin": -14.69153000069494,
+          "placebo_margin": -17.425851832136686
+        },
+        {
+          "group": "chunk_38",
+          "keep": 64,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": false,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 62\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 62\n}\n",
+          "evidence_margin": -10.067126022672731,
+          "placebo_margin": -17.472732669468314
+        },
+        {
+          "group": "chunk_204",
+          "keep": 32,
+          "evidence_chunks": [
+            204
+          ],
+          "placebo_chunks": [
+            203
+          ],
+          "evidence_correct": false,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 62\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 62\n}\n",
+          "evidence_margin": -17.378979327589832,
+          "placebo_margin": -17.03489483292742
+        },
+        {
+          "group": "chunk_204",
+          "keep": 64,
+          "evidence_chunks": [
+            204
+          ],
+          "placebo_chunks": [
+            203
+          ],
+          "evidence_correct": false,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 62\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 62\n}\n",
+          "evidence_margin": -17.488565369373646,
+          "placebo_margin": -16.457099448944064
+        },
+        {
+          "group": "warehouse_sentence",
+          "keep": 32,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": false,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 62\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 62\n}\n",
+          "evidence_margin": -14.69153000069494,
+          "placebo_margin": -17.425851832136686
+        },
+        {
+          "group": "warehouse_sentence",
+          "keep": 64,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": false,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 62\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 62\n}\n",
+          "evidence_margin": -10.067126022672731,
+          "placebo_margin": -17.472732669468314
+        },
+        {
+          "group": "all_evidence",
+          "keep": 32,
+          "evidence_chunks": [
+            38,
+            204
+          ],
+          "placebo_chunks": [
+            36,
+            37
+          ],
+          "evidence_correct": false,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 62\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 62\n}\n",
+          "evidence_margin": -14.769594206410176,
+          "placebo_margin": -17.12919739818335
+        },
+        {
+          "group": "all_evidence",
+          "keep": 64,
+          "evidence_chunks": [
+            38,
+            204
+          ],
+          "placebo_chunks": [
+            36,
+            37
+          ],
+          "evidence_correct": false,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 62\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 62\n}\n",
+          "evidence_margin": -10.284531094131601,
+          "placebo_margin": -16.347741487381427
+        }
+      ]
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "role": "matched_correct",
+      "full_correct": true,
+      "compressed_correct": true,
+      "full_margin": 13.12848086022177,
+      "compressed_margin": 0.9136997930937127,
+      "comparisons": [
+        {
+          "group": "chunk_38",
+          "keep": 32,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+          "evidence_margin": 5.1950721426547375,
+          "placebo_margin": 0.9449428867474694
+        },
+        {
+          "group": "chunk_38",
+          "keep": 64,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+          "evidence_margin": 9.883571862344986,
+          "placebo_margin": 0.9452760475251623
+        },
+        {
+          "group": "chunk_204",
+          "keep": 32,
+          "evidence_chunks": [
+            204
+          ],
+          "placebo_chunks": [
+            203
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+          "evidence_margin": 1.1952928695064315,
+          "placebo_margin": 0.8515485604039554
+        },
+        {
+          "group": "chunk_204",
+          "keep": 64,
+          "evidence_chunks": [
+            204
+          ],
+          "placebo_chunks": [
+            203
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+          "evidence_margin": 3.4447687979500756,
+          "placebo_margin": 0.8203816961759571
+        },
+        {
+          "group": "warehouse_sentence",
+          "keep": 32,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+          "evidence_margin": 5.1950721426547375,
+          "placebo_margin": 0.9449428867474694
+        },
+        {
+          "group": "warehouse_sentence",
+          "keep": 64,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+          "evidence_margin": 9.883571862344986,
+          "placebo_margin": 0.9452760475251623
+        },
+        {
+          "group": "all_evidence",
+          "keep": 32,
+          "evidence_chunks": [
+            38,
+            204
+          ],
+          "placebo_chunks": [
+            36,
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+          "evidence_margin": 5.351310131913181,
+          "placebo_margin": 2.1638030105355597
+        },
+        {
+          "group": "all_evidence",
+          "keep": 64,
+          "evidence_chunks": [
+            38,
+            204
+          ],
+          "placebo_chunks": [
+            36,
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+          "evidence_margin": 10.320755986149386,
+          "placebo_margin": 3.9762944520844243
+        }
+      ]
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "role": "loss",
+      "full_correct": true,
+      "compressed_correct": false,
+      "full_margin": 12.546445862947735,
+      "compressed_margin": -0.0044809695186245335,
+      "comparisons": [
+        {
+          "group": "chunk_37",
+          "keep": 32,
+          "evidence_chunks": [
+            37
+          ],
+          "placebo_chunks": [
+            36
+          ],
+          "evidence_correct": true,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 57\n}\n",
+          "evidence_margin": 4.995363263497012,
+          "placebo_margin": -0.06696366200225157
+        },
+        {
+          "group": "chunk_37",
+          "keep": 64,
+          "evidence_chunks": [
+            37
+          ],
+          "placebo_chunks": [
+            36
+          ],
+          "evidence_correct": true,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 57\n}\n",
+          "evidence_margin": 9.147710638741508,
+          "placebo_margin": -0.06669930690162573
+        },
+        {
+          "group": "chunk_204",
+          "keep": 32,
+          "evidence_chunks": [
+            204
+          ],
+          "placebo_chunks": [
+            203
+          ],
+          "evidence_correct": true,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 57\n}\n",
+          "evidence_margin": 0.6784824005174244,
+          "placebo_margin": -0.03545887347166854
+        },
+        {
+          "group": "chunk_204",
+          "keep": 64,
+          "evidence_chunks": [
+            204
+          ],
+          "placebo_chunks": [
+            203
+          ],
+          "evidence_correct": true,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 57\n}\n",
+          "evidence_margin": 2.560732246935032,
+          "placebo_margin": -0.09815159570820242
+        },
+        {
+          "group": "warehouse_sentence",
+          "keep": 32,
+          "evidence_chunks": [
+            37
+          ],
+          "placebo_chunks": [
+            36
+          ],
+          "evidence_correct": true,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 57\n}\n",
+          "evidence_margin": 4.995363263497012,
+          "placebo_margin": -0.06696366200225157
+        },
+        {
+          "group": "warehouse_sentence",
+          "keep": 64,
+          "evidence_chunks": [
+            37
+          ],
+          "placebo_chunks": [
+            36
+          ],
+          "evidence_correct": true,
+          "placebo_correct": false,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 57\n}\n",
+          "evidence_margin": 9.147710638741508,
+          "placebo_margin": -0.06669930690162573
+        },
+        {
+          "group": "all_evidence",
+          "keep": 32,
+          "evidence_chunks": [
+            37,
+            204
+          ],
+          "placebo_chunks": [
+            35,
+            36
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "evidence_margin": 5.271626920428417,
+          "placebo_margin": 0.7144092901189936
+        },
+        {
+          "group": "all_evidence",
+          "keep": 64,
+          "evidence_chunks": [
+            37,
+            204
+          ],
+          "placebo_chunks": [
+            35,
+            36
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+          "evidence_margin": 9.272068077380261,
+          "placebo_margin": 2.27713718691669
+        }
+      ]
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "role": "matched_correct",
+      "full_correct": true,
+      "compressed_correct": true,
+      "full_margin": 23.594556048714935,
+      "compressed_margin": 33.520655128060774,
+      "comparisons": [
+        {
+          "group": "chunk_38",
+          "keep": 32,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+          "evidence_margin": 33.4737864450116,
+          "placebo_margin": 33.442581910236434
+        },
+        {
+          "group": "chunk_38",
+          "keep": 64,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+          "evidence_margin": 33.75484679729121,
+          "placebo_margin": 33.52050498887914
+        },
+        {
+          "group": "chunk_204",
+          "keep": 32,
+          "evidence_chunks": [
+            204
+          ],
+          "placebo_chunks": [
+            203
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+          "evidence_margin": 33.38002965131162,
+          "placebo_margin": 33.47377988975861
+        },
+        {
+          "group": "chunk_204",
+          "keep": 64,
+          "evidence_chunks": [
+            204
+          ],
+          "placebo_chunks": [
+            203
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+          "evidence_margin": 33.30170011081239,
+          "placebo_margin": 33.50483678528828
+        },
+        {
+          "group": "warehouse_sentence",
+          "keep": 32,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+          "evidence_margin": 33.4737864450116,
+          "placebo_margin": 33.442581910236434
+        },
+        {
+          "group": "warehouse_sentence",
+          "keep": 64,
+          "evidence_chunks": [
+            38
+          ],
+          "placebo_chunks": [
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+          "evidence_margin": 33.75484679729121,
+          "placebo_margin": 33.52050498887914
+        },
+        {
+          "group": "all_evidence",
+          "keep": 32,
+          "evidence_chunks": [
+            38,
+            204
+          ],
+          "placebo_chunks": [
+            36,
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+          "evidence_margin": 33.411232641633575,
+          "placebo_margin": 33.317347985434274
+        },
+        {
+          "group": "all_evidence",
+          "keep": 64,
+          "evidence_chunks": [
+            38,
+            204
+          ],
+          "placebo_chunks": [
+            36,
+            37
+          ],
+          "evidence_correct": true,
+          "placebo_correct": true,
+          "evidence_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+          "placebo_answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+          "evidence_margin": 33.58296798737368,
+          "placebo_margin": 33.2079567818487
+        }
+      ]
+    }
+  ],
+  "limits": "Post-hoc answer-aware oracle diagnostic; no independent accuracy or clean speed claim."
+}

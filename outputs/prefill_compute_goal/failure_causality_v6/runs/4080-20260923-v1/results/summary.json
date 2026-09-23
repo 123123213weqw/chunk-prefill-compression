@@ -1,0 +1,284 @@
+{
+  "audit": "PASS",
+  "expected_units": 36,
+  "completed_units": 36,
+  "cases": [
+    {
+      "sample_id": "1155f1c2b9ca39381f7f5844",
+      "role": "loss",
+      "full": true,
+      "all_compressed": false,
+      "warehouse_sentence_evidence": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 46\n}\n",
+        "margin": 3.9113335912116014,
+        "compressed_chunks": [
+          38
+        ],
+        "saved_T_layer_tokens": 288
+      },
+      "warehouse_sentence_placebo": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 46\n}\n",
+        "margin": 4.036104820785155,
+        "compressed_chunks": [
+          37
+        ],
+        "saved_T_layer_tokens": 288
+      },
+      "all_evidence_evidence": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 46\n}\n",
+        "margin": 3.9423061866255367,
+        "compressed_chunks": [
+          38,
+          204
+        ],
+        "saved_T_layer_tokens": 576
+      },
+      "all_evidence_placebo": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 46\n}\n",
+        "margin": 4.004919326456772,
+        "compressed_chunks": [
+          36,
+          37
+        ],
+        "saved_T_layer_tokens": 576
+      },
+      "prior_protect_warehouse64": true,
+      "prior_protect_all64": true
+    },
+    {
+      "sample_id": "df95590d8ecd480de63b0a95",
+      "role": "matched_correct",
+      "full": true,
+      "all_compressed": true,
+      "warehouse_sentence_evidence": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+        "margin": 17.3691808487887,
+        "compressed_chunks": [
+          38
+        ],
+        "saved_T_layer_tokens": 288
+      },
+      "warehouse_sentence_placebo": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+        "margin": 17.353481409077304,
+        "compressed_chunks": [
+          37
+        ],
+        "saved_T_layer_tokens": 288
+      },
+      "all_evidence_evidence": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+        "margin": 17.415799052736375,
+        "compressed_chunks": [
+          38,
+          204
+        ],
+        "saved_T_layer_tokens": 576
+      },
+      "all_evidence_placebo": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+        "margin": 17.400362009818437,
+        "compressed_chunks": [
+          36,
+          37
+        ],
+        "saved_T_layer_tokens": 576
+      },
+      "prior_protect_warehouse64": true,
+      "prior_protect_all64": true
+    },
+    {
+      "sample_id": "18c5665358c364ff70111471",
+      "role": "loss",
+      "full": true,
+      "all_compressed": false,
+      "warehouse_sentence_evidence": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 62\n}\n",
+        "margin": -2.655780496483203,
+        "compressed_chunks": [
+          38
+        ],
+        "saved_T_layer_tokens": 288
+      },
+      "warehouse_sentence_placebo": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 62\n}\n",
+        "margin": -2.4370911162113558,
+        "compressed_chunks": [
+          37
+        ],
+        "saved_T_layer_tokens": 288
+      },
+      "all_evidence_evidence": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 62\n}\n",
+        "margin": -2.5621214955390244,
+        "compressed_chunks": [
+          38,
+          204
+        ],
+        "saved_T_layer_tokens": 576
+      },
+      "all_evidence_placebo": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 62\n}\n",
+        "margin": -2.468454122848904,
+        "compressed_chunks": [
+          36,
+          37
+        ],
+        "saved_T_layer_tokens": 576
+      },
+      "prior_protect_warehouse64": false,
+      "prior_protect_all64": false
+    },
+    {
+      "sample_id": "73a05237143cc0773a4a9152",
+      "role": "matched_correct",
+      "full": true,
+      "all_compressed": true,
+      "warehouse_sentence_evidence": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+        "margin": 13.097071827531181,
+        "compressed_chunks": [
+          38
+        ],
+        "saved_T_layer_tokens": 288
+      },
+      "warehouse_sentence_placebo": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+        "margin": 13.160294294212235,
+        "compressed_chunks": [
+          37
+        ],
+        "saved_T_layer_tokens": 288
+      },
+      "all_evidence_evidence": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+        "margin": 13.097091342350268,
+        "compressed_chunks": [
+          38,
+          204
+        ],
+        "saved_T_layer_tokens": 576
+      },
+      "all_evidence_placebo": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 66\n}\n",
+        "margin": 13.129012564226741,
+        "compressed_chunks": [
+          36,
+          37
+        ],
+        "saved_T_layer_tokens": 576
+      },
+      "prior_protect_warehouse64": true,
+      "prior_protect_all64": true
+    },
+    {
+      "sample_id": "3615d03937e9ef228782b28f",
+      "role": "loss",
+      "full": true,
+      "all_compressed": false,
+      "warehouse_sentence_evidence": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+        "margin": 12.491161123002826,
+        "compressed_chunks": [
+          37
+        ],
+        "saved_T_layer_tokens": 288
+      },
+      "warehouse_sentence_placebo": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+        "margin": 12.546437760230333,
+        "compressed_chunks": [
+          36
+        ],
+        "saved_T_layer_tokens": 288
+      },
+      "all_evidence_evidence": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+        "margin": 12.758873196738136,
+        "compressed_chunks": [
+          37,
+          204
+        ],
+        "saved_T_layer_tokens": 576
+      },
+      "all_evidence_placebo": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Amber\",\n  \"boxes\": 57\n}\n",
+        "margin": 12.577682514112098,
+        "compressed_chunks": [
+          35,
+          36
+        ],
+        "saved_T_layer_tokens": 576
+      },
+      "prior_protect_warehouse64": true,
+      "prior_protect_all64": true
+    },
+    {
+      "sample_id": "db38fac84d1584897de1e7b7",
+      "role": "matched_correct",
+      "full": true,
+      "all_compressed": true,
+      "warehouse_sentence_evidence": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+        "margin": 23.485185100724834,
+        "compressed_chunks": [
+          38
+        ],
+        "saved_T_layer_tokens": 288
+      },
+      "warehouse_sentence_placebo": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+        "margin": 23.547691535203285,
+        "compressed_chunks": [
+          37
+        ],
+        "saved_T_layer_tokens": 288
+      },
+      "all_evidence_evidence": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+        "margin": 23.50077224368212,
+        "compressed_chunks": [
+          38,
+          204
+        ],
+        "saved_T_layer_tokens": 576
+      },
+      "all_evidence_placebo": {
+        "correct": true,
+        "answer": "{\n  \"warehouse\": \"Dune\",\n  \"boxes\": 66\n}\n",
+        "margin": 23.57894498979863,
+        "compressed_chunks": [
+          36,
+          37
+        ],
+        "saved_T_layer_tokens": 576
+      },
+      "prior_protect_warehouse64": true,
+      "prior_protect_all64": true
+    }
+  ],
+  "notes": "Post-hoc inverse mechanism diagnostic; no independent accuracy or clean timing claim."
+}

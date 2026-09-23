@@ -1,0 +1,326 @@
+[
+  {
+    "sample_id": "1155f1c2b9ca39381f7f5844",
+    "method": "full",
+    "chunk_keeps": {},
+    "unit_key": "1155f1c2b9ca39381f7f5844__full"
+  },
+  {
+    "sample_id": "1155f1c2b9ca39381f7f5844",
+    "method": "all_compressed",
+    "chunk_keeps": {},
+    "unit_key": "1155f1c2b9ca39381f7f5844__all_compressed"
+  },
+  {
+    "sample_id": "1155f1c2b9ca39381f7f5844",
+    "method": "local_only",
+    "group": "warehouse_sentence",
+    "kind": "evidence",
+    "chunk_keeps": {
+      "38": 16
+    },
+    "unit_key": "1155f1c2b9ca39381f7f5844__warehouse_sentence__evidence__compress16"
+  },
+  {
+    "sample_id": "1155f1c2b9ca39381f7f5844",
+    "method": "local_only",
+    "group": "warehouse_sentence",
+    "kind": "placebo",
+    "chunk_keeps": {
+      "37": 16
+    },
+    "unit_key": "1155f1c2b9ca39381f7f5844__warehouse_sentence__placebo__compress16"
+  },
+  {
+    "sample_id": "1155f1c2b9ca39381f7f5844",
+    "method": "local_only",
+    "group": "all_evidence",
+    "kind": "evidence",
+    "chunk_keeps": {
+      "38": 16,
+      "204": 16
+    },
+    "unit_key": "1155f1c2b9ca39381f7f5844__all_evidence__evidence__compress16"
+  },
+  {
+    "sample_id": "1155f1c2b9ca39381f7f5844",
+    "method": "local_only",
+    "group": "all_evidence",
+    "kind": "placebo",
+    "chunk_keeps": {
+      "36": 16,
+      "37": 16
+    },
+    "unit_key": "1155f1c2b9ca39381f7f5844__all_evidence__placebo__compress16"
+  },
+  {
+    "sample_id": "df95590d8ecd480de63b0a95",
+    "method": "full",
+    "chunk_keeps": {},
+    "unit_key": "df95590d8ecd480de63b0a95__full"
+  },
+  {
+    "sample_id": "df95590d8ecd480de63b0a95",
+    "method": "all_compressed",
+    "chunk_keeps": {},
+    "unit_key": "df95590d8ecd480de63b0a95__all_compressed"
+  },
+  {
+    "sample_id": "df95590d8ecd480de63b0a95",
+    "method": "local_only",
+    "group": "warehouse_sentence",
+    "kind": "evidence",
+    "chunk_keeps": {
+      "38": 16
+    },
+    "unit_key": "df95590d8ecd480de63b0a95__warehouse_sentence__evidence__compress16"
+  },
+  {
+    "sample_id": "df95590d8ecd480de63b0a95",
+    "method": "local_only",
+    "group": "warehouse_sentence",
+    "kind": "placebo",
+    "chunk_keeps": {
+      "37": 16
+    },
+    "unit_key": "df95590d8ecd480de63b0a95__warehouse_sentence__placebo__compress16"
+  },
+  {
+    "sample_id": "df95590d8ecd480de63b0a95",
+    "method": "local_only",
+    "group": "all_evidence",
+    "kind": "evidence",
+    "chunk_keeps": {
+      "38": 16,
+      "204": 16
+    },
+    "unit_key": "df95590d8ecd480de63b0a95__all_evidence__evidence__compress16"
+  },
+  {
+    "sample_id": "df95590d8ecd480de63b0a95",
+    "method": "local_only",
+    "group": "all_evidence",
+    "kind": "placebo",
+    "chunk_keeps": {
+      "36": 16,
+      "37": 16
+    },
+    "unit_key": "df95590d8ecd480de63b0a95__all_evidence__placebo__compress16"
+  },
+  {
+    "sample_id": "18c5665358c364ff70111471",
+    "method": "full",
+    "chunk_keeps": {},
+    "unit_key": "18c5665358c364ff70111471__full"
+  },
+  {
+    "sample_id": "18c5665358c364ff70111471",
+    "method": "all_compressed",
+    "chunk_keeps": {},
+    "unit_key": "18c5665358c364ff70111471__all_compressed"
+  },
+  {
+    "sample_id": "18c5665358c364ff70111471",
+    "method": "local_only",
+    "group": "warehouse_sentence",
+    "kind": "evidence",
+    "chunk_keeps": {
+      "38": 16
+    },
+    "unit_key": "18c5665358c364ff70111471__warehouse_sentence__evidence__compress16"
+  },
+  {
+    "sample_id": "18c5665358c364ff70111471",
+    "method": "local_only",
+    "group": "warehouse_sentence",
+    "kind": "placebo",
+    "chunk_keeps": {
+      "37": 16
+    },
+    "unit_key": "18c5665358c364ff70111471__warehouse_sentence__placebo__compress16"
+  },
+  {
+    "sample_id": "18c5665358c364ff70111471",
+    "method": "local_only",
+    "group": "all_evidence",
+    "kind": "evidence",
+    "chunk_keeps": {
+      "38": 16,
+      "204": 16
+    },
+    "unit_key": "18c5665358c364ff70111471__all_evidence__evidence__compress16"
+  },
+  {
+    "sample_id": "18c5665358c364ff70111471",
+    "method": "local_only",
+    "group": "all_evidence",
+    "kind": "placebo",
+    "chunk_keeps": {
+      "36": 16,
+      "37": 16
+    },
+    "unit_key": "18c5665358c364ff70111471__all_evidence__placebo__compress16"
+  },
+  {
+    "sample_id": "73a05237143cc0773a4a9152",
+    "method": "full",
+    "chunk_keeps": {},
+    "unit_key": "73a05237143cc0773a4a9152__full"
+  },
+  {
+    "sample_id": "73a05237143cc0773a4a9152",
+    "method": "all_compressed",
+    "chunk_keeps": {},
+    "unit_key": "73a05237143cc0773a4a9152__all_compressed"
+  },
+  {
+    "sample_id": "73a05237143cc0773a4a9152",
+    "method": "local_only",
+    "group": "warehouse_sentence",
+    "kind": "evidence",
+    "chunk_keeps": {
+      "38": 16
+    },
+    "unit_key": "73a05237143cc0773a4a9152__warehouse_sentence__evidence__compress16"
+  },
+  {
+    "sample_id": "73a05237143cc0773a4a9152",
+    "method": "local_only",
+    "group": "warehouse_sentence",
+    "kind": "placebo",
+    "chunk_keeps": {
+      "37": 16
+    },
+    "unit_key": "73a05237143cc0773a4a9152__warehouse_sentence__placebo__compress16"
+  },
+  {
+    "sample_id": "73a05237143cc0773a4a9152",
+    "method": "local_only",
+    "group": "all_evidence",
+    "kind": "evidence",
+    "chunk_keeps": {
+      "38": 16,
+      "204": 16
+    },
+    "unit_key": "73a05237143cc0773a4a9152__all_evidence__evidence__compress16"
+  },
+  {
+    "sample_id": "73a05237143cc0773a4a9152",
+    "method": "local_only",
+    "group": "all_evidence",
+    "kind": "placebo",
+    "chunk_keeps": {
+      "36": 16,
+      "37": 16
+    },
+    "unit_key": "73a05237143cc0773a4a9152__all_evidence__placebo__compress16"
+  },
+  {
+    "sample_id": "3615d03937e9ef228782b28f",
+    "method": "full",
+    "chunk_keeps": {},
+    "unit_key": "3615d03937e9ef228782b28f__full"
+  },
+  {
+    "sample_id": "3615d03937e9ef228782b28f",
+    "method": "all_compressed",
+    "chunk_keeps": {},
+    "unit_key": "3615d03937e9ef228782b28f__all_compressed"
+  },
+  {
+    "sample_id": "3615d03937e9ef228782b28f",
+    "method": "local_only",
+    "group": "warehouse_sentence",
+    "kind": "evidence",
+    "chunk_keeps": {
+      "37": 16
+    },
+    "unit_key": "3615d03937e9ef228782b28f__warehouse_sentence__evidence__compress16"
+  },
+  {
+    "sample_id": "3615d03937e9ef228782b28f",
+    "method": "local_only",
+    "group": "warehouse_sentence",
+    "kind": "placebo",
+    "chunk_keeps": {
+      "36": 16
+    },
+    "unit_key": "3615d03937e9ef228782b28f__warehouse_sentence__placebo__compress16"
+  },
+  {
+    "sample_id": "3615d03937e9ef228782b28f",
+    "method": "local_only",
+    "group": "all_evidence",
+    "kind": "evidence",
+    "chunk_keeps": {
+      "37": 16,
+      "204": 16
+    },
+    "unit_key": "3615d03937e9ef228782b28f__all_evidence__evidence__compress16"
+  },
+  {
+    "sample_id": "3615d03937e9ef228782b28f",
+    "method": "local_only",
+    "group": "all_evidence",
+    "kind": "placebo",
+    "chunk_keeps": {
+      "35": 16,
+      "36": 16
+    },
+    "unit_key": "3615d03937e9ef228782b28f__all_evidence__placebo__compress16"
+  },
+  {
+    "sample_id": "db38fac84d1584897de1e7b7",
+    "method": "full",
+    "chunk_keeps": {},
+    "unit_key": "db38fac84d1584897de1e7b7__full"
+  },
+  {
+    "sample_id": "db38fac84d1584897de1e7b7",
+    "method": "all_compressed",
+    "chunk_keeps": {},
+    "unit_key": "db38fac84d1584897de1e7b7__all_compressed"
+  },
+  {
+    "sample_id": "db38fac84d1584897de1e7b7",
+    "method": "local_only",
+    "group": "warehouse_sentence",
+    "kind": "evidence",
+    "chunk_keeps": {
+      "38": 16
+    },
+    "unit_key": "db38fac84d1584897de1e7b7__warehouse_sentence__evidence__compress16"
+  },
+  {
+    "sample_id": "db38fac84d1584897de1e7b7",
+    "method": "local_only",
+    "group": "warehouse_sentence",
+    "kind": "placebo",
+    "chunk_keeps": {
+      "37": 16
+    },
+    "unit_key": "db38fac84d1584897de1e7b7__warehouse_sentence__placebo__compress16"
+  },
+  {
+    "sample_id": "db38fac84d1584897de1e7b7",
+    "method": "local_only",
+    "group": "all_evidence",
+    "kind": "evidence",
+    "chunk_keeps": {
+      "38": 16,
+      "204": 16
+    },
+    "unit_key": "db38fac84d1584897de1e7b7__all_evidence__evidence__compress16"
+  },
+  {
+    "sample_id": "db38fac84d1584897de1e7b7",
+    "method": "local_only",
+    "group": "all_evidence",
+    "kind": "placebo",
+    "chunk_keeps": {
+      "36": 16,
+      "37": 16
+    },
+    "unit_key": "db38fac84d1584897de1e7b7__all_evidence__placebo__compress16"
+  }
+]
