@@ -51,6 +51,10 @@
 - 因此不能说单个答案chunk一压缩就必然出错；错误更依赖多处压缩的组合/全局影响。不能据此单独归因具体机制，或宣称已得到自动选择关键chunk的算法。
 - 真实GPU执行、完整逐条记录审计及7类篡改检测通过；没有新的干净耗时加速结论。
 
+## v7：chunk 数量与顺序扫描（2026-09-23）
+
+[完整报告和228份原始记录](outputs/prefill_compute_goal/chunk_count_sweep_v7/README.md)：已暴露的3个失败样本和3个正确对照，数量0～256，前缀/后缀/两组固定随机顺序。前后顺序对同一错题影响巨大：一条前缀轨迹压64个就错，反向轨迹压240个仍正确。12条失败案例轨迹在已测点未出现错后恢复，但不证明连续单调。随机轨迹中也有仓库证据未压就出错的案例。此为事后机制扫描，不是新验证集，也没有新干净加速数据。
+
 ## v4：256 条新样本的结果
 
 Qwen3-4B-Instruct-2507，RTX4080，FP16 SDPA，4K/16K 合成文本。
@@ -129,6 +133,6 @@ python outputs/prefill_compute_goal/confirmatory_v5/run.py \
 - 不上传模型权重、KV大张量、私人服务器日志、SSH/认证/环境文件；未使用的旧锁定测试 split 仍不分发。
 - 原始数据不含私人真实业务内容。公开数据已经可见，不应继续称作外部保密盲测。
 - 文件系统前缀、主机别名和GPU UUID已脱敏。相应公开 `source_sha256` 已重建；**不能称脱敏源码与私有原始源码字节一致**。
-- [历史哈希映射](PUBLIC_PROVENANCE_20260921.json)、[v5 完整发布哈希映射](PUBLIC_PROVENANCE_20260922.json)、[失败诊断哈希映射](PUBLIC_PROVENANCE_DIAGNOSIS_20260922.json)和 [反向诊断哈希映射](PUBLIC_PROVENANCE_CAUSALITY_20260923.json)保留修改前指纹与修改后文件哈希；[公开审计](PUBLIC_AUDIT.json)记录重新复核的范围；[文件清单](PUBLIC_SNAPSHOT.json)覆盖本次发布。
+- [历史哈希映射](PUBLIC_PROVENANCE_20260921.json)、[v5 完整发布哈希映射](PUBLIC_PROVENANCE_20260922.json)、[失败诊断哈希映射](PUBLIC_PROVENANCE_DIAGNOSIS_20260922.json)、[反向诊断哈希映射](PUBLIC_PROVENANCE_CAUSALITY_20260923.json)和 [chunk 扫描哈希映射](PUBLIC_PROVENANCE_SWEEP_20260923.json)保留修改前指纹与修改后文件哈希；[公开审计](PUBLIC_AUDIT.json)记录重新复核的范围；[文件清单](PUBLIC_SNAPSHOT.json)覆盖本次发布。
 
 `prefill_compute_goal` 是历史目录名，不需要任何任务调度服务。尚未证明通用无损压缩或模型原生上下文扩展。

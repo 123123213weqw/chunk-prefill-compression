@@ -38,3 +38,9 @@ records, matched same-budget placebo interventions, frozen source and independen
 CPU audit. It reuses exposed v5 cases, so is mechanistic and post-hoc, not a new
 validation cohort. Its path/source fingerprints are mapped in
 PUBLIC_PROVENANCE_CAUSALITY_20260923.json. Previous releases are unchanged.
+
+The v7 chunk-count sweep (2026-09-23) publishes all228 atomic units and
+24 within-document trajectories with shared endpoints, frozen queue/source,
+and source/data hash provenance in PUBLIC_PROVENANCE_SWEEP_20260923.json.
+Its six cases were previously exposed, so its order/count findings are
+mechanistic descriptions, not independent generalization metrics.

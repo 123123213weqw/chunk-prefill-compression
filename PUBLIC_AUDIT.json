@@ -33,7 +33,8 @@
     "v5_snapshot": "PASS_completed_units_only (507/3200 units,62 paired-coverage documents)",
     "v5_complete": "PASS (3200/3200 units,256 paired-coverage documents; regenerated public summary equals private summary)",
     "v5_failure_diagnosis": "PASS (108/108 units, 3 exposed loss cases + 3 correct controls; public/private summaries equal; historical greedy outputs and legacy engine reproduced)",
-    "v6_inverse_failure_diagnosis": "PASS (36/36 units, 3 exposed loss cases + 3 correct controls; public/private summaries equal; historical greedy outputs reproduced)"
+    "v6_inverse_failure_diagnosis": "PASS (36/36 units, 3 exposed loss cases + 3 correct controls; public/private summaries equal; historical greedy outputs reproduced)",
+    "v7_chunk_count_sweep": "PASS (228/228 units, 24 shared-endpoint trajectories over 6 exposed cases; public/private summaries equal)"
   },
   "privacy_scan": "No private home prefixes, known private host IPs, credential patterns or private-key headers detected in exported text.",
   "not_claimed": [
@@ -42,7 +43,9 @@
     "Independent validation accuracy gain from post-hoc diagnosis",
     "Clean timing or speedup from instrumented diagnostic runtime",
     "Independent validation accuracy gain from v6 inverse post-hoc diagnosis",
-    "Mechanistic isolation of content vs RoPE/attention/numerics"
+    "Mechanistic isolation of content vs RoPE/attention/numerics",
+    "Independent validation accuracy gain from v7 exposed-case sweep",
+    "Continuous mathematical monotonicity from discrete count grid"
   ],
   "cpu_tests_note": "CPU test entries retained from 2026-09-21 publication; 2026-09-22 re-audited completed v5 records without new GPU measurements.",
   "diagnosis_cpu_tests": [
@@ -127,6 +130,44 @@
       },
       {
         "mutation": "bad_equal_budget",
+        "detected": true
+      }
+    ]
+  },
+  "v7_tamper_tests": {
+    "status": "PASS",
+    "baseline_audit": "PASS",
+    "tamper_tests": [
+      {
+        "mutation": "missing_unit",
+        "detected": true
+      },
+      {
+        "mutation": "false_score",
+        "detected": true
+      },
+      {
+        "mutation": "wrong_route",
+        "detected": true
+      },
+      {
+        "mutation": "false_queue",
+        "detected": true
+      },
+      {
+        "mutation": "bad_source_hash",
+        "detected": true
+      },
+      {
+        "mutation": "bad_baseline_ids",
+        "detected": true
+      },
+      {
+        "mutation": "bad_saved_budget",
+        "detected": true
+      },
+      {
+        "mutation": "changed_nested_set",
         "detected": true
       }
     ]
